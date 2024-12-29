@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dfrrfmjshn1xh"]
+
+[node name="player_life" type="TextureProgressBar"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="damage_bar" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.895

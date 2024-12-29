@@ -1,0 +1,85 @@
+[gd_scene load_steps=13 format=3 uid="uid://oreiecug5xr6"]
+
+[ext_resource type="Script" path="res://scripts/orb_enemy.gd" id="1_20sbl"]
+[ext_resource type="Texture2D" uid="uid://bgp8d4uaxf7gc" path="res://sprite/sprites/Electric Orb idle Animation.png" id="1_hexjs"]
+[ext_resource type="PackedScene" uid="uid://dpr66ioalq4s4" path="res://Scenes/killzone.tscn" id="3_k0tsc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3hxh"]
+atlas = ExtResource("1_hexjs")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0e5l"]
+atlas = ExtResource("1_hexjs")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l3sta"]
+atlas = ExtResource("1_hexjs")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dmo4y"]
+atlas = ExtResource("1_hexjs")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kjko8"]
+atlas = ExtResource("1_hexjs")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w0njd"]
+atlas = ExtResource("1_hexjs")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hxqg5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3hxh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o0e5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l3sta")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dmo4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kjko8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w0njd")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ei5g3"]
+radius = 7.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gmo0g"]
+
+[node name="Orb enemy" type="Node2D"]
+script = ExtResource("1_20sbl")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+sprite_frames = SubResource("SpriteFrames_hxqg5")
+autoplay = "default"
+frame_progress = 0.785433
+
+[node name="killzone" parent="CharacterBody2D" instance=ExtResource("3_k0tsc")]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/killzone"]
+shape = SubResource("CircleShape2D_ei5g3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_gmo0g")
+
+[node name="RightRayCast" type="RayCast2D" parent="."]
+target_position = Vector2(15, 0)
+
+[node name="LeftRayCast" type="RayCast2D" parent="."]
+target_position = Vector2(-15, 0)

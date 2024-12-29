@@ -1,0 +1,98 @@
+[gd_scene load_steps=15 format=3 uid="uid://cx2ildsqpnrn1"]
+
+[ext_resource type="Script" path="res://Script/Opps/electric_orb.gd" id="1_ml4dw"]
+[ext_resource type="Script" path="res://Script/Opps/ElectricOrb_StateMachine.gd" id="2_8y8qx"]
+[ext_resource type="Texture2D" uid="uid://p1pbn0chpp0c" path="res://Game Assets/Characters/opponent/Electrical Anomalies/Electric Orb idle Animation.png" id="2_m1ijo"]
+[ext_resource type="PackedScene" uid="uid://dpr66ioalq4s4" path="res://Scenes/killzone.tscn" id="4_4lxmv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rdu53"]
+atlas = ExtResource("2_m1ijo")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i0ntm"]
+atlas = ExtResource("2_m1ijo")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lhcil"]
+atlas = ExtResource("2_m1ijo")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l1a6l"]
+atlas = ExtResource("2_m1ijo")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tk8m2"]
+atlas = ExtResource("2_m1ijo")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_36fmi"]
+atlas = ExtResource("2_m1ijo")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6qo0k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rdu53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i0ntm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lhcil")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l1a6l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tk8m2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_36fmi")
+}],
+"loop": true,
+"name": &"idle_frame",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qgw5u"]
+radius = 7.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ewhau"]
+size = Vector2(20, 23)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bbuu1"]
+radius = 7.0
+
+[node name="Orb" type="CharacterBody2D"]
+physics_interpolation_mode = 2
+script = ExtResource("1_ml4dw")
+
+[node name="Body" type="Marker2D" parent="."]
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="Body"]
+sprite_frames = SubResource("SpriteFrames_6qo0k")
+animation = &"idle_frame"
+autoplay = "idle_frame"
+
+[node name="FloorRaycast" type="RayCast2D" parent="Body"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_qgw5u")
+
+[node name="Anime" type="AnimationPlayer" parent="."]
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("2_8y8qx")
+
+[node name="CollideWithPlayer" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CollideWithPlayer"]
+position = Vector2(1, 5)
+shape = SubResource("RectangleShape2D_ewhau")
+
+[node name="killzone" parent="." instance=ExtResource("4_4lxmv")]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="killzone"]
+shape = SubResource("CircleShape2D_bbuu1")

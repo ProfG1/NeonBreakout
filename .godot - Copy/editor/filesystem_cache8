@@ -1,0 +1,28 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1728540532
+icon.svg::CompressedTexture2D::4753253584133764820::1728540459::1728540535::1::::<><>::
+README.md::TextFile::-1::1728540459::0::1::::<><>::
+::res://scene/::1728540460
+coin.tscn::PackedScene::1234103007386029981::1728540460::0::1::::<><>::
+false_platform.tscn::PackedScene::7374076834883680718::1728540460::0::1::::<><>::uid://browkxd38r8yo::::res://sprite/sprites/platforms.png
+game.tscn::PackedScene::7976492782391496806::1728540460::0::1::::<><>::uid://cnjas6rmbgr7y::::res://scene/player.tscn<>uid://beckewfc12oad::::res://sprite/sprites/world_tileset.png<>uid://dpr66ioalq4s4::::res://scene/killzone.tscn<>uid://oreiecug5xr6::::res://scene/orb_enemy.tscn<>uid://bojdhtyh3sm3f::::res://scene/one_way_platform.tscn<>uid://ddcb76em2brny::::res://scene/false_platform.tscn
+killzone.tscn::PackedScene::8249127155685042981::1728540460::0::1::::<><>::res://scripts/killzone.gd
+one_way_platform.tscn::PackedScene::3387839581322872477::1728540460::0::1::::<><>::uid://browkxd38r8yo::::res://sprite/sprites/platforms.png
+orb_enemy.tscn::PackedScene::1017995601174716813::1728540460::0::1::::<><>::uid://bgp8d4uaxf7gc::::res://sprite/sprites/Electric Orb idle Animation.png
+player.tscn::PackedScene::5703909533789796764::1728540460::0::1::::<><>::uid://byryr0h77xsv2::::res://sprite/sprites/reg_walk.png<>res://scripts/player.gd
+::res://scripts/::1728540461
+killzone.gd::GDScript::-1::1728540460::0::1::::<>Area2D<>::
+orb.gd::GDScript::-1::1728540460::0::1::::<>Node2D<>::
+orb_enemy.gd::GDScript::-1::1728540461::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1728540461::0::1::::<>CharacterBody2D<>::
+::res://sprite/::1728540461
+::res://sprite/sprites/::1728540461
+coin.png::CompressedTexture2D::2500899912395133639::1728540461::1728540534::1::::<><>::
+Electric Orb idle Animation.png::CompressedTexture2D::2840529984079411942::1728540461::1728540534::1::::<><>::
+fruit.png::CompressedTexture2D::5628840929708218710::1728540461::1728540534::1::::<><>::
+knight.png::CompressedTexture2D::6387652178377250148::1728540461::1728540535::1::::<><>::
+platforms.png::CompressedTexture2D::3609887159864864282::1728540461::1728540534::1::::<><>::
+reg_walk.png::CompressedTexture2D::4107536244542679205::1728540461::1728540535::1::::<><>::
+slime_green.png::CompressedTexture2D::2943215163219361043::1728540461::1728540535::1::::<><>::
+slime_purple.png::CompressedTexture2D::1452914296049501454::1728540461::1728540535::1::::<><>::
+world_tileset.png::CompressedTexture2D::2671920290221052595::1728540461::1728540535::1::::<><>::

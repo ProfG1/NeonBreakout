@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://p75jbulpfe7k"]
+
+[node name="CharacterBase" type="CharacterBody2D"]
+
+[node name="Body" type="Marker2D" parent="."]
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="Body"]
+
+[node name="hitbox_collison" type="CollisionShape2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../hitbox_collison")
+
+[node name="StateMachine" type="Node" parent="."]

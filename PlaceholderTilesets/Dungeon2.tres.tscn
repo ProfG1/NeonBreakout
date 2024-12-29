@@ -1,0 +1,1444 @@
+[gd_scene load_steps=289 format=3 uid="uid://cymddf8f7wxom"]
+
+[ext_resource type="Texture2D" uid="uid://cg3d5jnjs67qm" path="res://PlaceHolderAssets/Isometric/barrelsStacked_E.png" id="1_fb4ph"]
+[ext_resource type="Texture2D" uid="uid://c5pg8ryhxs4wx" path="res://PlaceHolderAssets/Isometric/barrelsStacked_N.png" id="2_44cqi"]
+[ext_resource type="Texture2D" uid="uid://c3x3l5x5dlgyq" path="res://PlaceHolderAssets/Isometric/barrelsStacked_S.png" id="3_1uk10"]
+[ext_resource type="Texture2D" uid="uid://dy8gf0j3o7vns" path="res://PlaceHolderAssets/Isometric/barrelsStacked_W.png" id="4_kg3fr"]
+[ext_resource type="Texture2D" uid="uid://do35upgovqhmr" path="res://PlaceHolderAssets/Isometric/barrels_E.png" id="5_5cka5"]
+[ext_resource type="Texture2D" uid="uid://cj6cn5o51rviq" path="res://PlaceHolderAssets/Isometric/barrels_N.png" id="6_45eaq"]
+[ext_resource type="Texture2D" uid="uid://dm78rko8o7ax3" path="res://PlaceHolderAssets/Isometric/barrels_S.png" id="7_ro2kq"]
+[ext_resource type="Texture2D" uid="uid://wkhbelv03jm6" path="res://PlaceHolderAssets/Isometric/barrels_W.png" id="8_w3ogy"]
+[ext_resource type="Texture2D" uid="uid://b23ui4cjjwsrr" path="res://PlaceHolderAssets/Isometric/barrel_E.png" id="9_hg3cy"]
+[ext_resource type="Texture2D" uid="uid://cnhvqnedp7ou6" path="res://PlaceHolderAssets/Isometric/barrel_N.png" id="10_b4gqs"]
+[ext_resource type="Texture2D" uid="uid://bxyja1ph2vqjc" path="res://PlaceHolderAssets/Isometric/barrel_S.png" id="11_uav1c"]
+[ext_resource type="Texture2D" uid="uid://cwps3ug7ab7sr" path="res://PlaceHolderAssets/Isometric/barrel_W.png" id="12_msnri"]
+[ext_resource type="Texture2D" uid="uid://dn5havewnp6xb" path="res://PlaceHolderAssets/Isometric/bridgeBroken_E.png" id="13_hub3j"]
+[ext_resource type="Texture2D" uid="uid://db630c6oqu3a6" path="res://PlaceHolderAssets/Isometric/bridgeBroken_N.png" id="14_w4pxv"]
+[ext_resource type="Texture2D" uid="uid://lufntrmn1rdd" path="res://PlaceHolderAssets/Isometric/bridgeBroken_S.png" id="15_ixhec"]
+[ext_resource type="Texture2D" uid="uid://bl8cmbcoekt4v" path="res://PlaceHolderAssets/Isometric/bridgeBroken_W.png" id="16_xcjxj"]
+[ext_resource type="Texture2D" uid="uid://c8vuyajpfy3sn" path="res://PlaceHolderAssets/Isometric/bridge_E.png" id="17_3pnwj"]
+[ext_resource type="Texture2D" uid="uid://1it0kqkws2l1" path="res://PlaceHolderAssets/Isometric/bridge_N.png" id="18_64atg"]
+[ext_resource type="Texture2D" uid="uid://cxc2gtp3yv35h" path="res://PlaceHolderAssets/Isometric/bridge_S.png" id="19_trjxr"]
+[ext_resource type="Texture2D" uid="uid://d3pmelagbfaxl" path="res://PlaceHolderAssets/Isometric/bridge_W.png" id="20_671jl"]
+[ext_resource type="Texture2D" uid="uid://bqxvlvykqtgro" path="res://PlaceHolderAssets/Isometric/chair_E.png" id="21_dvd7s"]
+[ext_resource type="Texture2D" uid="uid://pvvkviwe8c8j" path="res://PlaceHolderAssets/Isometric/chair_N.png" id="22_dqo5s"]
+[ext_resource type="Texture2D" uid="uid://7u5l5ldvsp3l" path="res://PlaceHolderAssets/Isometric/chair_S.png" id="23_qr2x2"]
+[ext_resource type="Texture2D" uid="uid://dxhrb71qp7hml" path="res://PlaceHolderAssets/Isometric/chair_W.png" id="24_0pnuo"]
+[ext_resource type="Texture2D" uid="uid://cgnxn58lb0hxj" path="res://PlaceHolderAssets/Isometric/chestClosed_E.png" id="25_ofk38"]
+[ext_resource type="Texture2D" uid="uid://bb12r2l3ux7et" path="res://PlaceHolderAssets/Isometric/chestClosed_N.png" id="26_iwfau"]
+[ext_resource type="Texture2D" uid="uid://cj13bhpmgyfmd" path="res://PlaceHolderAssets/Isometric/chestClosed_S.png" id="27_1q1wq"]
+[ext_resource type="Texture2D" uid="uid://jhef0usmpppr" path="res://PlaceHolderAssets/Isometric/chestClosed_W.png" id="28_glhoi"]
+[ext_resource type="Texture2D" uid="uid://n8r0asca1ihg" path="res://PlaceHolderAssets/Isometric/chestOpen_E.png" id="29_8655o"]
+[ext_resource type="Texture2D" uid="uid://dmk86ch5bgpsu" path="res://PlaceHolderAssets/Isometric/chestOpen_N.png" id="30_ahv5d"]
+[ext_resource type="Texture2D" uid="uid://hsjncmlwxnmb" path="res://PlaceHolderAssets/Isometric/chestOpen_S.png" id="31_q3xje"]
+[ext_resource type="Texture2D" uid="uid://v8kfgwqsey0a" path="res://PlaceHolderAssets/Isometric/chestOpen_W.png" id="32_0ycxk"]
+[ext_resource type="Texture2D" uid="uid://bjj2m72id8hvq" path="res://PlaceHolderAssets/Isometric/dirtTiles_E.png" id="33_j82h7"]
+[ext_resource type="Texture2D" uid="uid://dg6rxlmj4aife" path="res://PlaceHolderAssets/Isometric/dirtTiles_N.png" id="34_fmnn5"]
+[ext_resource type="Texture2D" uid="uid://c1yexn08w5764" path="res://PlaceHolderAssets/Isometric/dirtTiles_S.png" id="35_k05f7"]
+[ext_resource type="Texture2D" uid="uid://k4a18folylgb" path="res://PlaceHolderAssets/Isometric/dirtTiles_W.png" id="36_tnhcm"]
+[ext_resource type="Texture2D" uid="uid://d1fw2jb81xx1t" path="res://PlaceHolderAssets/Isometric/dirt_E.png" id="37_q0no2"]
+[ext_resource type="Texture2D" uid="uid://dkq3pmko1hjvc" path="res://PlaceHolderAssets/Isometric/dirt_N.png" id="38_sou5d"]
+[ext_resource type="Texture2D" uid="uid://d2nik2myj4cdi" path="res://PlaceHolderAssets/Isometric/dirt_S.png" id="39_ekvn8"]
+[ext_resource type="Texture2D" uid="uid://brbljw2dcusbg" path="res://PlaceHolderAssets/Isometric/dirt_W.png" id="40_kor2x"]
+[ext_resource type="Texture2D" uid="uid://c7twbm0vx2ufy" path="res://PlaceHolderAssets/Isometric/planksBroken_E.png" id="41_jrcsh"]
+[ext_resource type="Texture2D" uid="uid://5tbcv525366" path="res://PlaceHolderAssets/Isometric/planksBroken_N.png" id="42_tk6vt"]
+[ext_resource type="Texture2D" uid="uid://dlwuoyqco2yig" path="res://PlaceHolderAssets/Isometric/planksBroken_S.png" id="43_55lro"]
+[ext_resource type="Texture2D" uid="uid://bixlyhqwuwfk2" path="res://PlaceHolderAssets/Isometric/planksBroken_W.png" id="44_ylew0"]
+[ext_resource type="Texture2D" uid="uid://b0as5fgdwg8cv" path="res://PlaceHolderAssets/Isometric/planksHole_E.png" id="45_gus68"]
+[ext_resource type="Texture2D" uid="uid://cx45qu2c2tc0" path="res://PlaceHolderAssets/Isometric/planksHole_N.png" id="46_a5dwb"]
+[ext_resource type="Texture2D" uid="uid://cblr7jq0xgq8c" path="res://PlaceHolderAssets/Isometric/planksHole_S.png" id="47_1iueo"]
+[ext_resource type="Texture2D" uid="uid://u1k2r7mutah5" path="res://PlaceHolderAssets/Isometric/planksHole_W.png" id="48_8wmgr"]
+[ext_resource type="Texture2D" uid="uid://mtna0gjehwnd" path="res://PlaceHolderAssets/Isometric/planks_E.png" id="49_nibbc"]
+[ext_resource type="Texture2D" uid="uid://fxvgmaj1opaf" path="res://PlaceHolderAssets/Isometric/planks_N.png" id="50_a5vov"]
+[ext_resource type="Texture2D" uid="uid://c7nkf8t5lu4j3" path="res://PlaceHolderAssets/Isometric/planks_S.png" id="51_xuht5"]
+[ext_resource type="Texture2D" uid="uid://bcdjwr12ql68g" path="res://PlaceHolderAssets/Isometric/planks_W.png" id="52_yxjht"]
+[ext_resource type="Texture2D" uid="uid://rlnktbym25h7" path="res://PlaceHolderAssets/Isometric/stairsAged_E.png" id="53_xl2mk"]
+[ext_resource type="Texture2D" uid="uid://cgemjrncg1045" path="res://PlaceHolderAssets/Isometric/stairsAged_N.png" id="54_a08eg"]
+[ext_resource type="Texture2D" uid="uid://0ji0dwklb0hr" path="res://PlaceHolderAssets/Isometric/stairsAged_S.png" id="55_w7hnk"]
+[ext_resource type="Texture2D" uid="uid://dvxatrrydln0y" path="res://PlaceHolderAssets/Isometric/stairsAged_W.png" id="56_3tny8"]
+[ext_resource type="Texture2D" uid="uid://ban0yoial4uwk" path="res://PlaceHolderAssets/Isometric/stairsCorner_E.png" id="57_rlulj"]
+[ext_resource type="Texture2D" uid="uid://bs735l03o51n6" path="res://PlaceHolderAssets/Isometric/stairsCorner_N.png" id="58_yspwl"]
+[ext_resource type="Texture2D" uid="uid://c2ggcdfs00l6c" path="res://PlaceHolderAssets/Isometric/stairsCorner_S.png" id="59_f6m0o"]
+[ext_resource type="Texture2D" uid="uid://chobifp0iphy1" path="res://PlaceHolderAssets/Isometric/stairsCorner_W.png" id="60_5b1tl"]
+[ext_resource type="Texture2D" uid="uid://bcarorgs5dfdk" path="res://PlaceHolderAssets/Isometric/stairsSpiral_E.png" id="61_ihfbc"]
+[ext_resource type="Texture2D" uid="uid://jc76gtxiyk7x" path="res://PlaceHolderAssets/Isometric/stairsSpiral_N.png" id="62_0okpo"]
+[ext_resource type="Texture2D" uid="uid://dsx4icmrotiyh" path="res://PlaceHolderAssets/Isometric/stairsSpiral_S.png" id="63_e8610"]
+[ext_resource type="Texture2D" uid="uid://bsby3lyyjy1ve" path="res://PlaceHolderAssets/Isometric/stairsSpiral_W.png" id="64_b0sbw"]
+[ext_resource type="Texture2D" uid="uid://b3myqd3kgev7c" path="res://PlaceHolderAssets/Isometric/stairs_E.png" id="65_mo6h5"]
+[ext_resource type="Texture2D" uid="uid://blkodmyuw3ocp" path="res://PlaceHolderAssets/Isometric/stairs_N.png" id="66_kpo7h"]
+[ext_resource type="Texture2D" uid="uid://bmh3duj7nsqme" path="res://PlaceHolderAssets/Isometric/stairs_S.png" id="67_unxl1"]
+[ext_resource type="Texture2D" uid="uid://5bfsjg2fkv73" path="res://PlaceHolderAssets/Isometric/stairs_W.png" id="68_ye8aq"]
+[ext_resource type="Texture2D" uid="uid://ch6tf1iamhqr7" path="res://PlaceHolderAssets/Isometric/stoneColumnWood_E.png" id="69_drsph"]
+[ext_resource type="Texture2D" uid="uid://bjifga2ylwavi" path="res://PlaceHolderAssets/Isometric/stoneColumnWood_N.png" id="70_weaej"]
+[ext_resource type="Texture2D" uid="uid://c44mxsg4yhxml" path="res://PlaceHolderAssets/Isometric/stoneColumnWood_S.png" id="71_chd1v"]
+[ext_resource type="Texture2D" uid="uid://bmvjqojhe5put" path="res://PlaceHolderAssets/Isometric/stoneColumnWood_W.png" id="72_dr178"]
+[ext_resource type="Texture2D" uid="uid://d3fhwek5ya73g" path="res://PlaceHolderAssets/Isometric/stoneColumn_E.png" id="73_lpuev"]
+[ext_resource type="Texture2D" uid="uid://bb163xegh1bx2" path="res://PlaceHolderAssets/Isometric/stoneColumn_N.png" id="74_tfxp5"]
+[ext_resource type="Texture2D" uid="uid://bff63xjx3ftps" path="res://PlaceHolderAssets/Isometric/stoneColumn_S.png" id="75_qowgw"]
+[ext_resource type="Texture2D" uid="uid://c0vqydc5qlt7k" path="res://PlaceHolderAssets/Isometric/stoneColumn_W.png" id="76_4kmnh"]
+[ext_resource type="Texture2D" uid="uid://cov5602luybvg" path="res://PlaceHolderAssets/Isometric/stoneCorner_E.png" id="77_vv6n5"]
+[ext_resource type="Texture2D" uid="uid://cdd5e5yrrg5ft" path="res://PlaceHolderAssets/Isometric/stoneCorner_N.png" id="78_jse0r"]
+[ext_resource type="Texture2D" uid="uid://cqhn3prpacagn" path="res://PlaceHolderAssets/Isometric/stoneCorner_S.png" id="79_uog2t"]
+[ext_resource type="Texture2D" uid="uid://dmhhetak02ucl" path="res://PlaceHolderAssets/Isometric/stoneCorner_W.png" id="80_i35xg"]
+[ext_resource type="Texture2D" uid="uid://clt1j5wty13hh" path="res://PlaceHolderAssets/Isometric/stoneInset_E.png" id="81_dfwqk"]
+[ext_resource type="Texture2D" uid="uid://p7agltllvlkw" path="res://PlaceHolderAssets/Isometric/stoneInset_N.png" id="82_5svi1"]
+[ext_resource type="Texture2D" uid="uid://dw0mmhdj2xjs7" path="res://PlaceHolderAssets/Isometric/stoneInset_S.png" id="83_s1qqi"]
+[ext_resource type="Texture2D" uid="uid://ciyo21aycq8sw" path="res://PlaceHolderAssets/Isometric/stoneInset_W.png" id="84_u80xr"]
+[ext_resource type="Texture2D" uid="uid://c4gdmjmc2onw6" path="res://PlaceHolderAssets/Isometric/stoneLeft_E.png" id="85_5vagp"]
+[ext_resource type="Texture2D" uid="uid://b4ver7ppaakxo" path="res://PlaceHolderAssets/Isometric/stoneLeft_N.png" id="86_xqwh6"]
+[ext_resource type="Texture2D" uid="uid://dmesa6nqi342i" path="res://PlaceHolderAssets/Isometric/stoneLeft_S.png" id="87_yt217"]
+[ext_resource type="Texture2D" uid="uid://cctxu1muwfq6t" path="res://PlaceHolderAssets/Isometric/stoneLeft_W.png" id="88_j3poc"]
+[ext_resource type="Texture2D" uid="uid://bpncbscmlxvh5" path="res://PlaceHolderAssets/Isometric/stoneMissingTiles_E.png" id="89_gvikh"]
+[ext_resource type="Texture2D" uid="uid://cethy0y5k7kc6" path="res://PlaceHolderAssets/Isometric/stoneMissingTiles_N.png" id="90_6keo1"]
+[ext_resource type="Texture2D" uid="uid://cedwoy6ot4dg2" path="res://PlaceHolderAssets/Isometric/stoneMissingTiles_S.png" id="91_m1dnb"]
+[ext_resource type="Texture2D" uid="uid://2dwxenu5lu25" path="res://PlaceHolderAssets/Isometric/stoneMissingTiles_W.png" id="92_nkyhk"]
+[ext_resource type="Texture2D" uid="uid://cbqjnl3ym2u65" path="res://PlaceHolderAssets/Isometric/stoneRight_E.png" id="93_0i0rw"]
+[ext_resource type="Texture2D" uid="uid://cn6pk21avsk3x" path="res://PlaceHolderAssets/Isometric/stoneRight_N.png" id="94_brrat"]
+[ext_resource type="Texture2D" uid="uid://bk7bur5gewbef" path="res://PlaceHolderAssets/Isometric/stoneRight_S.png" id="95_d8acx"]
+[ext_resource type="Texture2D" uid="uid://ccdaut758is8h" path="res://PlaceHolderAssets/Isometric/stoneRight_W.png" id="96_soxq0"]
+[ext_resource type="Texture2D" uid="uid://c7oolwxi1s2bj" path="res://PlaceHolderAssets/Isometric/stoneSideUneven_E.png" id="97_bxfg1"]
+[ext_resource type="Texture2D" uid="uid://ojoh3kawacmh" path="res://PlaceHolderAssets/Isometric/stoneSideUneven_N.png" id="98_87sow"]
+[ext_resource type="Texture2D" uid="uid://p2yehq6ja0ss" path="res://PlaceHolderAssets/Isometric/stoneSideUneven_S.png" id="99_y276q"]
+[ext_resource type="Texture2D" uid="uid://b7n7cvy2twbp8" path="res://PlaceHolderAssets/Isometric/stoneSideUneven_W.png" id="100_omu31"]
+[ext_resource type="Texture2D" uid="uid://t3uoh3ind2ar" path="res://PlaceHolderAssets/Isometric/stoneSide_E.png" id="101_fy0dh"]
+[ext_resource type="Texture2D" uid="uid://dqoaorjnuiers" path="res://PlaceHolderAssets/Isometric/stoneSide_N.png" id="102_rac0r"]
+[ext_resource type="Texture2D" uid="uid://ci0682qo51tq" path="res://PlaceHolderAssets/Isometric/stoneSide_S.png" id="103_r85i7"]
+[ext_resource type="Texture2D" uid="uid://cbd7pqkyaphe4" path="res://PlaceHolderAssets/Isometric/stoneSide_W.png" id="104_8a8bu"]
+[ext_resource type="Texture2D" uid="uid://c28g1gwf0fmhi" path="res://PlaceHolderAssets/Isometric/stoneSteps_E.png" id="105_vre6a"]
+[ext_resource type="Texture2D" uid="uid://bh0w5aydhet3g" path="res://PlaceHolderAssets/Isometric/stoneSteps_N.png" id="106_v3ag1"]
+[ext_resource type="Texture2D" uid="uid://dgese27xy5ild" path="res://PlaceHolderAssets/Isometric/stoneSteps_S.png" id="107_01vcn"]
+[ext_resource type="Texture2D" uid="uid://jphlpneylmys" path="res://PlaceHolderAssets/Isometric/stoneSteps_W.png" id="108_0ixc5"]
+[ext_resource type="Texture2D" uid="uid://xivmfhv42v28" path="res://PlaceHolderAssets/Isometric/stoneStep_E.png" id="109_q1c53"]
+[ext_resource type="Texture2D" uid="uid://dn8sig017cor4" path="res://PlaceHolderAssets/Isometric/stoneStep_N.png" id="110_5kopb"]
+[ext_resource type="Texture2D" uid="uid://tglsannu42ew" path="res://PlaceHolderAssets/Isometric/stoneStep_S.png" id="111_dhjtf"]
+[ext_resource type="Texture2D" uid="uid://bntxt7j7d23i1" path="res://PlaceHolderAssets/Isometric/stoneStep_W.png" id="112_n6sw3"]
+[ext_resource type="Texture2D" uid="uid://bc0xly4y3vtb7" path="res://PlaceHolderAssets/Isometric/stoneTile_E.png" id="113_jays6"]
+[ext_resource type="Texture2D" uid="uid://dhlg6ijmrk2d5" path="res://PlaceHolderAssets/Isometric/stoneTile_N.png" id="114_drxwh"]
+[ext_resource type="Texture2D" uid="uid://dudpngterfiob" path="res://PlaceHolderAssets/Isometric/stoneTile_S.png" id="115_57gil"]
+[ext_resource type="Texture2D" uid="uid://d4ja5h5clrbvx" path="res://PlaceHolderAssets/Isometric/stoneTile_W.png" id="116_yxqho"]
+[ext_resource type="Texture2D" uid="uid://yiv3avhawv5k" path="res://PlaceHolderAssets/Isometric/stoneUneven_E.png" id="117_s6v41"]
+[ext_resource type="Texture2D" uid="uid://b4hy053b8lhg4" path="res://PlaceHolderAssets/Isometric/stoneUneven_N.png" id="118_2vd1p"]
+[ext_resource type="Texture2D" uid="uid://ck71ye6vx4riu" path="res://PlaceHolderAssets/Isometric/stoneUneven_S.png" id="119_inimo"]
+[ext_resource type="Texture2D" uid="uid://b8a8pf4or3yoa" path="res://PlaceHolderAssets/Isometric/stoneUneven_W.png" id="120_gb3hb"]
+[ext_resource type="Texture2D" uid="uid://oy34qax8kgiq" path="res://PlaceHolderAssets/Isometric/stoneWallAgedLeft_E.png" id="121_mdml4"]
+[ext_resource type="Texture2D" uid="uid://igmvgigjk158" path="res://PlaceHolderAssets/Isometric/stoneWallAgedLeft_N.png" id="122_auaqy"]
+[ext_resource type="Texture2D" uid="uid://3wr5215pa6cy" path="res://PlaceHolderAssets/Isometric/stoneWallAgedLeft_S.png" id="123_d1ov7"]
+[ext_resource type="Texture2D" uid="uid://c1k6cjah43ot0" path="res://PlaceHolderAssets/Isometric/stoneWallAgedLeft_W.png" id="124_4vffw"]
+[ext_resource type="Texture2D" uid="uid://c4cqhngpfxta6" path="res://PlaceHolderAssets/Isometric/stoneWallAgedRight_E.png" id="125_p63eh"]
+[ext_resource type="Texture2D" uid="uid://b6wc7uk4c4yyy" path="res://PlaceHolderAssets/Isometric/stoneWallAgedRight_N.png" id="126_2sdad"]
+[ext_resource type="Texture2D" uid="uid://b6g63gx4a1bms" path="res://PlaceHolderAssets/Isometric/stoneWallAgedRight_S.png" id="127_xsrqp"]
+[ext_resource type="Texture2D" uid="uid://dmh4odxmq2aey" path="res://PlaceHolderAssets/Isometric/stoneWallAgedRight_W.png" id="128_8b7d1"]
+[ext_resource type="Texture2D" uid="uid://b3hhamv1bngoy" path="res://PlaceHolderAssets/Isometric/stoneWallAged_E.png" id="129_qabus"]
+[ext_resource type="Texture2D" uid="uid://rnxawqfqlxrx" path="res://PlaceHolderAssets/Isometric/stoneWallAged_N.png" id="130_de3b1"]
+[ext_resource type="Texture2D" uid="uid://cayfkybtkvqns" path="res://PlaceHolderAssets/Isometric/stoneWallAged_S.png" id="131_skpqf"]
+[ext_resource type="Texture2D" uid="uid://c40to3p4n8xas" path="res://PlaceHolderAssets/Isometric/stoneWallAged_W.png" id="132_lbwig"]
+[ext_resource type="Texture2D" uid="uid://cqjdcmj6fn8rg" path="res://PlaceHolderAssets/Isometric/stoneWallArchway_E.png" id="133_qlm0f"]
+[ext_resource type="Texture2D" uid="uid://ccqwishsxe6hs" path="res://PlaceHolderAssets/Isometric/stoneWallArchway_N.png" id="134_x1bnr"]
+[ext_resource type="Texture2D" uid="uid://dcus5m2k3gy2n" path="res://PlaceHolderAssets/Isometric/stoneWallArchway_S.png" id="135_hpoe7"]
+[ext_resource type="Texture2D" uid="uid://daicuqxuv54hn" path="res://PlaceHolderAssets/Isometric/stoneWallArchway_W.png" id="136_j0ojy"]
+[ext_resource type="Texture2D" uid="uid://bjkfjh6gaxtl6" path="res://PlaceHolderAssets/Isometric/stoneWallBrokenLeft_E.png" id="137_pfcwr"]
+[ext_resource type="Texture2D" uid="uid://nerv0l3otxls" path="res://PlaceHolderAssets/Isometric/stoneWallBrokenLeft_N.png" id="138_8wxen"]
+[ext_resource type="Texture2D" uid="uid://cu0epol4s36ob" path="res://PlaceHolderAssets/Isometric/stoneWallBrokenLeft_S.png" id="139_4c8qm"]
+[ext_resource type="Texture2D" uid="uid://dcbagd4a6ap56" path="res://PlaceHolderAssets/Isometric/stoneWallBrokenLeft_W.png" id="140_17k1v"]
+[ext_resource type="Texture2D" uid="uid://bqb876noigx1y" path="res://PlaceHolderAssets/Isometric/stoneWallBrokenRight_E.png" id="141_54b13"]
+[ext_resource type="Texture2D" uid="uid://caj7ubvy4pfo8" path="res://PlaceHolderAssets/Isometric/stoneWallBrokenRight_N.png" id="142_pvf5s"]
+[ext_resource type="Texture2D" uid="uid://lrw5y6t11jtr" path="res://PlaceHolderAssets/Isometric/stoneWallBrokenRight_S.png" id="143_mxcjh"]
+[ext_resource type="Texture2D" uid="uid://5mjyun4v3hck" path="res://PlaceHolderAssets/Isometric/stoneWallBrokenRight_W.png" id="144_fr8be"]
+[ext_resource type="Texture2D" uid="uid://0gcag1kk8wdd" path="res://PlaceHolderAssets/Isometric/stoneWallBroken_E.png" id="145_u0l4b"]
+[ext_resource type="Texture2D" uid="uid://ddo05lretm74j" path="res://PlaceHolderAssets/Isometric/stoneWallBroken_N.png" id="146_g5tcn"]
+[ext_resource type="Texture2D" uid="uid://i26105mahkjy" path="res://PlaceHolderAssets/Isometric/stoneWallBroken_S.png" id="147_8bxtr"]
+[ext_resource type="Texture2D" uid="uid://pnejqp4t8b3e" path="res://PlaceHolderAssets/Isometric/stoneWallBroken_W.png" id="148_f0x7h"]
+[ext_resource type="Texture2D" uid="uid://df4xsy1ccwu4l" path="res://PlaceHolderAssets/Isometric/stoneWallColumnIn_E.png" id="149_8lus6"]
+[ext_resource type="Texture2D" uid="uid://cbkgetvedddhk" path="res://PlaceHolderAssets/Isometric/stoneWallColumnIn_N.png" id="150_f63se"]
+[ext_resource type="Texture2D" uid="uid://bhv4xobiki26o" path="res://PlaceHolderAssets/Isometric/stoneWallColumnIn_S.png" id="151_mx0d8"]
+[ext_resource type="Texture2D" uid="uid://ccpno27g7kwv2" path="res://PlaceHolderAssets/Isometric/stoneWallColumnIn_W.png" id="152_43oj3"]
+[ext_resource type="Texture2D" uid="uid://rj1irjqtgap3" path="res://PlaceHolderAssets/Isometric/stoneWallColumn_E.png" id="153_kraap"]
+[ext_resource type="Texture2D" uid="uid://5rchibdmqyee" path="res://PlaceHolderAssets/Isometric/stoneWallColumn_N.png" id="154_bpdsx"]
+[ext_resource type="Texture2D" uid="uid://dojd6r0nsham7" path="res://PlaceHolderAssets/Isometric/stoneWallColumn_S.png" id="155_ewnby"]
+[ext_resource type="Texture2D" uid="uid://crrf8j74u4qsr" path="res://PlaceHolderAssets/Isometric/stoneWallColumn_W.png" id="156_2xpdj"]
+[ext_resource type="Texture2D" uid="uid://dpt7ka5klk6rq" path="res://PlaceHolderAssets/Isometric/stoneWallCorner_E.png" id="157_gfvp1"]
+[ext_resource type="Texture2D" uid="uid://bd21qim8vdp4i" path="res://PlaceHolderAssets/Isometric/stoneWallCorner_N.png" id="158_kq5it"]
+[ext_resource type="Texture2D" uid="uid://dppy0yhq63v6q" path="res://PlaceHolderAssets/Isometric/stoneWallCorner_S.png" id="159_v7s1p"]
+[ext_resource type="Texture2D" uid="uid://d0ep0irekvyca" path="res://PlaceHolderAssets/Isometric/stoneWallCorner_W.png" id="160_vjyvn"]
+[ext_resource type="Texture2D" uid="uid://3rq0j3vjqsj2" path="res://PlaceHolderAssets/Isometric/stoneWallDoorBars_E.png" id="161_cclhm"]
+[ext_resource type="Texture2D" uid="uid://bjxfawpcymxwc" path="res://PlaceHolderAssets/Isometric/stoneWallDoorBars_N.png" id="162_iv7cg"]
+[ext_resource type="Texture2D" uid="uid://dp3hdy4e63uax" path="res://PlaceHolderAssets/Isometric/stoneWallDoorBars_S.png" id="163_ooc5d"]
+[ext_resource type="Texture2D" uid="uid://ccootwasqa5vw" path="res://PlaceHolderAssets/Isometric/stoneWallDoorBars_W.png" id="164_kqudt"]
+[ext_resource type="Texture2D" uid="uid://d2xis8ryw0wcm" path="res://PlaceHolderAssets/Isometric/stoneWallDoorClosed_E.png" id="165_0r7ot"]
+[ext_resource type="Texture2D" uid="uid://dj8y4g82qrt17" path="res://PlaceHolderAssets/Isometric/stoneWallDoorClosed_N.png" id="166_23cn1"]
+[ext_resource type="Texture2D" uid="uid://db5x0vv1v6a1n" path="res://PlaceHolderAssets/Isometric/stoneWallDoorClosed_S.png" id="167_ictco"]
+[ext_resource type="Texture2D" uid="uid://cnxamohygoj6u" path="res://PlaceHolderAssets/Isometric/stoneWallDoorClosed_W.png" id="168_jgh5h"]
+[ext_resource type="Texture2D" uid="uid://b88n08gxhe7wx" path="res://PlaceHolderAssets/Isometric/stoneWallDoorOpen_E.png" id="169_jpbaa"]
+[ext_resource type="Texture2D" uid="uid://dv8hcothis1ke" path="res://PlaceHolderAssets/Isometric/stoneWallDoorOpen_N.png" id="170_y3rwl"]
+[ext_resource type="Texture2D" uid="uid://bm2r83bc2nfvx" path="res://PlaceHolderAssets/Isometric/stoneWallDoorOpen_S.png" id="171_qlqld"]
+[ext_resource type="Texture2D" uid="uid://cnectpxnhulod" path="res://PlaceHolderAssets/Isometric/stoneWallDoorOpen_W.png" id="172_dwmho"]
+[ext_resource type="Texture2D" uid="uid://c5x1r4sohspv6" path="res://PlaceHolderAssets/Isometric/stoneWallDoor_E.png" id="173_r5otg"]
+[ext_resource type="Texture2D" uid="uid://dkpsjnucawje" path="res://PlaceHolderAssets/Isometric/stoneWallDoor_N.png" id="174_esn0i"]
+[ext_resource type="Texture2D" uid="uid://bubopouecoqae" path="res://PlaceHolderAssets/Isometric/stoneWallDoor_S.png" id="175_syu8h"]
+[ext_resource type="Texture2D" uid="uid://b7vdttmlivhs0" path="res://PlaceHolderAssets/Isometric/stoneWallDoor_W.png" id="176_7inva"]
+[ext_resource type="Texture2D" uid="uid://cna2l27ty08yq" path="res://PlaceHolderAssets/Isometric/stoneWallGateBars_E.png" id="177_g1gnp"]
+[ext_resource type="Texture2D" uid="uid://856vovvsswh5" path="res://PlaceHolderAssets/Isometric/stoneWallGateBars_N.png" id="178_djvyv"]
+[ext_resource type="Texture2D" uid="uid://belylbulp3mvs" path="res://PlaceHolderAssets/Isometric/stoneWallGateBars_S.png" id="179_sq6xo"]
+[ext_resource type="Texture2D" uid="uid://br7tuvil226wk" path="res://PlaceHolderAssets/Isometric/stoneWallGateBars_W.png" id="180_nmbs3"]
+[ext_resource type="Texture2D" uid="uid://1mqgeep0i5vp" path="res://PlaceHolderAssets/Isometric/stoneWallGateClosed_E.png" id="181_fsk07"]
+[ext_resource type="Texture2D" uid="uid://wofj7ce8dba8" path="res://PlaceHolderAssets/Isometric/stoneWallGateClosed_N.png" id="182_vfhs5"]
+[ext_resource type="Texture2D" uid="uid://bcbbr1uf8di5j" path="res://PlaceHolderAssets/Isometric/stoneWallGateClosed_S.png" id="183_m3xix"]
+[ext_resource type="Texture2D" uid="uid://6pyr0tbyeqar" path="res://PlaceHolderAssets/Isometric/stoneWallGateClosed_W.png" id="184_1lkkl"]
+[ext_resource type="Texture2D" uid="uid://crqa60k4b6qcy" path="res://PlaceHolderAssets/Isometric/stoneWallGateOpen_E.png" id="185_248no"]
+[ext_resource type="Texture2D" uid="uid://dt2802d48jkrb" path="res://PlaceHolderAssets/Isometric/stoneWallGateOpen_N.png" id="186_d0iar"]
+[ext_resource type="Texture2D" uid="uid://ulj80ukp4r40" path="res://PlaceHolderAssets/Isometric/stoneWallGateOpen_S.png" id="187_ag8v3"]
+[ext_resource type="Texture2D" uid="uid://ba836kpl8epuk" path="res://PlaceHolderAssets/Isometric/stoneWallGateOpen_W.png" id="188_ee8tt"]
+[ext_resource type="Texture2D" uid="uid://hlmugrsrcbkq" path="res://PlaceHolderAssets/Isometric/stoneWallGate_E.png" id="189_0rccc"]
+[ext_resource type="Texture2D" uid="uid://hibp7mcwxqg5" path="res://PlaceHolderAssets/Isometric/stoneWallGate_N.png" id="190_swd06"]
+[ext_resource type="Texture2D" uid="uid://b3a2h6pggxm3p" path="res://PlaceHolderAssets/Isometric/stoneWallGate_S.png" id="191_mti4n"]
+[ext_resource type="Texture2D" uid="uid://qp0xtusjw146" path="res://PlaceHolderAssets/Isometric/stoneWallGate_W.png" id="192_fk8k1"]
+[ext_resource type="Texture2D" uid="uid://b3qr0vkvok8x8" path="res://PlaceHolderAssets/Isometric/stoneWallHalf_E.png" id="193_ryaq5"]
+[ext_resource type="Texture2D" uid="uid://daycyd8piib6b" path="res://PlaceHolderAssets/Isometric/stoneWallHalf_N.png" id="194_ivnkg"]
+[ext_resource type="Texture2D" uid="uid://ntfuv8gdrck3" path="res://PlaceHolderAssets/Isometric/stoneWallHalf_S.png" id="195_doucx"]
+[ext_resource type="Texture2D" uid="uid://cxlp6yxsw753l" path="res://PlaceHolderAssets/Isometric/stoneWallHalf_W.png" id="196_glifo"]
+[ext_resource type="Texture2D" uid="uid://cwssd08r63oyw" path="res://PlaceHolderAssets/Isometric/stoneWallHole_E.png" id="197_qgyug"]
+[ext_resource type="Texture2D" uid="uid://bb10rgn6ylngy" path="res://PlaceHolderAssets/Isometric/stoneWallHole_N.png" id="198_p5v3a"]
+[ext_resource type="Texture2D" uid="uid://jg1hnl06f8bl" path="res://PlaceHolderAssets/Isometric/stoneWallHole_S.png" id="199_yglf3"]
+[ext_resource type="Texture2D" uid="uid://d2kd0j6x2kgf6" path="res://PlaceHolderAssets/Isometric/stoneWallHole_W.png" id="200_h2oln"]
+[ext_resource type="Texture2D" uid="uid://disxspnvluefw" path="res://PlaceHolderAssets/Isometric/stoneWallRoundBroken_E.png" id="201_or6p4"]
+[ext_resource type="Texture2D" uid="uid://bgaqcdy0rhv3b" path="res://PlaceHolderAssets/Isometric/stoneWallRoundBroken_N.png" id="202_w34tm"]
+[ext_resource type="Texture2D" uid="uid://cy4hpgcbxu5ig" path="res://PlaceHolderAssets/Isometric/stoneWallRoundBroken_S.png" id="203_tivwj"]
+[ext_resource type="Texture2D" uid="uid://ceippiodh0ft0" path="res://PlaceHolderAssets/Isometric/stoneWallRoundBroken_W.png" id="204_pamcf"]
+[ext_resource type="Texture2D" uid="uid://dq1x3ibiclmp4" path="res://PlaceHolderAssets/Isometric/stoneWallRoundWindow_E.png" id="205_mc5vp"]
+[ext_resource type="Texture2D" uid="uid://cec8xkk5ni807" path="res://PlaceHolderAssets/Isometric/stoneWallRoundWindow_N.png" id="206_o6iyk"]
+[ext_resource type="Texture2D" uid="uid://v3ft8pjkk1w7" path="res://PlaceHolderAssets/Isometric/stoneWallRoundWindow_S.png" id="207_e0l2d"]
+[ext_resource type="Texture2D" uid="uid://bgd8ls00jpk04" path="res://PlaceHolderAssets/Isometric/stoneWallRoundWindow_W.png" id="208_icvh8"]
+[ext_resource type="Texture2D" uid="uid://der3n151u1r0k" path="res://PlaceHolderAssets/Isometric/stoneWallRound_E.png" id="209_uufj7"]
+[ext_resource type="Texture2D" uid="uid://deev0rphqs5d5" path="res://PlaceHolderAssets/Isometric/stoneWallRound_N.png" id="210_qlng3"]
+[ext_resource type="Texture2D" uid="uid://cbug7p3xtmqxn" path="res://PlaceHolderAssets/Isometric/stoneWallRound_S.png" id="211_aeavr"]
+[ext_resource type="Texture2D" uid="uid://cs8fuyk1daaya" path="res://PlaceHolderAssets/Isometric/stoneWallRound_W.png" id="212_0atwa"]
+[ext_resource type="Texture2D" uid="uid://dn5qbhn6y8ia" path="res://PlaceHolderAssets/Isometric/stoneWallStructure_E.png" id="213_7e1l4"]
+[ext_resource type="Texture2D" uid="uid://qjl4apvmovy3" path="res://PlaceHolderAssets/Isometric/stoneWallStructure_N.png" id="214_17jq8"]
+[ext_resource type="Texture2D" uid="uid://dkhqmde7j823r" path="res://PlaceHolderAssets/Isometric/stoneWallStructure_S.png" id="215_qlfaf"]
+[ext_resource type="Texture2D" uid="uid://cvsor54jt7o6n" path="res://PlaceHolderAssets/Isometric/stoneWallStructure_W.png" id="216_2vmbf"]
+[ext_resource type="Texture2D" uid="uid://bdqhhhhixvvcs" path="res://PlaceHolderAssets/Isometric/stoneWallTop_E.png" id="217_lp6qt"]
+[ext_resource type="Texture2D" uid="uid://bgkxnj6ym7vdl" path="res://PlaceHolderAssets/Isometric/stoneWallTop_N.png" id="218_cmsnj"]
+[ext_resource type="Texture2D" uid="uid://4hnlmntbqhtx" path="res://PlaceHolderAssets/Isometric/stoneWallTop_S.png" id="219_qdjs6"]
+[ext_resource type="Texture2D" uid="uid://wddbr2nuyir3" path="res://PlaceHolderAssets/Isometric/stoneWallTop_W.png" id="220_uols2"]
+[ext_resource type="Texture2D" uid="uid://elrndt4kwhui" path="res://PlaceHolderAssets/Isometric/stoneWallWindowBars_E.png" id="221_1llk0"]
+[ext_resource type="Texture2D" uid="uid://bs08ssomq3fyo" path="res://PlaceHolderAssets/Isometric/stoneWallWindowBars_N.png" id="222_o5lcn"]
+[ext_resource type="Texture2D" uid="uid://dl7ah5h7ifc12" path="res://PlaceHolderAssets/Isometric/stoneWallWindowBars_S.png" id="223_kh5md"]
+[ext_resource type="Texture2D" uid="uid://tqc5mngmf4hd" path="res://PlaceHolderAssets/Isometric/stoneWallWindowBars_W.png" id="224_vs4ib"]
+[ext_resource type="Texture2D" uid="uid://dg0ug6bgcckgk" path="res://PlaceHolderAssets/Isometric/stoneWallWindow_E.png" id="225_hhd5d"]
+[ext_resource type="Texture2D" uid="uid://2dn542vyjlvc" path="res://PlaceHolderAssets/Isometric/stoneWallWindow_N.png" id="226_b5oq4"]
+[ext_resource type="Texture2D" uid="uid://clrv73i0hniuw" path="res://PlaceHolderAssets/Isometric/stoneWallWindow_S.png" id="227_kosn6"]
+[ext_resource type="Texture2D" uid="uid://bq8lhggfc4bud" path="res://PlaceHolderAssets/Isometric/stoneWallWindow_W.png" id="228_cs7tw"]
+[ext_resource type="Texture2D" uid="uid://bin8fv3b13ag8" path="res://PlaceHolderAssets/Isometric/stoneWall_E.png" id="229_y8lcn"]
+[ext_resource type="Texture2D" uid="uid://c7dcedqpipukt" path="res://PlaceHolderAssets/Isometric/stoneWall_N.png" id="230_wdr5u"]
+[ext_resource type="Texture2D" uid="uid://coyf4fmtx7cjr" path="res://PlaceHolderAssets/Isometric/stoneWall_S.png" id="231_n1cw8"]
+[ext_resource type="Texture2D" uid="uid://b85ruxjrwklxo" path="res://PlaceHolderAssets/Isometric/stoneWall_W.png" id="232_0jdid"]
+[ext_resource type="Texture2D" uid="uid://dvaywq457psar" path="res://PlaceHolderAssets/Isometric/stone_E.png" id="233_0pyh3"]
+[ext_resource type="Texture2D" uid="uid://beo1du48xy8ot" path="res://PlaceHolderAssets/Isometric/stone_N.png" id="234_ofo2n"]
+[ext_resource type="Texture2D" uid="uid://dmdjj5rmvhn7i" path="res://PlaceHolderAssets/Isometric/stone_S.png" id="235_lavs4"]
+[ext_resource type="Texture2D" uid="uid://dj35wko8pebqu" path="res://PlaceHolderAssets/Isometric/stone_W.png" id="236_pch6k"]
+[ext_resource type="Texture2D" uid="uid://bvcmu2fnkqeas" path="res://PlaceHolderAssets/Isometric/tableChairsBroken_E.png" id="237_y4744"]
+[ext_resource type="Texture2D" uid="uid://cceyyptshpf10" path="res://PlaceHolderAssets/Isometric/tableChairsBroken_N.png" id="238_iibdy"]
+[ext_resource type="Texture2D" uid="uid://cjtliuu8yfvyw" path="res://PlaceHolderAssets/Isometric/tableChairsBroken_S.png" id="239_rtpyb"]
+[ext_resource type="Texture2D" uid="uid://cgmqeluyul831" path="res://PlaceHolderAssets/Isometric/tableChairsBroken_W.png" id="240_da1vr"]
+[ext_resource type="Texture2D" uid="uid://d18dr7yj0ymiw" path="res://PlaceHolderAssets/Isometric/tableRoundChairs_E.png" id="241_ppgph"]
+[ext_resource type="Texture2D" uid="uid://bw37dce3vs2xb" path="res://PlaceHolderAssets/Isometric/tableRoundChairs_N.png" id="242_31tqi"]
+[ext_resource type="Texture2D" uid="uid://bpsux86he21ov" path="res://PlaceHolderAssets/Isometric/tableRoundChairs_S.png" id="243_g12fx"]
+[ext_resource type="Texture2D" uid="uid://d6apywnro2e3" path="res://PlaceHolderAssets/Isometric/tableRoundChairs_W.png" id="244_3h464"]
+[ext_resource type="Texture2D" uid="uid://t37kjy4o622h" path="res://PlaceHolderAssets/Isometric/tableRoundItemsChairs_E.png" id="245_2tkpq"]
+[ext_resource type="Texture2D" uid="uid://drr5wot480ofl" path="res://PlaceHolderAssets/Isometric/tableRoundItemsChairs_N.png" id="246_iy2wp"]
+[ext_resource type="Texture2D" uid="uid://n32lkmkqrqi4" path="res://PlaceHolderAssets/Isometric/tableRoundItemsChairs_S.png" id="247_douxe"]
+[ext_resource type="Texture2D" uid="uid://ko0pyjlkflkl" path="res://PlaceHolderAssets/Isometric/tableRoundItemsChairs_W.png" id="248_iqmwn"]
+[ext_resource type="Texture2D" uid="uid://berphdrwo30un" path="res://PlaceHolderAssets/Isometric/tableRound_E.png" id="249_d1wt7"]
+[ext_resource type="Texture2D" uid="uid://d33hsau03u2b8" path="res://PlaceHolderAssets/Isometric/tableRound_N.png" id="250_fyte6"]
+[ext_resource type="Texture2D" uid="uid://c8np3ivqjo8mc" path="res://PlaceHolderAssets/Isometric/tableRound_S.png" id="251_c10hy"]
+[ext_resource type="Texture2D" uid="uid://cihjtecq62ag5" path="res://PlaceHolderAssets/Isometric/tableRound_W.png" id="252_yocjx"]
+[ext_resource type="Texture2D" uid="uid://bo4tajur0hq3v" path="res://PlaceHolderAssets/Isometric/tableShortChairs_E.png" id="253_p4lyq"]
+[ext_resource type="Texture2D" uid="uid://blblgmgagh2aq" path="res://PlaceHolderAssets/Isometric/tableShortChairs_N.png" id="254_5ssqr"]
+[ext_resource type="Texture2D" uid="uid://cjb8srvq73evb" path="res://PlaceHolderAssets/Isometric/tableShortChairs_S.png" id="255_brdet"]
+[ext_resource type="Texture2D" uid="uid://buslssuypgat6" path="res://PlaceHolderAssets/Isometric/tableShortChairs_W.png" id="256_ww25e"]
+[ext_resource type="Texture2D" uid="uid://ce22shesbx8as" path="res://PlaceHolderAssets/Isometric/tableShort_E.png" id="257_ntswt"]
+[ext_resource type="Texture2D" uid="uid://dkj6vhlq1jm4s" path="res://PlaceHolderAssets/Isometric/tableShort_N.png" id="258_jpiop"]
+[ext_resource type="Texture2D" uid="uid://wa4xlvpgv4wk" path="res://PlaceHolderAssets/Isometric/tableShort_S.png" id="259_o7i2t"]
+[ext_resource type="Texture2D" uid="uid://628p4b6u83ma" path="res://PlaceHolderAssets/Isometric/tableShort_W.png" id="260_w6s2r"]
+[ext_resource type="Texture2D" uid="uid://hjgy5qw2roje" path="res://PlaceHolderAssets/Isometric/woodenCrates_E.png" id="261_f6t2s"]
+[ext_resource type="Texture2D" uid="uid://dvfxboimo4ngs" path="res://PlaceHolderAssets/Isometric/woodenCrates_N.png" id="262_bfrsy"]
+[ext_resource type="Texture2D" uid="uid://dgd2jhwm04a1q" path="res://PlaceHolderAssets/Isometric/woodenCrates_S.png" id="263_eo32p"]
+[ext_resource type="Texture2D" uid="uid://dsc6u60e3qc32" path="res://PlaceHolderAssets/Isometric/woodenCrates_W.png" id="264_1babd"]
+[ext_resource type="Texture2D" uid="uid://cipuap4r7i0ha" path="res://PlaceHolderAssets/Isometric/woodenCrate_E.png" id="265_vrffj"]
+[ext_resource type="Texture2D" uid="uid://cfbq3pjw0mos6" path="res://PlaceHolderAssets/Isometric/woodenCrate_N.png" id="266_3i0rs"]
+[ext_resource type="Texture2D" uid="uid://h0xay60ia6tl" path="res://PlaceHolderAssets/Isometric/woodenCrate_S.png" id="267_g7sn7"]
+[ext_resource type="Texture2D" uid="uid://do2h7hcpq01bh" path="res://PlaceHolderAssets/Isometric/woodenCrate_W.png" id="268_jbj0m"]
+[ext_resource type="Texture2D" uid="uid://b7p3q7tabn88b" path="res://PlaceHolderAssets/Isometric/woodenPile_E.png" id="269_32l07"]
+[ext_resource type="Texture2D" uid="uid://bjc4mgs6sby3o" path="res://PlaceHolderAssets/Isometric/woodenPile_N.png" id="270_hnud8"]
+[ext_resource type="Texture2D" uid="uid://dmm7v1u4avtvo" path="res://PlaceHolderAssets/Isometric/woodenPile_S.png" id="271_oqkhx"]
+[ext_resource type="Texture2D" uid="uid://rj5ps0tql5iq" path="res://PlaceHolderAssets/Isometric/woodenPile_W.png" id="272_bcdjl"]
+[ext_resource type="Texture2D" uid="uid://xorjx6f6n8vd" path="res://PlaceHolderAssets/Isometric/woodenSupportBeams_E.png" id="273_82ivk"]
+[ext_resource type="Texture2D" uid="uid://bdwwvullf6uvo" path="res://PlaceHolderAssets/Isometric/woodenSupportBeams_N.png" id="274_shlb7"]
+[ext_resource type="Texture2D" uid="uid://gkslwexpt2ju" path="res://PlaceHolderAssets/Isometric/woodenSupportBeams_S.png" id="275_wyr12"]
+[ext_resource type="Texture2D" uid="uid://ce7cl8vox78gu" path="res://PlaceHolderAssets/Isometric/woodenSupportBeams_W.png" id="276_1k5c2"]
+[ext_resource type="Texture2D" uid="uid://dq8lwlkkqaks1" path="res://PlaceHolderAssets/Isometric/woodenSupportsBeam_E.png" id="277_xtuib"]
+[ext_resource type="Texture2D" uid="uid://dpnatditxh2w4" path="res://PlaceHolderAssets/Isometric/woodenSupportsBeam_N.png" id="278_sqf2c"]
+[ext_resource type="Texture2D" uid="uid://w7m64y561afj" path="res://PlaceHolderAssets/Isometric/woodenSupportsBeam_S.png" id="279_gtff7"]
+[ext_resource type="Texture2D" uid="uid://bq00e00d5e65u" path="res://PlaceHolderAssets/Isometric/woodenSupportsBeam_W.png" id="280_uittq"]
+[ext_resource type="Texture2D" uid="uid://cjtkybciuxuba" path="res://PlaceHolderAssets/Isometric/woodenSupportsBlock_E.png" id="281_a333o"]
+[ext_resource type="Texture2D" uid="uid://b66g1vd1qdwvb" path="res://PlaceHolderAssets/Isometric/woodenSupportsBlock_N.png" id="282_fknaw"]
+[ext_resource type="Texture2D" uid="uid://gk7b0rgmggmn" path="res://PlaceHolderAssets/Isometric/woodenSupportsBlock_S.png" id="283_lona3"]
+[ext_resource type="Texture2D" uid="uid://d2v7471oibuds" path="res://PlaceHolderAssets/Isometric/woodenSupportsBlock_W.png" id="284_5slkb"]
+[ext_resource type="Texture2D" uid="uid://dl1xj3mn7xr1o" path="res://PlaceHolderAssets/Isometric/woodenSupports_E.png" id="285_pdhfc"]
+[ext_resource type="Texture2D" uid="uid://piipfqsyg26s" path="res://PlaceHolderAssets/Isometric/woodenSupports_N.png" id="286_c4vx7"]
+[ext_resource type="Texture2D" uid="uid://c3fw721yoajw8" path="res://PlaceHolderAssets/Isometric/woodenSupports_S.png" id="287_jm0rx"]
+[ext_resource type="Texture2D" uid="uid://pxfygstoye2j" path="res://PlaceHolderAssets/Isometric/woodenSupports_W.png" id="288_ptkpu"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BarrelsStackedE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("1_fb4ph")
+
+[node name="BarrelsStackedN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("2_44cqi")
+
+[node name="BarrelsStackedS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("3_1uk10")
+
+[node name="BarrelsStackedW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("4_kg3fr")
+
+[node name="BarrelsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("5_5cka5")
+
+[node name="BarrelsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("6_45eaq")
+
+[node name="BarrelsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("7_ro2kq")
+
+[node name="BarrelsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("8_w3ogy")
+
+[node name="BarrelE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("9_hg3cy")
+
+[node name="BarrelN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("10_b4gqs")
+
+[node name="BarrelS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("11_uav1c")
+
+[node name="BarrelW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("12_msnri")
+
+[node name="BridgeBrokenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("13_hub3j")
+
+[node name="BridgeBrokenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("14_w4pxv")
+
+[node name="BridgeBrokenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("15_ixhec")
+
+[node name="BridgeBrokenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("16_xcjxj")
+
+[node name="BridgeE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("17_3pnwj")
+
+[node name="BridgeN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("18_64atg")
+
+[node name="BridgeS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("19_trjxr")
+
+[node name="BridgeW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("20_671jl")
+
+[node name="ChairE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("21_dvd7s")
+
+[node name="ChairN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("22_dqo5s")
+
+[node name="ChairS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("23_qr2x2")
+
+[node name="ChairW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("24_0pnuo")
+
+[node name="ChestClosedE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("25_ofk38")
+
+[node name="ChestClosedN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("26_iwfau")
+
+[node name="ChestClosedS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("27_1q1wq")
+
+[node name="ChestClosedW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("28_glhoi")
+
+[node name="ChestOpenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("29_8655o")
+
+[node name="ChestOpenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("30_ahv5d")
+
+[node name="ChestOpenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("31_q3xje")
+
+[node name="ChestOpenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("32_0ycxk")
+
+[node name="DirtTilesE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("33_j82h7")
+
+[node name="DirtTilesN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("34_fmnn5")
+
+[node name="DirtTilesS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("35_k05f7")
+
+[node name="DirtTilesW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("36_tnhcm")
+
+[node name="DirtE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("37_q0no2")
+
+[node name="DirtN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("38_sou5d")
+
+[node name="DirtS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("39_ekvn8")
+
+[node name="DirtW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("40_kor2x")
+
+[node name="PlanksBrokenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("41_jrcsh")
+
+[node name="PlanksBrokenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("42_tk6vt")
+
+[node name="PlanksBrokenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("43_55lro")
+
+[node name="PlanksBrokenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("44_ylew0")
+
+[node name="PlanksHoleE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("45_gus68")
+
+[node name="PlanksHoleN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("46_a5dwb")
+
+[node name="PlanksHoleS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("47_1iueo")
+
+[node name="PlanksHoleW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("48_8wmgr")
+
+[node name="PlanksE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("49_nibbc")
+
+[node name="PlanksN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("50_a5vov")
+
+[node name="PlanksS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("51_xuht5")
+
+[node name="PlanksW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("52_yxjht")
+
+[node name="StairsAgedE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("53_xl2mk")
+
+[node name="StairsAgedN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("54_a08eg")
+
+[node name="StairsAgedS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("55_w7hnk")
+
+[node name="StairsAgedW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("56_3tny8")
+
+[node name="StairsCornerE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("57_rlulj")
+
+[node name="StairsCornerN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("58_yspwl")
+
+[node name="StairsCornerS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("59_f6m0o")
+
+[node name="StairsCornerW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("60_5b1tl")
+
+[node name="StairsSpiralE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("61_ihfbc")
+
+[node name="StairsSpiralN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("62_0okpo")
+
+[node name="StairsSpiralS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("63_e8610")
+
+[node name="StairsSpiralW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("64_b0sbw")
+
+[node name="StairsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("65_mo6h5")
+
+[node name="StairsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("66_kpo7h")
+
+[node name="StairsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("67_unxl1")
+
+[node name="StairsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("68_ye8aq")
+
+[node name="StoneColumnWoodE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("69_drsph")
+
+[node name="StoneColumnWoodN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("70_weaej")
+
+[node name="StoneColumnWoodS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("71_chd1v")
+
+[node name="StoneColumnWoodW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("72_dr178")
+
+[node name="StoneColumnE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("73_lpuev")
+
+[node name="StoneColumnN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("74_tfxp5")
+
+[node name="StoneColumnS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("75_qowgw")
+
+[node name="StoneColumnW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("76_4kmnh")
+
+[node name="StoneCornerE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("77_vv6n5")
+
+[node name="StoneCornerN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("78_jse0r")
+
+[node name="StoneCornerS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("79_uog2t")
+
+[node name="StoneCornerW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("80_i35xg")
+
+[node name="StoneInsetE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("81_dfwqk")
+
+[node name="StoneInsetN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("82_5svi1")
+
+[node name="StoneInsetS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("83_s1qqi")
+
+[node name="StoneInsetW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("84_u80xr")
+
+[node name="StoneLeftE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("85_5vagp")
+
+[node name="StoneLeftN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("86_xqwh6")
+
+[node name="StoneLeftS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("87_yt217")
+
+[node name="StoneLeftW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("88_j3poc")
+
+[node name="StoneMissingTilesE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("89_gvikh")
+
+[node name="StoneMissingTilesN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("90_6keo1")
+
+[node name="StoneMissingTilesS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("91_m1dnb")
+
+[node name="StoneMissingTilesW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("92_nkyhk")
+
+[node name="StoneRightE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("93_0i0rw")
+
+[node name="StoneRightN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("94_brrat")
+
+[node name="StoneRightS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("95_d8acx")
+
+[node name="StoneRightW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("96_soxq0")
+
+[node name="StoneSideUnevenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("97_bxfg1")
+
+[node name="StoneSideUnevenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("98_87sow")
+
+[node name="StoneSideUnevenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("99_y276q")
+
+[node name="StoneSideUnevenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("100_omu31")
+
+[node name="StoneSideE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("101_fy0dh")
+
+[node name="StoneSideN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("102_rac0r")
+
+[node name="StoneSideS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("103_r85i7")
+
+[node name="StoneSideW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("104_8a8bu")
+
+[node name="StoneStepsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("105_vre6a")
+
+[node name="StoneStepsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("106_v3ag1")
+
+[node name="StoneStepsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("107_01vcn")
+
+[node name="StoneStepsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("108_0ixc5")
+
+[node name="StoneStepE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("109_q1c53")
+
+[node name="StoneStepN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("110_5kopb")
+
+[node name="StoneStepS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("111_dhjtf")
+
+[node name="StoneStepW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("112_n6sw3")
+
+[node name="StoneTileE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("113_jays6")
+
+[node name="StoneTileN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("114_drxwh")
+
+[node name="StoneTileS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("115_57gil")
+
+[node name="StoneTileW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("116_yxqho")
+
+[node name="StoneUnevenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("117_s6v41")
+
+[node name="StoneUnevenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("118_2vd1p")
+
+[node name="StoneUnevenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("119_inimo")
+
+[node name="StoneUnevenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("120_gb3hb")
+
+[node name="StoneWallAgedLeftE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("121_mdml4")
+
+[node name="StoneWallAgedLeftN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("122_auaqy")
+
+[node name="StoneWallAgedLeftS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("123_d1ov7")
+
+[node name="StoneWallAgedLeftW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("124_4vffw")
+
+[node name="StoneWallAgedRightE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("125_p63eh")
+
+[node name="StoneWallAgedRightN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("126_2sdad")
+
+[node name="StoneWallAgedRightS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("127_xsrqp")
+
+[node name="StoneWallAgedRightW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("128_8b7d1")
+
+[node name="StoneWallAgedE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("129_qabus")
+
+[node name="StoneWallAgedN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("130_de3b1")
+
+[node name="StoneWallAgedS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("131_skpqf")
+
+[node name="StoneWallAgedW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("132_lbwig")
+
+[node name="StoneWallArchwayE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("133_qlm0f")
+
+[node name="StoneWallArchwayN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("134_x1bnr")
+
+[node name="StoneWallArchwayS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("135_hpoe7")
+
+[node name="StoneWallArchwayW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("136_j0ojy")
+
+[node name="StoneWallBrokenLeftE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("137_pfcwr")
+
+[node name="StoneWallBrokenLeftN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("138_8wxen")
+
+[node name="StoneWallBrokenLeftS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("139_4c8qm")
+
+[node name="StoneWallBrokenLeftW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("140_17k1v")
+
+[node name="StoneWallBrokenRightE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("141_54b13")
+
+[node name="StoneWallBrokenRightN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("142_pvf5s")
+
+[node name="StoneWallBrokenRightS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("143_mxcjh")
+
+[node name="StoneWallBrokenRightW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("144_fr8be")
+
+[node name="StoneWallBrokenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("145_u0l4b")
+
+[node name="StoneWallBrokenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("146_g5tcn")
+
+[node name="StoneWallBrokenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("147_8bxtr")
+
+[node name="StoneWallBrokenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("148_f0x7h")
+
+[node name="StoneWallColumnInE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("149_8lus6")
+
+[node name="StoneWallColumnInN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("150_f63se")
+
+[node name="StoneWallColumnInS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("151_mx0d8")
+
+[node name="StoneWallColumnInW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("152_43oj3")
+
+[node name="StoneWallColumnE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("153_kraap")
+
+[node name="StoneWallColumnN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("154_bpdsx")
+
+[node name="StoneWallColumnS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("155_ewnby")
+
+[node name="StoneWallColumnW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("156_2xpdj")
+
+[node name="StoneWallCornerE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("157_gfvp1")
+
+[node name="StoneWallCornerN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("158_kq5it")
+
+[node name="StoneWallCornerS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("159_v7s1p")
+
+[node name="StoneWallCornerW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("160_vjyvn")
+
+[node name="StoneWallDoorBarsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("161_cclhm")
+
+[node name="StoneWallDoorBarsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("162_iv7cg")
+
+[node name="StoneWallDoorBarsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("163_ooc5d")
+
+[node name="StoneWallDoorBarsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("164_kqudt")
+
+[node name="StoneWallDoorClosedE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("165_0r7ot")
+
+[node name="StoneWallDoorClosedN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("166_23cn1")
+
+[node name="StoneWallDoorClosedS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("167_ictco")
+
+[node name="StoneWallDoorClosedW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("168_jgh5h")
+
+[node name="StoneWallDoorOpenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("169_jpbaa")
+
+[node name="StoneWallDoorOpenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("170_y3rwl")
+
+[node name="StoneWallDoorOpenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("171_qlqld")
+
+[node name="StoneWallDoorOpenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("172_dwmho")
+
+[node name="StoneWallDoorE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("173_r5otg")
+
+[node name="StoneWallDoorN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("174_esn0i")
+
+[node name="StoneWallDoorS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("175_syu8h")
+
+[node name="StoneWallDoorW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("176_7inva")
+
+[node name="StoneWallGateBarsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("177_g1gnp")
+
+[node name="StoneWallGateBarsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("178_djvyv")
+
+[node name="StoneWallGateBarsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("179_sq6xo")
+
+[node name="StoneWallGateBarsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("180_nmbs3")
+
+[node name="StoneWallGateClosedE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("181_fsk07")
+
+[node name="StoneWallGateClosedN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("182_vfhs5")
+
+[node name="StoneWallGateClosedS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("183_m3xix")
+
+[node name="StoneWallGateClosedW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("184_1lkkl")
+
+[node name="StoneWallGateOpenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("185_248no")
+
+[node name="StoneWallGateOpenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("186_d0iar")
+
+[node name="StoneWallGateOpenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("187_ag8v3")
+
+[node name="StoneWallGateOpenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("188_ee8tt")
+
+[node name="StoneWallGateE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("189_0rccc")
+
+[node name="StoneWallGateN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("190_swd06")
+
+[node name="StoneWallGateS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("191_mti4n")
+
+[node name="StoneWallGateW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("192_fk8k1")
+
+[node name="StoneWallHalfE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("193_ryaq5")
+
+[node name="StoneWallHalfN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("194_ivnkg")
+
+[node name="StoneWallHalfS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("195_doucx")
+
+[node name="StoneWallHalfW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("196_glifo")
+
+[node name="StoneWallHoleE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("197_qgyug")
+
+[node name="StoneWallHoleN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("198_p5v3a")
+
+[node name="StoneWallHoleS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("199_yglf3")
+
+[node name="StoneWallHoleW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("200_h2oln")
+
+[node name="StoneWallRoundBrokenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("201_or6p4")
+
+[node name="StoneWallRoundBrokenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("202_w34tm")
+
+[node name="StoneWallRoundBrokenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("203_tivwj")
+
+[node name="StoneWallRoundBrokenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("204_pamcf")
+
+[node name="StoneWallRoundWindowE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("205_mc5vp")
+
+[node name="StoneWallRoundWindowN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("206_o6iyk")
+
+[node name="StoneWallRoundWindowS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("207_e0l2d")
+
+[node name="StoneWallRoundWindowW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("208_icvh8")
+
+[node name="StoneWallRoundE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("209_uufj7")
+
+[node name="StoneWallRoundN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("210_qlng3")
+
+[node name="StoneWallRoundS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("211_aeavr")
+
+[node name="StoneWallRoundW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("212_0atwa")
+
+[node name="StoneWallStructureE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("213_7e1l4")
+
+[node name="StoneWallStructureN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("214_17jq8")
+
+[node name="StoneWallStructureS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("215_qlfaf")
+
+[node name="StoneWallStructureW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("216_2vmbf")
+
+[node name="StoneWallTopE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("217_lp6qt")
+
+[node name="StoneWallTopN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("218_cmsnj")
+
+[node name="StoneWallTopS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("219_qdjs6")
+
+[node name="StoneWallTopW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("220_uols2")
+
+[node name="StoneWallWindowBarsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("221_1llk0")
+
+[node name="StoneWallWindowBarsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("222_o5lcn")
+
+[node name="StoneWallWindowBarsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("223_kh5md")
+
+[node name="StoneWallWindowBarsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("224_vs4ib")
+
+[node name="StoneWallWindowE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("225_hhd5d")
+
+[node name="StoneWallWindowN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("226_b5oq4")
+
+[node name="StoneWallWindowS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("227_kosn6")
+
+[node name="StoneWallWindowW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("228_cs7tw")
+
+[node name="StoneWallE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("229_y8lcn")
+
+[node name="StoneWallN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("230_wdr5u")
+
+[node name="StoneWallS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("231_n1cw8")
+
+[node name="StoneWallW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("232_0jdid")
+
+[node name="StoneE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("233_0pyh3")
+
+[node name="StoneN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("234_ofo2n")
+
+[node name="StoneS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("235_lavs4")
+
+[node name="StoneW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("236_pch6k")
+
+[node name="TableChairsBrokenE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("237_y4744")
+
+[node name="TableChairsBrokenN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("238_iibdy")
+
+[node name="TableChairsBrokenS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("239_rtpyb")
+
+[node name="TableChairsBrokenW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("240_da1vr")
+
+[node name="TableRoundChairsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("241_ppgph")
+
+[node name="TableRoundChairsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("242_31tqi")
+
+[node name="TableRoundChairsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("243_g12fx")
+
+[node name="TableRoundChairsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("244_3h464")
+
+[node name="TableRoundItemsChairsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("245_2tkpq")
+
+[node name="TableRoundItemsChairsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("246_iy2wp")
+
+[node name="TableRoundItemsChairsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("247_douxe")
+
+[node name="TableRoundItemsChairsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("248_iqmwn")
+
+[node name="TableRoundE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("249_d1wt7")
+
+[node name="TableRoundN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("250_fyte6")
+
+[node name="TableRoundS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("251_c10hy")
+
+[node name="TableRoundW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("252_yocjx")
+
+[node name="TableShortChairsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("253_p4lyq")
+
+[node name="TableShortChairsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("254_5ssqr")
+
+[node name="TableShortChairsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("255_brdet")
+
+[node name="TableShortChairsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("256_ww25e")
+
+[node name="TableShortE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("257_ntswt")
+
+[node name="TableShortN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("258_jpiop")
+
+[node name="TableShortS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("259_o7i2t")
+
+[node name="TableShortW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("260_w6s2r")
+
+[node name="WoodenCratesE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("261_f6t2s")
+
+[node name="WoodenCratesN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("262_bfrsy")
+
+[node name="WoodenCratesS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("263_eo32p")
+
+[node name="WoodenCratesW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("264_1babd")
+
+[node name="WoodenCrateE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("265_vrffj")
+
+[node name="WoodenCrateN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("266_3i0rs")
+
+[node name="WoodenCrateS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("267_g7sn7")
+
+[node name="WoodenCrateW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("268_jbj0m")
+
+[node name="WoodenPileE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("269_32l07")
+
+[node name="WoodenPileN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("270_hnud8")
+
+[node name="WoodenPileS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("271_oqkhx")
+
+[node name="WoodenPileW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("272_bcdjl")
+
+[node name="WoodenSupportBeamsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("273_82ivk")
+
+[node name="WoodenSupportBeamsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("274_shlb7")
+
+[node name="WoodenSupportBeamsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("275_wyr12")
+
+[node name="WoodenSupportBeamsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("276_1k5c2")
+
+[node name="WoodenSupportsBeamE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("277_xtuib")
+
+[node name="WoodenSupportsBeamN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("278_sqf2c")
+
+[node name="WoodenSupportsBeamS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("279_gtff7")
+
+[node name="WoodenSupportsBeamW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("280_uittq")
+
+[node name="WoodenSupportsBlockE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("281_a333o")
+
+[node name="WoodenSupportsBlockN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("282_fknaw")
+
+[node name="WoodenSupportsBlockS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("283_lona3")
+
+[node name="WoodenSupportsBlockW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("284_5slkb")
+
+[node name="WoodenSupportsE" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("285_pdhfc")
+
+[node name="WoodenSupportsN" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("286_c4vx7")
+
+[node name="WoodenSupportsS" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("287_jm0rx")
+
+[node name="WoodenSupportsW" type="Sprite2D" parent="."]
+position = Vector2(299, 178)
+texture = ExtResource("288_ptkpu")

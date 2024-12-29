@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://cybjnn0vqjw2m"]
+
+[ext_resource type="Script" path="res://Script/UI/lf_bar.gd" id="1_g7mss"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4tv1u"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r14bi"]
+bg_color = Color(0.137255, 0.137255, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6jkrm"]
+bg_color = Color(0.0437153, 0.0806078, 0.206746, 1)
+expand_margin_left = 1.0
+expand_margin_top = 1.0
+expand_margin_right = 1.0
+expand_margin_bottom = 1.0
+shadow_color = Color(0, 0, 0, 0.27451)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hodoa"]
+bg_color = Color(0.969137, 0.969137, 0.969137, 1)
+
+[node name="LfBar" type="ProgressBar"]
+z_index = 1
+offset_right = 237.0
+offset_bottom = 7.0
+theme_override_styles/background = SubResource("StyleBoxEmpty_4tv1u")
+theme_override_styles/fill = SubResource("StyleBoxFlat_r14bi")
+value = 70.0
+show_percentage = false
+script = ExtResource("1_g7mss")
+
+[node name="DmgBar" type="ProgressBar" parent="."]
+z_index = -1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_6jkrm")
+theme_override_styles/fill = SubResource("StyleBoxFlat_hodoa")
+value = 80.0
+show_percentage = false
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.7
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
