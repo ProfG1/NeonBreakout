@@ -9,8 +9,7 @@ func convertCARTtoISO(cartesian):
 
 
 func _physics_process(delta: float) -> void:
-	var mouse_pos = get_global_mouse_position()
-	$Marker2D.look_at(mouse_pos)
+	
 	var input_vector = Input.get_vector("left", "right", "up", "down")
 	var normalized_vector = input_vector.normalized()
 		
@@ -34,7 +33,3 @@ func _physics_process(delta: float) -> void:
 	
 	
 	move_and_slide()
-
-
-func _on_gun_cooldown_timeout() -> void:
-	gun_cooldown = true

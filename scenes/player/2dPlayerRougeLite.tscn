@@ -19,22 +19,14 @@ hframes = 6
 vframes = 7
 
 [node name="Gun-Revolver" parent="Sprite2D" instance=ExtResource("3_qlkk2")]
-position = Vector2(-1.23077, 5.92593)
-scale = Vector2(0.154981, 0.213188)
-
-[node name="Marker2D" type="Marker2D" parent="."]
-position = Vector2(-1, 0)
+position = Vector2(0, 5.92593)
+scale = Vector2(0.300259, 0.342182)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-1, 0)
-zoom = Vector2(0.8, 0.8)
+zoom = Vector2(1.2, 1.2)
 limit_smoothed = true
-
-[node name="gunCooldown" type="Timer" parent="."]
-wait_time = 0.333
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, 0)
 shape = SubResource("CircleShape2D_fmkk3")
-
-[connection signal="timeout" from="gunCooldown" to="." method="_on_gun_cooldown_timeout"]

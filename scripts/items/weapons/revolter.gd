@@ -15,12 +15,13 @@ func _process(delta):
 	
 func _physics_process(delta: float) -> void:
 	var mouse_pos = get_global_mouse_position()
-	$Marker2D.look_at(mouse_pos)
+	$gun/Marker2D.look_at(mouse_pos)
+	$gun.look_at(mouse_pos)
 	if Input.is_action_just_pressed("left_mouse") and gun_cooldown:
 		gun_cooldown = false
 		var projectile_instance = projectile.instantiate()
-		projectile_instance.rotation = $Marker2D.rotation
-		projectile_instance.global_position = $Marker2D.global_position
+		projectile_instance.rotation = $gun.rotation
+		projectile_instance.global_position = $gun/Marker2D.global_position
 		add_child(projectile_instance)
 		$gunCooldown.start()
 		
