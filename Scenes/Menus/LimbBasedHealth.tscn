@@ -1,7 +1,63 @@
-[gd_scene format=3 uid="uid://dbokao5j0nxqv"]
+[gd_scene load_steps=2 format=3 uid="uid://dbokao5j0nxqv"]
 
-[node name="Container" type="Container"]
-offset_left = -20.0
-offset_top = -21.0
-offset_right = 20.0
-offset_bottom = 19.0
+[ext_resource type="Texture2D" uid="uid://cigtg01dsrrqw" path="res://Game Assets/UI/standing-human-body-silhouette.png" id="1_6yo3p"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.256
+anchor_top = 0.133
+anchor_right = 0.726
+anchor_bottom = 0.825
+offset_left = 30.08
+offset_right = -30.08
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_constants/separation = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 200)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/HBoxContainer/ScrollContainer"]
+layout_mode = 2
+
+[node name="MarginContainer2" type="MarginContainer" parent="PanelContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 80
+theme_override_constants/margin_top = 165
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 55
+
+[node name="TextEdit" type="TextEdit" parent="PanelContainer/HBoxContainer/ScrollContainer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+text = "sfSFGvsFGsDGsfgsfgsffgsfgsGsgsgsgsgsgsges"
+placeholder_text = "SSEG"
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = -25
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = -45
+theme_override_constants/margin_bottom = -35
+
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/HBoxContainer/MarginContainer"]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+texture = ExtResource("1_6yo3p")
+expand_mode = 4

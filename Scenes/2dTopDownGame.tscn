@@ -1,10 +1,10 @@
 [gd_scene load_steps=13 format=4 uid="uid://b6wdw5y40xdpn"]
 
-[ext_resource type="Texture2D" uid="uid://ciea4tuoq68mq" path="res://PlaceHolderAssets/Texture/TX Tileset Grass.png" id="1_dkcym"]
-[ext_resource type="Texture2D" uid="uid://c08on5lupypr6" path="res://PlaceHolderAssets/Texture/TX Tileset Wall.png" id="2_ftm2p"]
-[ext_resource type="Texture2D" uid="uid://06u5ex8pcw32" path="res://PlaceHolderAssets/Texture/TX Struct.png" id="3_t5q0i"]
-[ext_resource type="Texture2D" uid="uid://bwou5r8xipjry" path="res://PlaceHolderAssets/Texture/TX Player.png" id="4_huw2o"]
-[ext_resource type="Texture2D" uid="uid://cqvpdvexubj8h" path="res://PlaceHolderAssets/Texture/TX Tileset Stone Ground.png" id="5_nxral"]
+[ext_resource type="Texture2D" uid="uid://bwym04pxn86yx" path="res://PlaceHolderAssets/Texture/TX Tileset Grass.png" id="1_dkcym"]
+[ext_resource type="Texture2D" uid="uid://dop5fu4ixmulq" path="res://PlaceHolderAssets/Texture/TX Tileset Wall.png" id="2_ftm2p"]
+[ext_resource type="Texture2D" uid="uid://ctkymavsaheca" path="res://PlaceHolderAssets/Texture/TX Struct.png" id="3_t5q0i"]
+[ext_resource type="Texture2D" uid="uid://cmxl2a24qdjw3" path="res://PlaceHolderAssets/Texture/TX Player.png" id="4_huw2o"]
+[ext_resource type="Texture2D" uid="uid://dfxoraa3p348k" path="res://PlaceHolderAssets/Texture/TX Tileset Stone Ground.png" id="5_nxral"]
 [ext_resource type="PackedScene" uid="uid://c0uyesh6lqq0g" path="res://IsometricScene/2dPlayerRougeLite.tscn" id="6_qr20r"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y2p4q"]
