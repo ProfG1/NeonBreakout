@@ -1,11 +1,11 @@
 [gd_scene load_steps=13 format=4 uid="uid://b6wdw5y40xdpn"]
 
-[ext_resource type="Texture2D" uid="uid://cnklg7s0yehvq" path="res://PlaceHolderAssets/Texture/TX Tileset Grass.png" id="1_dkcym"]
-[ext_resource type="Texture2D" uid="uid://xut2jkv7vbef" path="res://PlaceHolderAssets/Texture/TX Tileset Wall.png" id="2_ftm2p"]
-[ext_resource type="Texture2D" uid="uid://pyr5mldyy6v3" path="res://PlaceHolderAssets/Texture/TX Struct.png" id="3_t5q0i"]
-[ext_resource type="Texture2D" uid="uid://u60j4jfimv3t" path="res://PlaceHolderAssets/Texture/TX Player.png" id="4_huw2o"]
-[ext_resource type="Texture2D" uid="uid://jc8xjgd04i7k" path="res://PlaceHolderAssets/Texture/TX Tileset Stone Ground.png" id="5_nxral"]
-[ext_resource type="PackedScene" uid="uid://c0uyesh6lqq0g" path="res://IsometricScene/2dPlayerRougeLite.tscn" id="6_qr20r"]
+[ext_resource type="Texture2D" uid="uid://b0ngmtpk4yapv" path="res://assets/dungeon/placeholder/TX Tileset Grass.png" id="1_dkcym"]
+[ext_resource type="Texture2D" uid="uid://boyu05vvr7ho2" path="res://assets/dungeon/placeholder/TX Tileset Wall.png" id="2_ftm2p"]
+[ext_resource type="Texture2D" uid="uid://xaa1ylvhsxny" path="res://assets/dungeon/placeholder/TX Struct.png" id="3_t5q0i"]
+[ext_resource type="Texture2D" uid="uid://slghwr0flw0t" path="res://assets/dungeon/placeholder/TX Player.png" id="4_huw2o"]
+[ext_resource type="Texture2D" uid="uid://cmc4c6pt5b3td" path="res://assets/dungeon/placeholder/TX Tileset Stone Ground.png" id="5_nxral"]
+[ext_resource type="PackedScene" uid="uid://c0uyesh6lqq0g" path="res://scenes/player/2dPlayerRougeLite.tscn" id="6_qr20r"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y2p4q"]
 texture = ExtResource("1_dkcym")
