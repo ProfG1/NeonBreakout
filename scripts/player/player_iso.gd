@@ -7,7 +7,7 @@ var gun_cooldown = true
 var projectile = preload("res://scenes/projectiles/test_projectile.tscn")
 func convertCARTtoISO(cartesian):
 	return Vector2(cartesian.x - cartesian.y, (cartesian.x + cartesian.y)/2)
-	
+
 
 func _physics_process(delta: float) -> void:
 	var mouse_pos = get_global_mouse_position()
@@ -36,6 +36,8 @@ func _physics_process(delta: float) -> void:
 	#print(direction)
 	#velocity = direction.normalized() * SPEED * delta
 	#direction = convertCARTtoISO(direction)
+	
+	
 	
 	
 	move_and_slide()

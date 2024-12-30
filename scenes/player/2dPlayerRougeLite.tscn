@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://c0uyesh6lqq0g"]
+[gd_scene load_steps=5 format=3 uid="uid://c0uyesh6lqq0g"]
 
 [ext_resource type="Script" path="res://scripts/player/player_iso.gd" id="1_sebxw"]
 [ext_resource type="Texture2D" uid="uid://bcsabpqo4j4cd" path="res://assets/player/The Adventurer - Female/Idle/Idle.png" id="2_okqji"]
+[ext_resource type="PackedScene" uid="uid://bpp2p2nivcypd" path="res://scenes/items/weapons/Gun - Revolver.tscn" id="3_qlkk2"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_fmkk3"]
 radius = 15.0
@@ -10,15 +11,19 @@ radius = 15.0
 motion_mode = 1
 script = ExtResource("1_sebxw")
 
-[node name="Marker2D" type="Marker2D" parent="."]
-position = Vector2(-1, 0)
-
-[node name="Sprite2D" type="Sprite2D" parent="Marker2D"]
-position = Vector2(11, -7)
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(10, -7)
 scale = Vector2(1.625, 1.6875)
 texture = ExtResource("2_okqji")
 hframes = 6
 vframes = 7
+
+[node name="Gun-Revolver" parent="Sprite2D" instance=ExtResource("3_qlkk2")]
+position = Vector2(-1.23077, 5.92593)
+scale = Vector2(0.154981, 0.213188)
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(-1, 0)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-1, 0)
@@ -29,6 +34,7 @@ limit_smoothed = true
 wait_time = 0.333
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 0)
 shape = SubResource("CircleShape2D_fmkk3")
 
 [connection signal="timeout" from="gunCooldown" to="." method="_on_gun_cooldown_timeout"]
