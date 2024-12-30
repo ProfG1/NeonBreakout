@@ -1,7 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://dhwffnrj0u0ja"]
+[gd_scene load_steps=5 format=3 uid="uid://dhwffnrj0u0ja"]
 
 [ext_resource type="Script" path="res://scripts/opps/test_dummy.gd" id="1_fqjyg"]
-[ext_resource type="Texture2D" uid="uid://cqijvjwxcjp57" path="res://assets/opps/SlimeAssets/SlimeAssets/Assets/BouncingSpritesheet.png" id="2_tw1o7"]
 [ext_resource type="PackedScene" uid="uid://c2y330vk5uydi" path="res://scenes/gui/healthbar.tscn" id="3_gu05a"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_i6ogv"]
@@ -15,7 +14,7 @@ script = ExtResource("1_fqjyg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-1, -190)
-texture = ExtResource("2_tw1o7")
+scale = Vector2(1.00612, 0.937607)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_i6ogv")
@@ -33,6 +32,7 @@ offset_left = -26.0
 offset_top = -132.0
 offset_right = 35.0
 offset_bottom = -123.0
+script = null
 
 [connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
