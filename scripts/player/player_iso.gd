@@ -1,35 +1,65 @@
 extends CharacterBody2D
 
-
-const Speed = 400.0
+const SPEED = 400
 var motion = Vector2()
+var current_dir = "none"
 var gun_cooldown = true
-func convertCARTtoISO(cartesian):
-	return Vector2(cartesian.x - cartesian.y, (cartesian.x + cartesian.y)/2)
 
+func _physics_process(delta):
+	player_movement(delta)
 
-func _physics_process(delta: float) -> void:
+func player_movement(delta):
+	var input_vector = Vector2()
 	
-	var input_vector = Input.get_vector("left", "right", "up", "down")
-	var normalized_vector = input_vector.normalized()
-		
-		
+	if Input.is_action_pressed("right"):
+		input_vector.x += 1
+	if Input.is_action_pressed("left"):
+		input_vector.x -= 1
+	if Input.is_action_pressed("down"):
+		input_vector.y += 1
+	if Input.is_action_pressed("up"):
+		input_vector.y -= 1
+
+	input_vector = input_vector.normalized()
+	velocity = input_vector * SPEED
 	
-	velocity = normalized_vector * Speed
-	#var direction = Vector2()
-	#if Input.is_action_just_pressed("up"):
-	#	direction += Vector2(0, -1)
-	#elif Input.is_action_just_pressed("down"):
-	#	direction += Vector2(0, 1)
-	#elif Input.is_action_just_pressed("left"):
-	#	direction += Vector2(-1, 0)
-	#elif Input.is_action_just_pressed("right"):
-	#	direction += Vector2(1, 0)
-	#print(direction)
-	#velocity = direction.normalized() * SPEED * delta
-	#direction = convertCARTtoISO(direction)
-	
-	
-	
+	if input_vector != Vector2.ZERO:
+		if input_vector.x > 0:
+			current_dir = "right"
+		elif input_vector.x < 0:
+			current_dir = "left"
+		elif input_vector.y > 0:
+			current_dir = "down"
+		elif input_vector.y < 0:
+			current_dir = "up"
+		play_anim("walk")
+	else:
+		play_anim("idle")
 	
 	move_and_slide()
+
+func play_anim(state):
+	var anim = $AnimatedSprite2D
+	match state:
+		"walk":
+			if current_dir == "right":
+				anim.flip_h = false
+				anim.play("walk_right_down")
+			elif current_dir == "left":
+				anim.flip_h = false
+				anim.play("walk_left_down")
+			elif current_dir == "down":
+				anim.play("walk_down")
+			elif current_dir == "up":
+				anim.play("walk_up")
+		"idle":
+			if current_dir == "right":
+				anim.flip_h = false
+				anim.play("idle_right_down")
+			elif current_dir == "left":
+				anim.flip_h = false
+				anim.play("idle_left_down")
+			elif current_dir == "down":
+				anim.play("idle_down")
+			elif current_dir == "up":
+				anim.play("idle_up")

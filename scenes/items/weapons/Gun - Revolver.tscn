@@ -4,21 +4,20 @@
 [ext_resource type="Texture2D" uid="uid://bq57o0k5c54os" path="res://assets/items/weapons/Revolver - Colt 45 [64x32]/[SHOOT] Revolver - Colt 45.png" id="2_bmwek"]
 
 [node name="Gun-Revolver" type="Node2D"]
-position = Vector2(330, 205)
 script = ExtResource("1_2ttvg")
+
+[node name="gun" type="Sprite2D" parent="."]
+texture = ExtResource("2_bmwek")
+hframes = 10
+
+[node name="crosshair" type="Marker2D" parent="gun"]
+position = Vector2(-1, 0)
 
 [node name="anim" type="AnimationPlayer" parent="."]
 
 [node name="gunCooldown" type="Timer" parent="."]
 wait_time = 0.333
 
-[node name="gun" type="Sprite2D" parent="."]
-position = Vector2(-26, 7)
-texture = ExtResource("2_bmwek")
-offset = Vector2(20, -5)
-hframes = 10
-
-[node name="Marker2D" type="Marker2D" parent="gun"]
-position = Vector2(34, -8)
+[node name="Camera2D" type="Camera2D" parent="."]
 
 [connection signal="timeout" from="gunCooldown" to="." method="_on_gun_cooldown_timeout"]

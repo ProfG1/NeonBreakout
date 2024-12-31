@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://xaa1ylvhsxny" path="res://assets/dungeon/placeholder/TX Struct.png" id="3_t5q0i"]
 [ext_resource type="Texture2D" uid="uid://slghwr0flw0t" path="res://assets/dungeon/placeholder/TX Player.png" id="4_huw2o"]
 [ext_resource type="Texture2D" uid="uid://cmc4c6pt5b3td" path="res://assets/dungeon/placeholder/TX Tileset Stone Ground.png" id="5_nxral"]
-[ext_resource type="PackedScene" uid="uid://c0uyesh6lqq0g" path="res://scenes/player/2dPlayerRougeLite.tscn" id="6_qr20r"]
+[ext_resource type="PackedScene" uid="uid://c0uyesh6lqq0g" path="res://scenes/player/player.tscn" id="6_qr20r"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y2p4q"]
 texture = ExtResource("1_dkcym")
