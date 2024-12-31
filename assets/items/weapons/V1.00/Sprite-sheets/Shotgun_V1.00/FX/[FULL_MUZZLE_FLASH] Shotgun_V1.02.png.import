@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6a2op4ooofc2"
-path="res://.godot/imported/standing-human-body-silhouette.png-41b0484e99e51da503bad727ffb3514d.ctex"
+uid="uid://cp66dfbmpd3ei"
+path="res://.godot/imported/[FULL_MUZZLE_FLASH] Shotgun_V1.02.png-6a7af5df6587a3fa787885c986cf7ae5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/GUI/HealthTab/standing-human-body-silhouette.png"
-dest_files=["res://.godot/imported/standing-human-body-silhouette.png-41b0484e99e51da503bad727ffb3514d.ctex"]
+source_file="res://assets/items/weapons/V1.00/Sprite-sheets/Shotgun_V1.00/FX/[FULL_MUZZLE_FLASH] Shotgun_V1.02.png"
+dest_files=["res://.godot/imported/[FULL_MUZZLE_FLASH] Shotgun_V1.02.png-6a7af5df6587a3fa787885c986cf7ae5.ctex"]
 
 [params]
 

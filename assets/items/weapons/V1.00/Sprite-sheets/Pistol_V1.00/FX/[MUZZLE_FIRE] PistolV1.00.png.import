@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6a2op4ooofc2"
-path="res://.godot/imported/standing-human-body-silhouette.png-41b0484e99e51da503bad727ffb3514d.ctex"
+uid="uid://xfvul0l7fsyl"
+path="res://.godot/imported/[MUZZLE_FIRE] PistolV1.00.png-1faa759e64769392c60f9e5d67d5448a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/GUI/HealthTab/standing-human-body-silhouette.png"
-dest_files=["res://.godot/imported/standing-human-body-silhouette.png-41b0484e99e51da503bad727ffb3514d.ctex"]
+source_file="res://assets/items/weapons/V1.00/Sprite-sheets/Pistol_V1.00/FX/[MUZZLE_FIRE] PistolV1.00.png"
+dest_files=["res://.godot/imported/[MUZZLE_FIRE] PistolV1.00.png-1faa759e64769392c60f9e5d67d5448a.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6a2op4ooofc2"
-path="res://.godot/imported/standing-human-body-silhouette.png-41b0484e99e51da503bad727ffb3514d.ctex"
+uid="uid://5yipibdjqbt1"
+path="res://.godot/imported/[CASING_EXTENDED] Assault_rifle_V1.00.png-560b84b963a5df9dac0e28efceb6ff72.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/GUI/HealthTab/standing-human-body-silhouette.png"
-dest_files=["res://.godot/imported/standing-human-body-silhouette.png-41b0484e99e51da503bad727ffb3514d.ctex"]
+source_file="res://assets/items/weapons/V1.00/Sprite-sheets/Assault_rifle_V1.00/FX/[CASING_EXTENDED] Assault_rifle_V1.00.png"
+dest_files=["res://.godot/imported/[CASING_EXTENDED] Assault_rifle_V1.00.png-560b84b963a5df9dac0e28efceb6ff72.ctex"]
 
 [params]
 

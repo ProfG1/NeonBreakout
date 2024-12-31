@@ -3,7 +3,6 @@
 [ext_resource type="Script" path="res://scripts/player/player_iso.gd" id="1_sebxw"]
 [ext_resource type="Texture2D" uid="uid://dim6r8hsavj7x" path="res://assets/player/The Adventurer - Male/Idle/idle_down.png" id="2_4bcow"]
 [ext_resource type="Texture2D" uid="uid://d4fyg1ayxunw0" path="res://assets/player/The Adventurer - Male/Idle/idle_left_down.png" id="3_g2pjw"]
-[ext_resource type="PackedScene" uid="uid://bpp2p2nivcypd" path="res://scenes/items/weapons/Gun - Revolver.tscn" id="3_qlkk2"]
 [ext_resource type="Texture2D" uid="uid://vnppomug71kd" path="res://assets/player/The Adventurer - Male/Idle/idle_left_up.png" id="4_pekep"]
 [ext_resource type="Texture2D" uid="uid://dp1idn7gi3tdh" path="res://assets/player/The Adventurer - Male/Idle/idle_right_down.png" id="5_sgk0j"]
 [ext_resource type="Texture2D" uid="uid://ddtf0042xgteu" path="res://assets/player/The Adventurer - Male/Idle/idle_right_up.png" id="6_ql0d4"]
@@ -14,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://ddkhuptyg3jcx" path="res://assets/player/The Adventurer - Male/Walk/walk_right_down.png" id="11_lh4uu"]
 [ext_resource type="Texture2D" uid="uid://66ubcu2tkmm3" path="res://assets/player/The Adventurer - Male/Walk/walk_right_up.png" id="12_fxi5y"]
 [ext_resource type="Texture2D" uid="uid://b87j5jwwp0tkm" path="res://assets/player/The Adventurer - Male/Walk/walk_up.png" id="13_jvt7m"]
+[ext_resource type="PackedScene" uid="uid://cxn37um1ryaiw" path="res://scenes/items/weapons/sniper.tscn" id="14_bm67l"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e4v63"]
 atlas = ExtResource("2_4bcow")
@@ -764,10 +764,6 @@ sprite_frames = SubResource("SpriteFrames_njwlx")
 animation = &"idle_left_up"
 frame_progress = 0.287029
 
-[node name="gun" parent="AnimatedSprite2D" instance=ExtResource("3_qlkk2")]
-position = Vector2(1.84615, 1.18518)
-scale = Vector2(0.154981, 0.213188)
-
 [node name="Marker2D2" type="Marker2D" parent="."]
 position = Vector2(4, -8.00001)
 
@@ -782,5 +778,9 @@ wait_time = 0.333
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-5, 0)
 shape = SubResource("CircleShape2D_fmkk3")
+
+[node name="Sniper" parent="." instance=ExtResource("14_bm67l")]
+position = Vector2(-3.72529e-08, 9.53674e-07)
+scale = Vector2(0.492313, 0.444187)
 
 [connection signal="timeout" from="gunCooldown" to="." method="_on_gun_cooldown_timeout"]

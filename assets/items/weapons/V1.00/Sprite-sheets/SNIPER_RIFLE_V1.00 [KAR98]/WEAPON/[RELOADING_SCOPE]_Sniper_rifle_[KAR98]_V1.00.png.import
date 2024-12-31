@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6a2op4ooofc2"
-path="res://.godot/imported/standing-human-body-silhouette.png-41b0484e99e51da503bad727ffb3514d.ctex"
+uid="uid://cg671c2nmxlwb"
+path="res://.godot/imported/[RELOADING_SCOPE]_Sniper_rifle_[KAR98]_V1.00.png-c71ec07309c1577f3116f9fd6b3d7809.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/GUI/HealthTab/standing-human-body-silhouette.png"
-dest_files=["res://.godot/imported/standing-human-body-silhouette.png-41b0484e99e51da503bad727ffb3514d.ctex"]
+source_file="res://assets/items/weapons/V1.00/Sprite-sheets/SNIPER_RIFLE_V1.00 [KAR98]/WEAPON/[RELOADING_SCOPE]_Sniper_rifle_[KAR98]_V1.00.png"
+dest_files=["res://.godot/imported/[RELOADING_SCOPE]_Sniper_rifle_[KAR98]_V1.00.png-c71ec07309c1577f3116f9fd6b3d7809.ctex"]
 
 [params]
 
