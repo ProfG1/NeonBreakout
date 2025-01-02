@@ -31,6 +31,7 @@ grow_vertical = 2
 scale = Vector2(5.35518, 4.19242)
 
 [node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+custom_minimum_size = Vector2(296.1, 256.575)
 layout_mode = 1
 anchors_preset = -1
 anchor_left = -4.075
