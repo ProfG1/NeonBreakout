@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=4 uid="uid://b6wdw5y40xdpn"]
+[gd_scene load_steps=14 format=4 uid="uid://b6wdw5y40xdpn"]
 
 [ext_resource type="Texture2D" uid="uid://b0ngmtpk4yapv" path="res://assets/dungeon/placeholder/TX Tileset Grass.png" id="1_dkcym"]
 [ext_resource type="Texture2D" uid="uid://boyu05vvr7ho2" path="res://assets/dungeon/placeholder/TX Tileset Wall.png" id="2_ftm2p"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://slghwr0flw0t" path="res://assets/dungeon/placeholder/TX Player.png" id="4_huw2o"]
 [ext_resource type="Texture2D" uid="uid://cmc4c6pt5b3td" path="res://assets/dungeon/placeholder/TX Tileset Stone Ground.png" id="5_nxral"]
 [ext_resource type="PackedScene" uid="uid://c0uyesh6lqq0g" path="res://scenes/player/player.tscn" id="6_qr20r"]
+[ext_resource type="PackedScene" uid="uid://ckfohqhp1io7i" path="res://scenes/opps/enemy.tscn" id="7_52nj1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y2p4q"]
 texture = ExtResource("1_dkcym")
@@ -880,5 +881,8 @@ tile_map_data = PackedByteArray("AAAFAAEAAgACAAMAAAAGAAIAAgADAAQAAAAHAAIAAgAEAAQ
 tile_set = SubResource("TileSet_vyvy8")
 collision_visibility_mode = 1
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("6_qr20r")]
+[node name="Enemy" parent="." instance=ExtResource("7_52nj1")]
+position = Vector2(152, -49)
+
+[node name="Player" parent="." instance=ExtResource("6_qr20r")]
 position = Vector2(-56, 105)

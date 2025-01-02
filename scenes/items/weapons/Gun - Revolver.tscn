@@ -1,19 +1,17 @@
 [gd_scene load_steps=3 format=3 uid="uid://bpp2p2nivcypd"]
 
-[ext_resource type="Script" path="res://scripts/items/weapons/revolter.gd" id="1_2ttvg"]
-[ext_resource type="Texture2D" uid="uid://bq57o0k5c54os" path="res://assets/items/weapons/Revolver - Colt 45 [64x32]/[SHOOT] Revolver - Colt 45.png" id="2_bmwek"]
+[ext_resource type="Script" path="res://scripts/items/weapons/revolter.gd" id="1_h1mb1"]
+[ext_resource type="Texture2D" uid="uid://bq57o0k5c54os" path="res://assets/items/weapons/Revolver - Colt 45 [64x32]/[SHOOT] Revolver - Colt 45.png" id="2_bi24w"]
 
 [node name="Gun-Revolver" type="Node2D"]
-script = ExtResource("1_2ttvg")
+script = ExtResource("1_h1mb1")
 
 [node name="gun" type="Sprite2D" parent="."]
-position = Vector2(23, -4)
-scale = Vector2(1.03364, 1.00783)
-texture = ExtResource("2_bmwek")
+texture = ExtResource("2_bi24w")
 hframes = 10
 
 [node name="crosshair" type="Marker2D" parent="gun"]
-position = Vector2(16, -3)
+position = Vector2(-1, 0)
 
 [node name="anim" type="AnimationPlayer" parent="."]
 
@@ -21,6 +19,5 @@ position = Vector2(16, -3)
 wait_time = 0.333
 
 [node name="Camera2D" type="Camera2D" parent="."]
-visible = false
 
 [connection signal="timeout" from="gunCooldown" to="." method="_on_gun_cooldown_timeout"]
