@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=4 uid="uid://b18e0y546fsul"]
 
 [ext_resource type="TileSet" uid="uid://csa7rh7wyhlwl" path="res://assets/dungeon/placeholder/PLACEHOLDERS.tres" id="1_4objo"]
-[ext_resource type="Texture2D" uid="uid://c40knioujo2bu" path="res://assets/dungeon/design_sketches/FIRST_LEVEL MOCK UP.png" id="2_7ogef"]
+[ext_resource type="Texture2D" uid="uid://xvt35ocu2gvg" path="res://assets/dungeon/design_sketches/FIRST_LEVEL MOCK UP.png" id="2_7ogef"]
 
 [node name="Node2D" type="Node2D"]
 

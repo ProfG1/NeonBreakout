@@ -765,13 +765,6 @@ sprite_frames = SubResource("SpriteFrames_njwlx")
 animation = &"idle_left_up"
 frame_progress = 0.320935
 
-[node name="gun" parent="AnimatedSprite2D" instance=ExtResource("3_qlkk2")]
-position = Vector2(-11.6923, -2.37037)
-scale = Vector2(0.154981, 0.213188)
-
-[node name="Marker2D2" type="Marker2D" parent="."]
-position = Vector2(4, -8.00001)
-
 [node name="Camera2D" type="Camera2D" parent="." node_paths=PackedStringArray("target")]
 position = Vector2(-1, 0)
 zoom = Vector2(0.8, 0.8)
@@ -785,5 +778,8 @@ wait_time = 0.333
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-3, 8)
 shape = SubResource("CircleShape2D_fmkk3")
+
+[node name="Gun-Revolver" parent="." instance=ExtResource("3_qlkk2")]
+position = Vector2(5, 6)
 
 [connection signal="timeout" from="gunCooldown" to="." method="_on_gun_cooldown_timeout"]

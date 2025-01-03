@@ -9,7 +9,6 @@ extends CharacterBody2D
 
 var current_pierce_count := 0
 
-
 func _ready():
 	if hurtbox:
 		hurtbox.hit_enemy.connect(on_enemy_hit)
@@ -20,7 +19,7 @@ func _physics_process(delta: float) -> void:
 	
 	velocity = direction*speed
 	
-	var collision := move_and_collide(velocity*delta)
+	var collision := move_and_collide(velocity * delta)
 	
 	if collision:
 		queue_free()

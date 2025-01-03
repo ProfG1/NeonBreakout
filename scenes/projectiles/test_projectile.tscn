@@ -11,6 +11,9 @@ height = 24.0
 [sub_resource type="CircleShape2D" id="CircleShape2D_hp8ma"]
 
 [node name="Bullet" type="CharacterBody2D" node_paths=PackedStringArray("hurtbox")]
+collision_layer = 6
+collision_mask = 194
+motion_mode = 1
 script = ExtResource("1_7qo6b")
 hurtbox = NodePath("BulletHurtBox")
 
@@ -33,9 +36,8 @@ script = ExtResource("3_jnxgq")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BulletHurtBox"]
 shape = SubResource("CircleShape2D_hp8ma")
 
-[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="BulletHurtBox"]
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
 position = Vector2(-2.25, 0)
 scale = Vector2(0.325, 1)
-enable_node_path = NodePath("../..")
 
-[connection signal="screen_exited" from="BulletHurtBox/VisibleOnScreenEnabler2D" to="." method="_on_visible_on_screen_enabler_2d_screen_exited"]
+[connection signal="screen_exited" from="VisibleOnScreenEnabler2D" to="." method="_on_visible_on_screen_enabler_2d_screen_exited"]

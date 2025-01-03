@@ -21,7 +21,7 @@ func _physics_process(delta: float) -> void:
 		gun_cooldown = false
 		var projectile_instance = projectile.instantiate()
 		projectile_instance.rotation = $gun.rotation
-		projectile_instance.global_position = $gun/crosshair.global_position
+		projectile_instance.global_position = $gun.global_position
 		add_child(projectile_instance)
 		$gunCooldown.start()
 		

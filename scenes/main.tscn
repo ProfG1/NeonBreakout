@@ -8,8 +8,9 @@
 
 [node name="Env" parent="." instance=ExtResource("1_6b5sl")]
 
-[node name="Enemy" parent="." instance=ExtResource("7_52nj1")]
-position = Vector2(152, -49)
-
 [node name="Player" parent="." instance=ExtResource("6_qr20r")]
-position = Vector2(-56, 105)
+position = Vector2(138, 202)
+
+[node name="Rabbit" parent="." instance=ExtResource("7_52nj1")]
+position = Vector2(413, 261)
+motion_mode = 1
