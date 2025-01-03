@@ -1,4 +1,4 @@
-[gd_scene load_steps=113 format=3 uid="uid://c0uyesh6lqq0g"]
+[gd_scene load_steps=114 format=3 uid="uid://c0uyesh6lqq0g"]
 
 [ext_resource type="Script" path="res://scripts/player/player_iso.gd" id="1_sebxw"]
 [ext_resource type="Texture2D" uid="uid://dim6r8hsavj7x" path="res://assets/player/The Adventurer - Male/Idle/idle_down.png" id="2_4bcow"]
@@ -14,6 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://ddkhuptyg3jcx" path="res://assets/player/The Adventurer - Male/Walk/walk_right_down.png" id="11_lh4uu"]
 [ext_resource type="Texture2D" uid="uid://66ubcu2tkmm3" path="res://assets/player/The Adventurer - Male/Walk/walk_right_up.png" id="12_fxi5y"]
 [ext_resource type="Texture2D" uid="uid://b87j5jwwp0tkm" path="res://assets/player/The Adventurer - Male/Walk/walk_up.png" id="13_jvt7m"]
+[ext_resource type="Script" path="res://scripts/player/player_camera.gd" id="15_07nfl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e4v63"]
 atlas = ExtResource("2_4bcow")
@@ -765,22 +766,24 @@ animation = &"idle_left_up"
 frame_progress = 0.320935
 
 [node name="gun" parent="AnimatedSprite2D" instance=ExtResource("3_qlkk2")]
-position = Vector2(1.84615, 1.18518)
+position = Vector2(-11.6923, -2.37037)
 scale = Vector2(0.154981, 0.213188)
 
 [node name="Marker2D2" type="Marker2D" parent="."]
 position = Vector2(4, -8.00001)
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." node_paths=PackedStringArray("target")]
 position = Vector2(-1, 0)
 zoom = Vector2(0.8, 0.8)
 limit_smoothed = true
+script = ExtResource("15_07nfl")
+target = NodePath("..")
 
 [node name="gunCooldown" type="Timer" parent="."]
 wait_time = 0.333
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-5, 0)
+position = Vector2(-3, 8)
 shape = SubResource("CircleShape2D_fmkk3")
 
 [connection signal="timeout" from="gunCooldown" to="." method="_on_gun_cooldown_timeout"]

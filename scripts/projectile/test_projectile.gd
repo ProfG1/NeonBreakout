@@ -1,23 +1,36 @@
-extends Area2D
-var speed = 650
+class_name Bullet
+extends CharacterBody2D
 
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	set_as_top_level(true)
+@export var hurtbox : Hurtbox
+
+@export var speed := 150.0
+@export var damage := 5.0
+@export var max_pierce := 1
+
+var current_pierce_count := 0
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	position += (Vector2.RIGHT * speed).rotated(rotation) * delta
+func _ready():
+	if hurtbox:
+		hurtbox.hit_enemy.connect(on_enemy_hit)
 
+
+func _physics_process(delta: float) -> void:
+	var direction = Vector2.RIGHT.rotated(rotation)
+	
+	velocity = direction*speed
+	
+	var collision := move_and_collide(velocity*delta)
+	
+	if collision:
+		queue_free()
 
 func _on_visible_on_screen_enabler_2d_screen_exited() -> void:
 	queue_free()
 	
-func projectile():
-	pass
 
-func _on_body_entered(body):
-	queue_free()
-	if body.has_method("take_damage"):
-		body.take_damage()
+func on_enemy_hit():
+	current_pierce_count += 1
+	
+	if current_pierce_count >= max_pierce:
+		queue_free()
