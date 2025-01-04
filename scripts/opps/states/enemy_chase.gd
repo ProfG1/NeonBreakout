@@ -5,6 +5,7 @@ extends EnemyState
 
 
 func physics_process_state(delta: float):
+	print("CHASING")
 	
 	var direction := player.global_position - enemy.global_position
 	
@@ -16,6 +17,8 @@ func physics_process_state(delta: float):
 	enemy.velocity = direction.normalized()*chase_speed
 	
 	if distance <= enemy.follow_radius:
-		enemy.velocity = Vector2.ZERO
+		transitioned.emit(self, "attack")
+	#elif distance <= enemy.attack_range:
+		#transitioned.emit(self, "attack")
 	
 	enemy.move_and_slide()

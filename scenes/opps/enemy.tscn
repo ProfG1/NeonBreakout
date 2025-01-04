@@ -1,4 +1,4 @@
-[gd_scene load_steps=63 format=3 uid="uid://ckfohqhp1io7i"]
+[gd_scene load_steps=66 format=3 uid="uid://ckfohqhp1io7i"]
 
 [ext_resource type="Script" path="res://scripts/opps/enemy.gd" id="1_i5ap4"]
 [ext_resource type="Texture2D" uid="uid://bm6fi7bcllojk" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Idle.png" id="3_7dn2a"]
@@ -12,6 +12,8 @@
 [ext_resource type="PackedScene" uid="uid://b5yudo22g4yjr" path="res://scenes/gui/opps(gui)/oppsbar.tscn" id="10_vngop"]
 [ext_resource type="Script" path="res://scripts/opps/states/enemy_wander.gd" id="11_6gdhw"]
 [ext_resource type="Script" path="res://scripts/opps/states/enemy_chase.gd" id="12_ajv62"]
+[ext_resource type="Script" path="res://scripts/opps/states/enemy_attack.gd" id="13_h561i"]
+[ext_resource type="Script" path="res://utils/components/enemy_hurt_box.gd" id="14_dy6ta"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_7ufao"]
 radius = 13.0
@@ -397,10 +399,13 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Rabbit" type="CharacterBody2D"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_lqleb"]
+
+[node name="Rabbit" type="CharacterBody2D" node_paths=PackedStringArray("hurtbox")]
 collision_layer = 4
 collision_mask = 193
 script = ExtResource("1_i5ap4")
+hurtbox = NodePath("EnemyHurtBox")
 
 [node name="Hitbox" type="Area2D" parent="."]
 collision_layer = 8
@@ -437,7 +442,7 @@ max_life = 100
 
 [node name="EnemyStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
 script = ExtResource("9_23on8")
-initial_state = NodePath("Wander")
+initial_state = NodePath("Idle")
 
 [node name="Idle" type="Node" parent="EnemyStateMachine"]
 script = ExtResource("10_d3r8p")
@@ -447,6 +452,19 @@ script = ExtResource("11_6gdhw")
 
 [node name="Chase" type="Node" parent="EnemyStateMachine"]
 script = ExtResource("12_ajv62")
+
+[node name="Attack" type="Node" parent="EnemyStateMachine"]
+script = ExtResource("13_h561i")
+
+[node name="EnemyHurtBox" type="Area2D" parent="."]
+collision_layer = 64
+collision_mask = 8
+monitoring = false
+script = ExtResource("14_dy6ta")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyHurtBox"]
+scale = Vector2(2.18965, 2.06103)
+shape = SubResource("CircleShape2D_lqleb")
 
 [connection signal="damaged" from="Hitbox" to="." method="on_damaged"]
 [connection signal="life_changed" from="Life" to="Oppsbar" method="_on_life_changed"]

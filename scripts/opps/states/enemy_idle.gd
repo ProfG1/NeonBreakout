@@ -21,6 +21,7 @@ func on_timeout():
 
 
 func _physics_process(delta: float) -> void:
+	try_attack()
 	try_chase()
 
 func exit():

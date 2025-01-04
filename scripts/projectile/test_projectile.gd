@@ -3,7 +3,7 @@ extends CharacterBody2D
 
 @export var hurtbox : Hurtbox
 
-@export var speed := 150.0
+@export var speed := 600.0
 @export var damage := 5.0
 @export var max_pierce := 1
 
@@ -31,3 +31,7 @@ func on_enemy_hit():
 	
 	if current_pierce_count >= max_pierce:
 		queue_free()
+
+
+func _on_visible_on_screen_enabler_2d_screen_exited() -> void:
+	queue_free()
