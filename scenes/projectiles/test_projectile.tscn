@@ -11,6 +11,8 @@ height = 24.0
 [sub_resource type="CircleShape2D" id="CircleShape2D_hp8ma"]
 
 [node name="Bullet" type="CharacterBody2D" node_paths=PackedStringArray("hurtbox")]
+collision_layer = 194
+collision_mask = 198
 script = ExtResource("1_7qo6b")
 hurtbox = NodePath("BulletHurtBox")
 

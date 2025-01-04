@@ -1,13 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://kxcm0f104tq7"]
+[gd_scene load_steps=2 format=3 uid="uid://kxcm0f104tq7"]
 
 [ext_resource type="PackedScene" uid="uid://c0uyesh6lqq0g" path="res://scenes/player/player.tscn" id="1_yhe0p"]
-[ext_resource type="PackedScene" uid="uid://bpp2p2nivcypd" path="res://scenes/items/weapons/Gun - Revolver.tscn" id="2_sthae"]
 
 [node name="Game" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_yhe0p")]
 position = Vector2(126, 101)
-
-[node name="Gun-Revolver2" parent="Player" instance=ExtResource("2_sthae")]
-position = Vector2(9, 6)
-scale = Vector2(0.582914, 0.617021)

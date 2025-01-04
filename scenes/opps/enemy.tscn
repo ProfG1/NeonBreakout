@@ -1,9 +1,9 @@
 [gd_scene load_steps=63 format=3 uid="uid://ckfohqhp1io7i"]
 
 [ext_resource type="Script" path="res://scripts/opps/enemy.gd" id="1_i5ap4"]
-[ext_resource type="Texture2D" uid="uid://j3cfgu8jdo5v" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Idle.png" id="3_7dn2a"]
-[ext_resource type="Texture2D" uid="uid://eb28cx5toii3" path="res://assets/opps/Dino/DinoSprites - vita.png" id="3_twybk"]
-[ext_resource type="Texture2D" uid="uid://bvbvfutl48b2l" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Move.png" id="4_jvm11"]
+[ext_resource type="Texture2D" uid="uid://bm6fi7bcllojk" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Idle.png" id="3_7dn2a"]
+[ext_resource type="Texture2D" uid="uid://h0vs1j4dqk57" path="res://assets/opps/Dino/DinoSprites - vita.png" id="3_twybk"]
+[ext_resource type="Texture2D" uid="uid://d1skj5r8t4x3b" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Move.png" id="4_jvm11"]
 [ext_resource type="Script" path="res://scripts/opps/enemy_animation.gd" id="5_5c2nc"]
 [ext_resource type="Script" path="res://utils/components/hitbox.gd" id="6_4fu81"]
 [ext_resource type="Script" path="res://utils/components/life.gd" id="6_mda30"]
