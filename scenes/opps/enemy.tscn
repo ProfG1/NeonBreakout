@@ -1,8 +1,9 @@
-[gd_scene load_steps=55 format=3 uid="uid://ckfohqhp1io7i"]
+[gd_scene load_steps=63 format=3 uid="uid://ckfohqhp1io7i"]
 
 [ext_resource type="Script" path="res://scripts/opps/enemy.gd" id="1_i5ap4"]
-[ext_resource type="Texture2D" uid="uid://bm6fi7bcllojk" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Idle.png" id="3_7dn2a"]
-[ext_resource type="Texture2D" uid="uid://d1skj5r8t4x3b" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Move.png" id="4_jvm11"]
+[ext_resource type="Texture2D" uid="uid://j3cfgu8jdo5v" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Idle.png" id="3_7dn2a"]
+[ext_resource type="Texture2D" uid="uid://eb28cx5toii3" path="res://assets/opps/Dino/DinoSprites - vita.png" id="3_twybk"]
+[ext_resource type="Texture2D" uid="uid://bvbvfutl48b2l" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Move.png" id="4_jvm11"]
 [ext_resource type="Script" path="res://scripts/opps/enemy_animation.gd" id="5_5c2nc"]
 [ext_resource type="Script" path="res://utils/components/hitbox.gd" id="6_4fu81"]
 [ext_resource type="Script" path="res://utils/components/life.gd" id="6_mda30"]
@@ -18,6 +19,34 @@ radius = 13.0
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_llgnc"]
 radius = 5.0
 height = 16.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a2rdy"]
+atlas = ExtResource("3_twybk")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avo2i"]
+atlas = ExtResource("3_twybk")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jrt6a"]
+atlas = ExtResource("3_twybk")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nuxlb"]
+atlas = ExtResource("3_twybk")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k5xsg"]
+atlas = ExtResource("3_twybk")
+region = Rect2(96, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i5n2e"]
+atlas = ExtResource("3_twybk")
+region = Rect2(120, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v7dnu"]
+atlas = ExtResource("3_twybk")
+region = Rect2(144, 0, 24, 24)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pn6sv"]
 atlas = ExtResource("3_7dn2a")
@@ -181,7 +210,28 @@ region = Rect2(640, 384, 128, 128)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_cbqcw"]
 animations = [{
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a2rdy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avo2i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jrt6a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nuxlb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k5xsg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i5n2e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v7dnu")
+}],
 "loop": true,
 "name": &"death",
 "speed": 5.0
@@ -349,12 +399,12 @@ animations = [{
 
 [node name="Rabbit" type="CharacterBody2D"]
 collision_layer = 4
-collision_mask = 195
+collision_mask = 193
 script = ExtResource("1_i5ap4")
 
 [node name="Hitbox" type="Area2D" parent="."]
-collision_layer = 4
-collision_mask = 0
+collision_layer = 8
+collision_mask = 64
 script = ExtResource("6_4fu81")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
@@ -366,9 +416,9 @@ rotation = 1.57079
 shape = SubResource("CapsuleShape2D_llgnc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -4)
+position = Vector2(-1, -8)
 sprite_frames = SubResource("SpriteFrames_cbqcw")
-animation = &"idle_left"
+animation = &"death"
 
 [node name="EnemyAnimation" type="Node" parent="." node_paths=PackedStringArray("anim")]
 script = ExtResource("5_5c2nc")
@@ -380,11 +430,10 @@ offset_top = -17.0
 offset_right = 50.0
 offset_bottom = -6.0
 
-[node name="Life" type="Node" parent="." node_paths=PackedStringArray("hitbox", "animation_player")]
+[node name="Life" type="Node" parent="." node_paths=PackedStringArray("hitbox")]
 script = ExtResource("6_mda30")
 hitbox = NodePath("../Hitbox")
-animation_player = NodePath("../AnimatedSprite2D")
-max_life = 100.0
+max_life = 100
 
 [node name="EnemyStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
 script = ExtResource("9_23on8")
@@ -399,4 +448,5 @@ script = ExtResource("11_6gdhw")
 [node name="Chase" type="Node" parent="EnemyStateMachine"]
 script = ExtResource("12_ajv62")
 
+[connection signal="damaged" from="Hitbox" to="." method="on_damaged"]
 [connection signal="life_changed" from="Life" to="Oppsbar" method="_on_life_changed"]

@@ -31,6 +31,7 @@ func init_life(_life):
 func _on_timer_timeout():
 	damage_bar.value = life
 
-
 func _on_life_changed(new_life):
-	init_life(new_life)
+	_set_life(new_life)
+	
+	

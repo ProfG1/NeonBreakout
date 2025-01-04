@@ -11,8 +11,7 @@ texture = ExtResource("2_bi24w")
 hframes = 10
 
 [node name="crosshair" type="Marker2D" parent="gun"]
-position = Vector2(16, -3)
-scale = Vector2(0.979965, 0.983955)
+position = Vector2(-1, 0)
 
 [node name="anim" type="AnimationPlayer" parent="."]
 

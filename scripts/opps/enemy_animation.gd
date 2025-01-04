@@ -7,7 +7,7 @@ extends Node
 var last_direction: String = "down"
 
 func _physics_process(delta: float) -> void:
-	if not enemy.alive:
+	if !enemy.alive:
 		return
 
 	if enemy.velocity.length() == 0:

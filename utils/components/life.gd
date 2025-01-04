@@ -4,9 +4,8 @@ extends Node
 signal life_changed(life: float)
 
 @export var hitbox : Hitbox
-@export var animation_player : AnimatedSprite2D
-
-@export var max_life := 270.0
+@export var anim : AnimatedSprite2D
+@export var max_life := 0
 @onready var life : float = max_life
 
 @onready var enemy : Enemy = get_owner()
@@ -27,7 +26,6 @@ func on_damaged(attack: Attack):
 	
 	if life <= 0:
 		life = 0
-		queue_free()
 		enemy.alive = false
-		if animation_player:
-			animation_player.play("death")
+		if anim:
+			anim.play("death")
