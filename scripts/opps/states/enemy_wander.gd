@@ -24,9 +24,9 @@ func enter():
 func physics_process_state(delta: float):
 	enemy.velocity = wander_direction*wander_speed
 	enemy.move_and_slide()
-	try_attack()
-	try_chase()
 	
+	try_chase()
+
 
 func on_timer_finished():
 	transitioned.emit(self, "idle")

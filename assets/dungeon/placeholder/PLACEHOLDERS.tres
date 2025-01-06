@@ -2,15 +2,15 @@
 
 [ext_resource type="Texture2D" uid="uid://xaa1ylvhsxny" path="res://assets/dungeon/placeholder/TX Struct.png" id="1_1ebrt"]
 [ext_resource type="Texture2D" uid="uid://cmc4c6pt5b3td" path="res://assets/dungeon/placeholder/TX Tileset Stone Ground.png" id="2_wxfak"]
-[ext_resource type="Texture2D" uid="uid://d1laeu4xpawgv" path="res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x3.png" id="3_udq02"]
+[ext_resource type="Texture2D" uid="uid://cai2gh51hsr40" path="res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x3.png" id="3_udq02"]
 [ext_resource type="Texture2D" uid="uid://boyu05vvr7ho2" path="res://assets/dungeon/placeholder/TX Tileset Wall.png" id="4_gdhfv"]
 [ext_resource type="Texture2D" uid="uid://gs8m46i6xrus" path="res://assets/dungeon/placeholder/TX Shadow Plant.png" id="5_ftvab"]
 [ext_resource type="Texture2D" uid="uid://c66ebklvlnyra" path="res://assets/dungeon/placeholder/TX Props.png" id="6_o7sgr"]
-[ext_resource type="Texture2D" uid="uid://doycwml05ns3j" path="res://assets/dungeon/placeholder/32rogues/tiles.png" id="7_v3bav"]
-[ext_resource type="Texture2D" uid="uid://bdwul8etncm8w" path="res://assets/dungeon/placeholder/Modern tiles_Free/Interiors_free/32x32/Interiors_free_32x32.png" id="8_xj5km"]
-[ext_resource type="Texture2D" uid="uid://ds5b7s44c2bbn" path="res://assets/dungeon/placeholder/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior.png" id="9_64pqj"]
-[ext_resource type="Texture2D" uid="uid://b8tvm88d4pogq" path="res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png" id="10_x5g8s"]
-[ext_resource type="Texture2D" uid="uid://mga41jm1ph8t" path="res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2.png" id="11_j3bio"]
+[ext_resource type="Texture2D" uid="uid://ccgql452of730" path="res://assets/dungeon/placeholder/32rogues/tiles.png" id="7_v3bav"]
+[ext_resource type="Texture2D" uid="uid://bh2cgs814037w" path="res://assets/dungeon/placeholder/Modern tiles_Free/Interiors_free/32x32/Interiors_free_32x32.png" id="8_xj5km"]
+[ext_resource type="Texture2D" uid="uid://bdgr7ptnmslkt" path="res://assets/dungeon/placeholder/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior.png" id="9_64pqj"]
+[ext_resource type="Texture2D" uid="uid://brpmmefkps0wr" path="res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png" id="10_x5g8s"]
+[ext_resource type="Texture2D" uid="uid://dbe3hk8n4544v" path="res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2.png" id="11_j3bio"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o3gnt"]
 texture = ExtResource("1_1ebrt")

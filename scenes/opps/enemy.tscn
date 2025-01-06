@@ -1,9 +1,9 @@
-[gd_scene load_steps=66 format=3 uid="uid://ckfohqhp1io7i"]
+[gd_scene load_steps=64 format=3 uid="uid://ckfohqhp1io7i"]
 
 [ext_resource type="Script" path="res://scripts/opps/enemy.gd" id="1_i5ap4"]
-[ext_resource type="Texture2D" uid="uid://bm6fi7bcllojk" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Idle.png" id="3_7dn2a"]
-[ext_resource type="Texture2D" uid="uid://h0vs1j4dqk57" path="res://assets/opps/Dino/DinoSprites - vita.png" id="3_twybk"]
-[ext_resource type="Texture2D" uid="uid://d1skj5r8t4x3b" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Move.png" id="4_jvm11"]
+[ext_resource type="Texture2D" uid="uid://j3cfgu8jdo5v" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Idle.png" id="3_7dn2a"]
+[ext_resource type="Texture2D" uid="uid://eb28cx5toii3" path="res://assets/opps/Dino/DinoSprites - vita.png" id="3_twybk"]
+[ext_resource type="Texture2D" uid="uid://bvbvfutl48b2l" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Move.png" id="4_jvm11"]
 [ext_resource type="Script" path="res://scripts/opps/enemy_animation.gd" id="5_5c2nc"]
 [ext_resource type="Script" path="res://utils/components/hitbox.gd" id="6_4fu81"]
 [ext_resource type="Script" path="res://utils/components/life.gd" id="6_mda30"]
@@ -12,11 +12,10 @@
 [ext_resource type="PackedScene" uid="uid://b5yudo22g4yjr" path="res://scenes/gui/opps(gui)/oppsbar.tscn" id="10_vngop"]
 [ext_resource type="Script" path="res://scripts/opps/states/enemy_wander.gd" id="11_6gdhw"]
 [ext_resource type="Script" path="res://scripts/opps/states/enemy_chase.gd" id="12_ajv62"]
-[ext_resource type="Script" path="res://scripts/opps/states/enemy_attack.gd" id="13_h561i"]
-[ext_resource type="Script" path="res://utils/components/enemy_hurt_box.gd" id="14_dy6ta"]
+[ext_resource type="Script" path="res://scripts/opps/states/enemy_search.gd" id="13_ewceb"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_7ufao"]
-radius = 13.0
+radius = 17.0294
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_llgnc"]
 radius = 5.0
@@ -399,13 +398,10 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_lqleb"]
-
-[node name="Rabbit" type="CharacterBody2D" node_paths=PackedStringArray("hurtbox")]
+[node name="Rabbit" type="CharacterBody2D"]
 collision_layer = 4
 collision_mask = 193
 script = ExtResource("1_i5ap4")
-hurtbox = NodePath("EnemyHurtBox")
 
 [node name="Hitbox" type="Area2D" parent="."]
 collision_layer = 8
@@ -419,26 +415,29 @@ shape = SubResource("CircleShape2D_7ufao")
 position = Vector2(0, 8)
 rotation = 1.57079
 shape = SubResource("CapsuleShape2D_llgnc")
+debug_color = Color(0.860874, 0.192783, 0.752069, 0.42)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-1, -8)
+position = Vector2(0, -7)
 sprite_frames = SubResource("SpriteFrames_cbqcw")
-animation = &"death"
+animation = &"move_up"
 
 [node name="EnemyAnimation" type="Node" parent="." node_paths=PackedStringArray("anim")]
 script = ExtResource("5_5c2nc")
 anim = NodePath("../AnimatedSprite2D")
 
 [node name="Oppsbar" parent="." instance=ExtResource("10_vngop")]
-offset_left = -32.0
-offset_top = -17.0
-offset_right = 50.0
-offset_bottom = -6.0
+offset_left = -31.0
+offset_top = -22.0
+offset_right = 51.0
+offset_bottom = -11.0
 
 [node name="Life" type="Node" parent="." node_paths=PackedStringArray("hitbox")]
 script = ExtResource("6_mda30")
 hitbox = NodePath("../Hitbox")
 max_life = 100
+
+[node name="Nav" type="NavigationAgent2D" parent="."]
 
 [node name="EnemyStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
 script = ExtResource("9_23on8")
@@ -453,18 +452,8 @@ script = ExtResource("11_6gdhw")
 [node name="Chase" type="Node" parent="EnemyStateMachine"]
 script = ExtResource("12_ajv62")
 
-[node name="Attack" type="Node" parent="EnemyStateMachine"]
-script = ExtResource("13_h561i")
-
-[node name="EnemyHurtBox" type="Area2D" parent="."]
-collision_layer = 64
-collision_mask = 8
-monitoring = false
-script = ExtResource("14_dy6ta")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyHurtBox"]
-scale = Vector2(2.18965, 2.06103)
-shape = SubResource("CircleShape2D_lqleb")
+[node name="Search" type="Node" parent="EnemyStateMachine"]
+script = ExtResource("13_ewceb")
 
 [connection signal="damaged" from="Hitbox" to="." method="on_damaged"]
 [connection signal="life_changed" from="Life" to="Oppsbar" method="_on_life_changed"]

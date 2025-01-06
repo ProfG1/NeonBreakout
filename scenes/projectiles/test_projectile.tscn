@@ -15,6 +15,8 @@ collision_layer = 194
 collision_mask = 198
 script = ExtResource("1_7qo6b")
 hurtbox = NodePath("BulletHurtBox")
+speed = 700.0
+damage = 27.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 z_index = 2
@@ -35,7 +37,6 @@ collision_mask = 8
 script = ExtResource("3_jnxgq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BulletHurtBox"]
-scale = Vector2(1.40184, 1.34955)
 shape = SubResource("CircleShape2D_hp8ma")
 
 [node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="BulletHurtBox"]

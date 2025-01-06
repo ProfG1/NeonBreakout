@@ -15,7 +15,7 @@ var player : Player
 
 func _ready():
 	player = get_node('/root/Game/Player')
-	#enemy.damaged.connect(on_damaged)
+	enemy.damaged.connect(on_damaged)
 
 
 # This is called directly when transitioning to this state
@@ -53,12 +53,6 @@ func try_chase() -> bool:
 		return true
 	
 	return false
-func try_attack() -> bool:
-	if get_distance_to_player() <= enemy.attack_range:
-		transitioned.emit(self, "attack")
-		return true
-	
-	return false
 
 
 func get_distance_to_player() -> float:
@@ -70,5 +64,5 @@ func get_distance_to_player() -> float:
 # 2. Override the on_damaged() function to do nothing
 # 3. Override the _ready() function
 # This is the order I would recommend personally
-#func on_damaged(attack: Attack):
-	#transitioned.emit(self, "stun")
+func on_damaged(attack: Attack):
+	transitioned.emit(self, "stun")
