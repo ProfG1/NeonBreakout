@@ -13,8 +13,11 @@ func _ready() -> void:
 func on_area_entered(area: Area2D):
 	if area is Player_Hitbox:
 		var attack := Attack.new()#instatiate the node using the attack script
-		
+
+		var limbType := Limb_type.new()#instattiate a limb node
 		attack.damage = enemy.damage# covert the "attack" damage to bullet damage
+		limbType.LimbType = randi_range(0, 1)
 		
-		#area.damage(attack)# activates the function in the player hit box script while carrying the value pf the "attack"
-		print("DAMAGE")
+		area.damage(attack, limbType)# activates the function in the player hit box script while carrying the value pf the "attack"
+		#area.LimbType(limbType)# activates the func in the player hit box to determine what limb type it hit
+		

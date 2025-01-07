@@ -5,8 +5,9 @@ const SPEED = 400
 var motion = Vector2()
 var current_dir = "none"
 var gun_cooldown = true
-
+var alive = true
 var aim_position : Vector2 = Vector2(1, 0)
+var speedMultiplier = 1
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
@@ -29,7 +30,8 @@ func player_movement(delta):
 		input_vector.y -= 1
 
 	input_vector = input_vector.normalized()
-	velocity = input_vector * SPEED
+	velocity = input_vector * (SPEED * speedMultiplier)
+
 	
 	if input_vector != Vector2.ZERO:
 		if input_vector.x > 0:

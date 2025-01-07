@@ -1,8 +1,10 @@
-[gd_scene load_steps=114 format=3 uid="uid://c0uyesh6lqq0g"]
+
+[gd_scene load_steps=122 format=3 uid="uid://c0uyesh6lqq0g"]
 
 [ext_resource type="Script" path="res://scripts/player/player_iso.gd" id="1_sebxw"]
 [ext_resource type="Texture2D" uid="uid://dim6r8hsavj7x" path="res://assets/player/The Adventurer - Male/Idle/idle_down.png" id="2_4bcow"]
 [ext_resource type="Script" path="res://scripts/camera_zoom.gd" id="2_gwqpv"]
+
 [ext_resource type="Texture2D" uid="uid://d4fyg1ayxunw0" path="res://assets/player/The Adventurer - Male/Idle/idle_left_down.png" id="3_g2pjw"]
 [ext_resource type="Texture2D" uid="uid://vnppomug71kd" path="res://assets/player/The Adventurer - Male/Idle/idle_left_up.png" id="4_pekep"]
 [ext_resource type="Texture2D" uid="uid://dp1idn7gi3tdh" path="res://assets/player/The Adventurer - Male/Idle/idle_right_down.png" id="5_sgk0j"]
@@ -15,6 +17,16 @@
 [ext_resource type="Texture2D" uid="uid://66ubcu2tkmm3" path="res://assets/player/The Adventurer - Male/Walk/walk_right_up.png" id="12_fxi5y"]
 [ext_resource type="Texture2D" uid="uid://b87j5jwwp0tkm" path="res://assets/player/The Adventurer - Male/Walk/walk_up.png" id="13_jvt7m"]
 [ext_resource type="Script" path="res://scripts/player/player_camera.gd" id="15_07nfl"]
+
+[ext_resource type="Script" path="res://scripts/player/LimbState.gd" id="15_d2kq0"]
+[ext_resource type="Script" path="res://utils/components/head.gd" id="15_j14n8"]
+[ext_resource type="Script" path="res://utils/components/player_hitbox.gd" id="16_8cuxa"]
+[ext_resource type="Script" path="res://scripts/player/right_arm.gd" id="16_41mme"]
+[ext_resource type="Script" path="res://scripts/player/left_leg.gd" id="17_ntfvd"]
+[ext_resource type="Script" path="res://scripts/player/left_arm.gd" id="18_clf8b"]
+[ext_resource type="Script" path="res://scripts/player/right_leg.gd" id="20_hrekg"]
+[ext_resource type="Script" path="res://scripts/player/body.gd" id="21_kqtbk"]
+
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e4v63"]
 atlas = ExtResource("2_4bcow")
@@ -754,14 +766,22 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_fmkk3"]
 radius = 15.0
 
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_n8x0p"]
+radius = 14.0
+height = 42.0
+
+
 [node name="Player" type="CharacterBody2D"]
 motion_mode = 1
 script = ExtResource("1_sebxw")
+
 
 [node name="CameraZoom" type="Node2D" parent="." node_paths=PackedStringArray("cam")]
 script = ExtResource("2_gwqpv")
 zoom_speed = 8.0
 cam = NodePath("../Camera2D")
+
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-4, 3)
@@ -786,5 +806,47 @@ wait_time = 0.333
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, 4)
 shape = SubResource("CircleShape2D_fmkk3")
+
+
+[node name="Limbs" type="Node" parent="." node_paths=PackedStringArray("hitbox", "rightleg", "leftleg", "body", "leftarm", "rightarm", "head")]
+script = ExtResource("15_d2kq0")
+hitbox = NodePath("../PlayerHitbox")
+rightleg = NodePath("Right Leg")
+leftleg = NodePath("Left Leg")
+body = NodePath("Body")
+leftarm = NodePath("Left Arm")
+rightarm = NodePath("Right Arm")
+head = NodePath("Head")
+
+[node name="Right Arm" type="Node" parent="Limbs"]
+script = ExtResource("16_41mme")
+
+[node name="Head" type="Node" parent="Limbs"]
+script = ExtResource("15_j14n8")
+
+[node name="Left Arm" type="Node" parent="Limbs"]
+script = ExtResource("18_clf8b")
+max_life = 100
+
+[node name="Left Leg" type="Node" parent="Limbs"]
+script = ExtResource("17_ntfvd")
+max_life = 100
+
+[node name="Right Leg" type="Node" parent="Limbs"]
+script = ExtResource("20_hrekg")
+max_life = 100
+
+[node name="Body" type="Node" parent="Limbs"]
+script = ExtResource("21_kqtbk")
+
+[node name="PlayerHitbox" type="Area2D" parent="."]
+collision_layer = 8
+collision_mask = 64
+script = ExtResource("16_8cuxa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerHitbox"]
+position = Vector2(-4, 2)
+shape = SubResource("CapsuleShape2D_n8x0p")
+
 
 [connection signal="timeout" from="gunCooldown" to="." method="_on_gun_cooldown_timeout"]

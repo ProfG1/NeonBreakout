@@ -14,7 +14,9 @@ func enter():
 	print("ATTACKING")
 	enemy.hurtbox.monitoring = true
 	attack_timer = Timer.new()
-	attack_timer.wait_time = 0.5
+
+	attack_timer.wait_time = 1
+
 	attack_timer.timeout.connect(on_timer_finished)
 	attack_timer.autostart = true
 	add_child(attack_timer)

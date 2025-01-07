@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://dhwffnrj0u0ja"]
+
+[ext_resource type="Script" path="res://scripts/opps/test_dummy.gd" id="1_fqjyg"]
+[ext_resource type="Texture2D" uid="uid://dim6r8hsavj7x" path="res://assets/player/The Adventurer - Male/Idle/idle_down.png" id="2_jru1x"]
+[ext_resource type="PackedScene" uid="uid://c5lo784i8gug2" path="res://scenes/menus/LimbBasedHealth.tscn" id="3_bmyr4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i6ogv"]
+radius = 33.0151
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ys650"]
+size = Vector2(26, 38)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_fqjyg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-2, 0)
+scale = Vector2(2.50841, 2.12892)
+texture = ExtResource("2_jru1x")
+hframes = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_i6ogv")
+
+[node name="Area2D" type="Area2D" parent="."]
+visible = false
+
+[node name="hitbox" type="CollisionShape2D" parent="Area2D"]
+visible = false
+position = Vector2(-1, -3)
+shape = SubResource("RectangleShape2D_ys650")
+
+[node name="i_frames" type="Timer" parent="."]
+
+[node name="LimbHealthZone" parent="." instance=ExtResource("3_bmyr4")]
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="timeout" from="i_frames" to="." method="_on_i_frames_timeout"]

@@ -1,12 +1,16 @@
 class_name Head
-extends Node
-signal life_changed(life: float)
+
+extends Limb
+
+
 
 @export var hitbox : Area2D
 @export var max_life := 0
 @onready var life : float = max_life
 
-@export var Player : CharacterBody2D
+
+@onready var Parent = get_owner()
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://byn78xke0x8ui"]
+
+[ext_resource type="Script" path="res://scripts/player/player_iso.gd" id="1_sebxw"]
+[ext_resource type="Texture2D" uid="uid://bcsabpqo4j4cd" path="res://assets/player/The Adventurer - Female/Idle/Idle.png" id="2_okqji"]
+[ext_resource type="PackedScene" path="res://scenes/items/weapons/sniper.tscn" id="3_ki4n8"]
+[ext_resource type="PackedScene" uid="uid://bpp2p2nivcypd" path="res://scenes/items/weapons/Gun - Revolver.tscn" id="3_qlkk2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fmkk3"]
+radius = 15.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_sebxw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(10, -7)
+scale = Vector2(1.625, 1.6875)
+texture = ExtResource("2_okqji")
+hframes = 6
+vframes = 7
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-1, 0)
+zoom = Vector2(1.2, 1.2)
+limit_smoothed = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 0)
+shape = SubResource("CircleShape2D_fmkk3")
+
+[node name="Sniper" parent="." instance=ExtResource("3_ki4n8")]
+visible = false
+position = Vector2(0, 4)
+scale = Vector2(0.529374, 0.883954)
+
+[node name="Gun-Revolver" parent="." instance=ExtResource("3_qlkk2")]
+position = Vector2(-2, 8)
+scale = Vector2(0.527093, 0.579173)
