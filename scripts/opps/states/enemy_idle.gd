@@ -20,8 +20,7 @@ func on_timeout():
 	transitioned.emit(self, "wander")
 
 
-func _physics_process(delta: float) -> void:
-	try_chase()
+
 
 func exit():
 	idle_timer.queue_free()

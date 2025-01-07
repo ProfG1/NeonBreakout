@@ -1,4 +1,4 @@
-[gd_scene load_steps=64 format=3 uid="uid://ckfohqhp1io7i"]
+[gd_scene load_steps=65 format=3 uid="uid://ckfohqhp1io7i"]
 
 [ext_resource type="Script" path="res://scripts/opps/enemy.gd" id="1_i5ap4"]
 [ext_resource type="Texture2D" uid="uid://j3cfgu8jdo5v" path="res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Idle.png" id="3_7dn2a"]
@@ -398,6 +398,9 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_odi2f"]
+size = Vector2(309, 119.5)
+
 [node name="Rabbit" type="CharacterBody2D"]
 collision_layer = 4
 collision_mask = 193
@@ -439,6 +442,9 @@ max_life = 100
 
 [node name="Nav" type="NavigationAgent2D" parent="."]
 
+[node name="LineOfSight" type="RayCast2D" parent="."]
+target_position = Vector2(0, 100)
+
 [node name="EnemyStateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
 script = ExtResource("9_23on8")
 initial_state = NodePath("Idle")
@@ -452,8 +458,18 @@ script = ExtResource("11_6gdhw")
 [node name="Chase" type="Node" parent="EnemyStateMachine"]
 script = ExtResource("12_ajv62")
 
-[node name="Search" type="Node" parent="EnemyStateMachine"]
+[node name="Search" type="Node" parent="EnemyStateMachine" node_paths=PackedStringArray("_ray")]
 script = ExtResource("13_ewceb")
+_ray = NodePath("../../LineOfSight")
+
+[node name="DetectionRadius" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionRadius"]
+position = Vector2(5.5, 71.25)
+shape = SubResource("RectangleShape2D_odi2f")
+debug_color = Color(0.934076, 0.216574, 0.359452, 0.42)
 
 [connection signal="damaged" from="Hitbox" to="." method="on_damaged"]
 [connection signal="life_changed" from="Life" to="Oppsbar" method="_on_life_changed"]
+[connection signal="body_entered" from="DetectionRadius" to="EnemyStateMachine/Search" method="_on_DetectionRadius_body_entered"]
+[connection signal="body_exited" from="DetectionRadius" to="EnemyStateMachine/Search" method="_on_DetectionRadius_body_exited"]

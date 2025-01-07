@@ -21,7 +21,6 @@ signal damaged(attack: Attack)
 @export var textures: Array[Texture2D] = []
 
 @export_group("Vision Ranges")
-@export var detection_radius := 100.0
 @export var chase_radius := 200.0
 # This guy doesn't actually attack, he just tries to get close to the player
 @export var follow_radius := 50.0

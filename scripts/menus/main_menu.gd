@@ -18,7 +18,7 @@ func _on_play_game_pressed():
 	# TODO SHOW GAME SAVED FILES
 	print("play game pressed")
 	await get_tree().process_frame #  pause the execution until the next frame is about to start
-	get_tree().change_scene_to_file("res://Scenes/game.tscn")
+	get_tree().change_scene_to_file("res://scenes/main.tscn")
 	pass # Replace with function body.
 
 
