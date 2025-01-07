@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dbokao5j0nxqv"]
+
+[node name="Container" type="Container"]
+offset_left = -20.0
+offset_top = -21.0
+offset_right = 20.0
+offset_bottom = 19.0

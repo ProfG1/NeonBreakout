@@ -3,6 +3,7 @@ extends Area2D
 
 
 
+
 signal damaged(attack: Attack, limbType: Limb_type)
 
 
@@ -11,3 +12,4 @@ func damage(attack: Attack, limbType: Limb_type):
 	#damaged.emit(limbType)
 #func LimbType(limbType: Limb_type):
 	
+

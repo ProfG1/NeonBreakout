@@ -1,0 +1,94 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxakol6p4g18c"]
+
+[ext_resource type="Script" path="res://scripts/menus/main_menu.gd" id="1_7p7oa"]
+[ext_resource type="Texture2D" uid="uid://bv8humt4pi5mm" path="res://assets/background_covers/neon-genesis.jpg" id="1_j4skj"]
+[ext_resource type="FontFile" uid="uid://d36dwfmjgkxkp" path="res://assets/fonts/nasalization-rg.otf" id="2_w0082"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7p7oa")
+
+[node name="Bg" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_j4skj")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Bg"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -185.0
+offset_top = -48.0
+offset_right = 172.0
+offset_bottom = 143.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 7
+
+[node name="Play_Game" type="Button" parent="Bg/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("2_w0082")
+text = "PLAY GAME
+"
+
+[node name="Options" type="Button" parent="Bg/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("2_w0082")
+text = "ACHIEVEMENTS
+"
+
+[node name="Achievements" type="Button" parent="Bg/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("2_w0082")
+text = "OPTIONS"
+
+[node name="Exit_Game" type="Button" parent="Bg/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("2_w0082")
+text = "EXIT GAME"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -272.0
+offset_top = -171.0
+offset_right = 292.0
+offset_bottom = -79.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0.909804, 0.8, 1)
+theme_override_colors/font_shadow_color = Color(0.447059, 0.960784, 0.960784, 0.917647)
+theme_override_colors/font_outline_color = Color(0, 0, 0.929412, 1)
+theme_override_constants/line_spacing = 1
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 4
+theme_override_fonts/font = ExtResource("2_w0082")
+theme_override_font_sizes/font_size = 67
+text = "NEON BREAKOUT
+"
+
+[connection signal="pressed" from="Bg/VBoxContainer/Play_Game" to="." method="_on_play_game_pressed"]
+[connection signal="pressed" from="Bg/VBoxContainer/Options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="Bg/VBoxContainer/Achievements" to="." method="_on_achievements_pressed"]
+[connection signal="pressed" from="Bg/VBoxContainer/Exit_Game" to="." method="_on_exit_game_pressed"]

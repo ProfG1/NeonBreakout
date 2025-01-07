@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://b6wdw5y40xdpn"]
+
+[ext_resource type="PackedScene" uid="uid://b18e0y546fsul" path="res://scenes/env/Prototype_level1.tscn" id="1_6b5sl"]
+[ext_resource type="PackedScene" uid="uid://bpp2p2nivcypd" path="res://scenes/items/weapons/Gun - Revolver.tscn" id="4_3abjv"]
+[ext_resource type="PackedScene" uid="uid://c0uyesh6lqq0g" path="res://scenes/player/player.tscn" id="6_qr20r"]
+[ext_resource type="PackedScene" uid="uid://ckfohqhp1io7i" path="res://scenes/opps/enemy.tscn" id="7_52nj1"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Env" parent="." instance=ExtResource("1_6b5sl")]
+
+[node name="Enemy" parent="." instance=ExtResource("7_52nj1")]
+position = Vector2(152, -49)
+
+[node name="Player" parent="." instance=ExtResource("6_qr20r")]
+position = Vector2(32, 179)
+
+[node name="Gun-Revolver" parent="Player" instance=ExtResource("4_3abjv")]
+position = Vector2(10, 6)
+scale = Vector2(0.612804, 0.612804)
