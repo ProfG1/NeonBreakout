@@ -1,0 +1,442 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1736254525
+icon.svg::CompressedTexture2D::2369483386959808808::1735820988::1735821293::1::::<><>::
+README.md::TextFile::-1::1735911065::0::1::::<><>::
+::res://assets/::1736253881
+::res://assets/background_covers/::1736254165
+neon-genesis.jpg::CompressedTexture2D::4701272023165890362::1736253881::1736254548::1::::<><>::
+::res://assets/dungeon/::1735911065
+tileset x1.png::CompressedTexture2D::8604782331488554170::1735820986::1735821298::1::::<><>::
+tileset x2.png::CompressedTexture2D::5070714967376817366::1735820986::1735821298::1::::<><>::
+tileset x3.png::CompressedTexture2D::4406206330175832097::1735820986::1735821299::1::::<><>::
+::res://assets/dungeon/design_sketches/::1735912672
+FIRST_LEVEL MOCK UP.png::CompressedTexture2D::1658900559048332608::1735911065::1735912672::1::::<><>::
+::res://assets/dungeon/placeholder/::1736253881
+PLACEHOLDERS.tres::TileSet::6038214273264827419::1736207749::0::1::::<><>::uid://xaa1ylvhsxny::::res://assets/dungeon/placeholder/TX Struct.png<>uid://cmc4c6pt5b3td::::res://assets/dungeon/placeholder/TX Tileset Stone Ground.png<>uid://d1laeu4xpawgv::::res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x3.png<>uid://boyu05vvr7ho2::::res://assets/dungeon/placeholder/TX Tileset Wall.png<>uid://gs8m46i6xrus::::res://assets/dungeon/placeholder/TX Shadow Plant.png<>uid://c66ebklvlnyra::::res://assets/dungeon/placeholder/TX Props.png<>uid://doycwml05ns3j::::res://assets/dungeon/placeholder/32rogues/tiles.png<>uid://bdwul8etncm8w::::res://assets/dungeon/placeholder/Modern tiles_Free/Interiors_free/32x32/Interiors_free_32x32.png<>uid://ds5b7s44c2bbn::::res://assets/dungeon/placeholder/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior.png<>uid://b8tvm88d4pogq::::res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png<>uid://mga41jm1ph8t::::res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2.png
+TX Plant.png::CompressedTexture2D::3198449959970528174::1735820986::1735821296::1::::<><>::
+TX Player.png::CompressedTexture2D::1286485326211577669::1735820986::1735821296::1::::<><>::
+TX Props.png::CompressedTexture2D::7012936427501762714::1735820986::1735821296::1::::<><>::
+TX Shadow Plant.png::CompressedTexture2D::460318523161347558::1735820986::1735821297::1::::<><>::
+TX Shadow.png::CompressedTexture2D::4878007410633550097::1735820986::1735821297::1::::<><>::
+TX Struct.png::CompressedTexture2D::1614391112833756942::1735820986::1735821297::1::::<><>::
+TX Tileset Grass.png::CompressedTexture2D::4168365438539916067::1735820986::1735821297::1::::<><>::
+TX Tileset Stone Ground.png::CompressedTexture2D::5621002263228103681::1735820986::1735821297::1::::<><>::
+TX Tileset Wall.png::CompressedTexture2D::3419870154545465731::1735820986::1735821297::1::::<><>::
+::res://assets/dungeon/placeholder/32rogues/::1735826634
+animals.png::CompressedTexture2D::6213579401440006798::1735826500::1735826634::1::::<><>::
+animals.txt::TextFile::-1::1735826500::0::1::::<><>::
+items.png::CompressedTexture2D::2265975651576113776::1735826500::1735826634::1::::<><>::
+items.txt::TextFile::-1::1735826500::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1735826500::0::1::::<><>::
+monsters.png::CompressedTexture2D::86282376718585034::1735826500::1735826634::1::::<><>::
+monsters.txt::TextFile::-1::1735826500::0::1::::<><>::
+rogues.png::CompressedTexture2D::2577989600306690055::1735826500::1735826634::1::::<><>::
+rogues.txt::TextFile::-1::1735826500::0::1::::<><>::
+tiles.png::CompressedTexture2D::8191612298010190513::1735826500::1735826634::1::::<><>::
+tiles.txt::TextFile::-1::1735826500::0::1::::<><>::
+::res://assets/dungeon/placeholder/Modern tiles_Free/::1735826631
+free_overview.png::CompressedTexture2D::1771088618707271544::1735826444::1735826631::1::::<><>::
+LICENSE.txt::TextFile::-1::1735826444::0::1::::<><>::
+READ ME.txt::TextFile::-1::1735826444::0::1::::<><>::
+::res://assets/dungeon/placeholder/Modern tiles_Free/Characters_free/::1735826639
+Adam_16x16.png::CompressedTexture2D::5874225858565771204::1735826444::1735826633::1::::<><>::
+Adam_idle_16x16.png::CompressedTexture2D::8106224670925741153::1735826444::1735826633::1::::<><>::
+Adam_idle_anim_16x16.png::CompressedTexture2D::7918381946573122544::1735826444::1735826633::1::::<><>::
+Adam_phone_16x16.png::CompressedTexture2D::1074461559375427608::1735826445::1735826633::1::::<><>::
+Adam_run_16x16.png::CompressedTexture2D::5968120936314877294::1735826445::1735826633::1::::<><>::
+Adam_sit2_16x16.png::CompressedTexture2D::4318941986985428543::1735826445::1735826632::1::::<><>::
+Adam_sit3_16x16.png::CompressedTexture2D::6494785905909474708::1735826445::1735826632::1::::<><>::
+Adam_sit_16x16.png::CompressedTexture2D::1783522664642165299::1735826445::1735826632::1::::<><>::
+Alex_16x16.png::CompressedTexture2D::2170516605345177268::1735826445::1735826632::1::::<><>::
+Alex_idle_16x16.png::CompressedTexture2D::9089305553691665920::1735826445::1735826632::1::::<><>::
+Alex_idle_anim_16x16.png::CompressedTexture2D::1228006262895842420::1735826445::1735826632::1::::<><>::
+Alex_phone_16x16.png::CompressedTexture2D::5087371020789592933::1735826445::1735826632::1::::<><>::
+Alex_run_16x16.png::CompressedTexture2D::8366105762904166698::1735826445::1735826632::1::::<><>::
+Alex_sit2_16x16.png::CompressedTexture2D::6411929195731016725::1735826445::1735826632::1::::<><>::
+Alex_sit3_16x16.png::CompressedTexture2D::8498825974166521659::1735826445::1735826639::1::::<><>::
+Alex_sit_16x16.png::CompressedTexture2D::3067258272855467718::1735826445::1735826639::1::::<><>::
+Amelia_16x16.png::CompressedTexture2D::1676006474425554572::1735826445::1735826639::1::::<><>::
+Amelia_idle_16x16.png::CompressedTexture2D::559889748603393579::1735826445::1735826639::1::::<><>::
+Amelia_idle_anim_16x16.png::CompressedTexture2D::2045344756535569355::1735826446::1735826638::1::::<><>::
+Amelia_phone_16x16.png::CompressedTexture2D::8969632160579799891::1735826446::1735826638::1::::<><>::
+Amelia_run_16x16.png::CompressedTexture2D::4262835138255167392::1735826446::1735826636::1::::<><>::
+Amelia_sit2_16x16.png::CompressedTexture2D::4111648855200567313::1735826446::1735826636::1::::<><>::
+Amelia_sit3_16x16.png::CompressedTexture2D::4278255653935255725::1735826446::1735826636::1::::<><>::
+Amelia_sit_16x16.png::CompressedTexture2D::878945234943263114::1735826446::1735826636::1::::<><>::
+Bob_16x16.png::CompressedTexture2D::4538290579708458509::1735826446::1735826636::1::::<><>::
+Bob_idle_16x16.png::CompressedTexture2D::8468531888636267875::1735826446::1735826637::1::::<><>::
+Bob_idle_anim_16x16.png::CompressedTexture2D::3044389179964568225::1735826446::1735826636::1::::<><>::
+Bob_phone_16x16.png::CompressedTexture2D::3670461568284850785::1735826446::1735826636::1::::<><>::
+Bob_run_16x16.png::CompressedTexture2D::5427600152480196461::1735826446::1735826635::1::::<><>::
+Bob_sit2_16x16.png::CompressedTexture2D::1154819979576559458::1735826446::1735826634::1::::<><>::
+Bob_sit3_16x16.png::CompressedTexture2D::3236980982005191293::1735826446::1735826635::1::::<><>::
+Bob_sit_16x16.png::CompressedTexture2D::7124251294665589862::1735826446::1735826635::1::::<><>::
+::res://assets/dungeon/placeholder/Modern tiles_Free/Characters_free/RPGMAKERMV/::1735826634
+Characters_MV.png::CompressedTexture2D::2540354265960723685::1735826446::1735826634::1::::<><>::
+::res://assets/dungeon/placeholder/Modern tiles_Free/Interiors_free/::1735826447
+::res://assets/dungeon/placeholder/Modern tiles_Free/Interiors_free/16x16/::1735826635
+Interiors_free_16x16.png::CompressedTexture2D::4501298858561440321::1735826447::1735826635::1::::<><>::
+Room_Builder_free_16x16.png::CompressedTexture2D::1507271338648089090::1735826447::1735826634::1::::<><>::
+::res://assets/dungeon/placeholder/Modern tiles_Free/Interiors_free/32x32/::1735826635
+Interiors_free_32x32.png::CompressedTexture2D::2643639249115307880::1735826447::1735826635::1::::<><>::
+Room_Builder_free_32x32.png::CompressedTexture2D::629123503904196977::1735826447::1735826628::1::::<><>::
+::res://assets/dungeon/placeholder/Modern tiles_Free/Interiors_free/48x48/::1735826628
+Interiors_free_48x48.png::CompressedTexture2D::739131433946849732::1735826447::1735826628::1::::<><>::
+Room_Builder_free_48x48.png::CompressedTexture2D::3614936008240630469::1735826447::1735826628::1::::<><>::
+::res://assets/dungeon/placeholder/Modern tiles_Free/Old/::1735826632
+idle_16x16_2.png::CompressedTexture2D::3076746250188750642::1735826447::1735826627::1::::<><>::
+idle_32x32_2.png::CompressedTexture2D::7628292640780315999::1735826447::1735826627::1::::<><>::
+idle_48x48_2.png::CompressedTexture2D::5605634008320129779::1735826447::1735826626::1::::<><>::
+run_horizontal_16x16_2.png::CompressedTexture2D::8962429561923796020::1735826447::1735826627::1::::<><>::
+run_horizontal_32x32_2.png::CompressedTexture2D::687549134238258152::1735826447::1735826626::1::::<><>::
+run_horizontal_48x48_2.png::CompressedTexture2D::4966656517156921889::1735826447::1735826627::1::::<><>::
+Tileset_16x16_1.png::CompressedTexture2D::2552838021101728797::1735826447::1735826626::1::::<><>::
+Tileset_16x16_2.png::CompressedTexture2D::799326489620084624::1735826448::1735826626::1::::<><>::
+Tileset_16x16_3.png::CompressedTexture2D::3252426569911658909::1735826448::1735826625::1::::<><>::
+Tileset_16x16_9.png::CompressedTexture2D::6667799112472373451::1735826448::1735826625::1::::<><>::
+Tileset_16x16_16.png::CompressedTexture2D::3930090160890188133::1735826448::1735826625::1::::<><>::
+Tileset_32x32_1.png::CompressedTexture2D::5567643156256440279::1735826448::1735826625::1::::<><>::
+Tileset_32x32_2.png::CompressedTexture2D::4297798711985262164::1735826448::1735826625::1::::<><>::
+Tileset_32x32_3.png::CompressedTexture2D::29262544532894626::1735826448::1735826625::1::::<><>::
+Tileset_32x32_9.png::CompressedTexture2D::7049883507122059995::1735826448::1735826632::1::::<><>::
+Tileset_32x32_16.png::CompressedTexture2D::1858703070527250232::1735826448::1735826631::1::::<><>::
+Tileset_48x48_1.png::CompressedTexture2D::5809536498796306387::1735826448::1735826631::1::::<><>::
+Tileset_48x48_2.png::CompressedTexture2D::2262367866772502867::1735826448::1735826631::1::::<><>::
+Tileset_48x48_3.png::CompressedTexture2D::493639211748129708::1735826448::1735826631::1::::<><>::
+Tileset_48x48_9.png::CompressedTexture2D::6197902901484371763::1735826448::1735826631::1::::<><>::
+Tileset_48x48_16.png::CompressedTexture2D::402152905889281617::1735826448::1735826630::1::::<><>::
+::res://assets/dungeon/placeholder/Modern tiles_Free/Old/mv/::1735826628
+Character_2_16x16_RPGMAKER.png::CompressedTexture2D::1581878916780359935::1735826448::1735826627::1::::<><>::
+Character_2_32x32_RPGMAKER.png::CompressedTexture2D::518457596316423851::1735826449::1735826628::1::::<><>::
+Character_2_48x48_RPGMAKER.png::CompressedTexture2D::3188749446957896139::1735826449::1735826627::1::::<><>::
+::res://assets/dungeon/placeholder/pixel_cyberpunk_interior_free_1.0.1/::1735911065
+pixel-cyberpunk-interior.png::CompressedTexture2D::8484711423124395531::1735826460::1735826630::1::::<><>::
+Readme.txt::TextFile::-1::1735911065::0::1::::<><>::
+::res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/::1735826630
+Read Me.txt::TextFile::-1::1735826473::0::1::::<><>::
+tileset x1.png::CompressedTexture2D::4743173971875026428::1735826473::1735826628::1::::<><>::
+tileset x2.png::CompressedTexture2D::854705558294901353::1735826473::1735826629::1::::<><>::
+tileset x3.png::CompressedTexture2D::9006888380469838665::1735826473::1735826630::1::::<><>::
+::res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/::1735826630
+8x13 Cells.txt::TextFile::-1::1735826473::0::1::::<><>::
+players blue x1.png::CompressedTexture2D::3861825539250971395::1735826473::1735826630::1::::<><>::
+players blue x2.png::CompressedTexture2D::6017662963875259239::1735826473::1735826630::1::::<><>::
+players blue x3.png::CompressedTexture2D::4675034761588422926::1735826473::1735826629::1::::<><>::
+::res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/No Outlines/::1735826630
+players blue x1.png::CompressedTexture2D::5817970605042005424::1735826473::1735826630::1::::<><>::
+players blue x2.png::CompressedTexture2D::6369840868591571009::1735826473::1735826630::1::::<><>::
+players blue x3.png::CompressedTexture2D::3904956239075791812::1735826473::1735826630::1::::<><>::
+::res://assets/dungeon/placeholder/Tech Dungeon Roguelite - Asset Pack (DEMO)/UI/::1735826629
+20x11 Cells.txt::TextFile::-1::1735826473::0::1::::<><>::
+ui x1.png::CompressedTexture2D::4655220234904453986::1735826473::1735826629::1::::<><>::
+ui x2.png::CompressedTexture2D::8413390673232034696::1735826473::1735826629::1::::<><>::
+ui x3.png::CompressedTexture2D::5903425816126716951::1735826473::1735826629::1::::<><>::
+::res://assets/fonts/::1736254164
+nasalization-rg.otf::FontFile::3641535908439331270::1736253881::1736254547::1::::<><>::
+::res://assets/GUI/::1735820986
+::res://assets/GUI/HealthTab/::1736254164
+standing-human-body-silhouette.png::CompressedTexture2D::6950360713389510083::1735820986::1735990403::1::::<><>::
+::res://assets/items/::1735820986
+::res://assets/items/weapons/::1735820986
+::res://assets/items/weapons/Revolver - Colt 45 [64x32]/::1735821299
+[EMPTY NO CASINGS] Revolver - Colt 45.png::CompressedTexture2D::6656054504737666691::1735820986::1735821298::1::::<><>::
+[EMPTY WITH CASINGS] Revolver - Colt 45.png::CompressedTexture2D::1980817979924525741::1735820986::1735821295::1::::<><>::
+[RELOAD NO BULLETS] Revolver - Colt 45.png::CompressedTexture2D::8810622407833336505::1735820986::1735821295::1::::<><>::
+[RELOAD WITH BULLETS] Revolver - Colt 45.png::CompressedTexture2D::3690668008013402067::1735820986::1735821295::1::::<><>::
+[SHOOT WITH MUZZLE FLASH] Revolver - Colt 45.png::CompressedTexture2D::2205395435883725615::1735820986::1735821295::1::::<><>::
+[SHOOT] Revolver - Colt 45.png::CompressedTexture2D::3573342789305354162::1735820986::1735821295::1::::<><>::
+::res://assets/items/weapons/Revolver - Colt 45 [64x32]/Details/::1735821299
+[EMPTY CASINGS] Revolver - Colt 45.png::CompressedTexture2D::2004281219653683432::1735820986::1735821298::1::::<><>::
+[EMPTY ONE CASING] Revolver - Colt 45.png::CompressedTexture2D::5465364530297511995::1735820986::1735821298::1::::<><>::
+[RELOAD BULLETS] Revolver - Colt 45.png::CompressedTexture2D::640882842157419993::1735820986::1735821298::1::::<><>::
+[RELOAD ONE BULLET] Revolver - Colt 45.png::CompressedTexture2D::4727208292427268817::1735820986::1735821298::1::::<><>::
+::res://assets/items/weapons/Revolver - Colt 45 [64x32]/Details/Muzzle flash/::1735821298
+[FIRE & SMOKE] Revolver - Colt 45.png::CompressedTexture2D::6834482856256204746::1735820986::1735821298::1::::<><>::
+[FIRE] Revolver - Colt 45.png::CompressedTexture2D::8312465549831220046::1735820986::1735821298::1::::<><>::
+[FLASH] Revolver - Colt 45.png::CompressedTexture2D::7425593933108212701::1735820986::1735821298::1::::<><>::
+[FULL MUZZLE FLASH] Revolver - Colt 45.png::CompressedTexture2D::2780791297035412754::1735820986::1735821298::1::::<><>::
+[SMOKE] Revolver - Colt 45.png::CompressedTexture2D::7369982530671674660::1735820986::1735821298::1::::<><>::
+::res://assets/items/weapons/V1.00/::1735820986
+::res://assets/items/weapons/V1.00/GIF/::1735820986
+::res://assets/items/weapons/V1.00/GIF/00-FULL-DEMOS/::1735820986
+::res://assets/items/weapons/V1.00/GIF/ASSAULT RIFLE/::1735820986
+::res://assets/items/weapons/V1.00/GIF/KAR98 [SNIPER_RIFLE]/::1735820986
+::res://assets/items/weapons/V1.00/GIF/PISTOL/::1735820986
+::res://assets/items/weapons/V1.00/GIF/SHOTGUN/::1735820986
+::res://assets/items/weapons/V1.00/PNG/::1735821296
+Assault_rifle_V1.01.png::CompressedTexture2D::8185954788095914511::1735820986::1735821295::1::::<><>::
+GUN_01_[square_frame]_01_V1.00.png::CompressedTexture2D::3563326413629227538::1735820986::1735821295::1::::<><>::
+[32x96]Shotgun_V1.00.png::CompressedTexture2D::8243862424017125677::1735820986::1735821295::1::::<><>::
+[32x96]Shotgun_V1.01.png::CompressedTexture2D::30351402341368278::1735820986::1735821295::1::::<><>::
+[design] Assault_rifle_V1.00.png::CompressedTexture2D::2517838307053796606::1735820986::1735821295::1::::<><>::
+[design]Shotgun_V1.02.png::CompressedTexture2D::4680400223084075620::1735820986::1735821296::1::::<><>::
+[design]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::2558990481356210451::1735820986::1735821296::1::::<><>::
+[NO_BOLT]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::1883705890974896535::1735820986::1735821296::1::::<><>::
+::res://assets/items/weapons/V1.00/Sprite-sheets/::1735820987
+::res://assets/items/weapons/V1.00/Sprite-sheets/Assault_rifle_V1.00/::1735820987
+::res://assets/items/weapons/V1.00/Sprite-sheets/Assault_rifle_V1.00/FX/::1735821296
+[CASING_EXTENDED] Assault_rifle_V1.00.png::CompressedTexture2D::2155723319969680852::1735820986::1735821296::1::::<><>::
+[CASING_SINGLE_SHOT] Assault_rifle_V1.00.png::CompressedTexture2D::964357973176540717::1735820986::1735821296::1::::<><>::
+[FULL_AUTO_CASINGS] Assault_rifle_V1.00.png::CompressedTexture2D::7562318825057650715::1735820986::1735821296::1::::<><>::
+::res://assets/items/weapons/V1.00/Sprite-sheets/Assault_rifle_V1.00/FX/Muzzle_flash/::1735821296
+[FIRE_ONLY] Assault_rifle_V1.00.png::CompressedTexture2D::5013344699443534637::1735820986::1735821296::1::::<><>::
+[FLASH_ONLY] Assault_rifle_V1.00.png::CompressedTexture2D::6927025245234303443::1735820986::1735821296::1::::<><>::
+[FULL_MUZZLE_FLASH] Assault_rifle_V1.00.png::CompressedTexture2D::3956775900725602026::1735820986::1735821296::1::::<><>::
+[SMOKE_ONLY] Assault_rifle_V1.00.png::CompressedTexture2D::5272459899274003276::1735820986::1735821296::1::::<><>::
+::res://assets/items/weapons/V1.00/Sprite-sheets/Assault_rifle_V1.00/WEAPON/::1735821302
+[EMPTYING] Assault_rifle_V1.00.png::CompressedTexture2D::42455900713389638::1735820987::1735821296::1::::<><>::
+[FULL_AUTO]_Assault_rifle_V1.00.png::CompressedTexture2D::4736586864096743496::1735820987::1735821296::1::::<><>::
+[RELOAD] Assault_rifle_V1.00 - Reload.png::CompressedTexture2D::4134823121849160877::1735820987::1735821301::1::::<><>::
+[SINGLE_SHOT] Assault_rifle_V1.00.png::CompressedTexture2D::5715263963480143074::1735820987::1735821301::1::::<><>::
+::res://assets/items/weapons/V1.00/Sprite-sheets/Pistol_V1.00/::1735820987
+::res://assets/items/weapons/V1.00/Sprite-sheets/Pistol_V1.00/FX/::1735821302
+[CASING] PistolV1.00.png::CompressedTexture2D::4063866833930145525::1735820987::1735821301::1::::<><>::
+[FULL_MUZZLE_FLASH] PistolV1.00.png::CompressedTexture2D::1723052124324191914::1735820987::1735821301::1::::<><>::
+[MUZZLE_FIRE] PistolV1.00.png::CompressedTexture2D::1625976682090969931::1735820987::1735821301::1::::<><>::
+[MUZZLE_SMOKE] PistolV1.00.png::CompressedTexture2D::7217197469324083941::1735820987::1735821302::1::::<><>::
+::res://assets/items/weapons/V1.00/Sprite-sheets/Pistol_V1.00/Weapon/::1735821302
+[FULL]PistolV1.01.png::CompressedTexture2D::1818991007015386365::1735820987::1735821302::1::::<><>::
+[SHOOTING]PistolV1.00.png::CompressedTexture2D::1882603367515355553::1735820987::1735821302::1::::<><>::
+[SHOOTING_MUZZLE_FLASH] PistolV1.00.png::CompressedTexture2D::8698321714413815509::1735820987::1735821302::1::::<><>::
+::res://assets/items/weapons/V1.00/Sprite-sheets/Shotgun_V1.00/::1735820987
+::res://assets/items/weapons/V1.00/Sprite-sheets/Shotgun_V1.00/FX/::1735821302
+[EMPTYING_SHELL_01] Shotgun_V1.02.png::CompressedTexture2D::423959766567020413::1735820987::1735821302::1::::<><>::
+[EMPTYING_SHELL_02] Shotgun_V1.02.png::CompressedTexture2D::5580993353110832491::1735820987::1735821302::1::::<><>::
+[FULL_MUZZLE_FLASH] Shotgun_V1.02.png::CompressedTexture2D::5891557581216991688::1735820987::1735821302::1::::<><>::
+[RELOAD_SHELL_01] Shotgun_V1.02 - Rreloading_01.png::CompressedTexture2D::2144528626306471254::1735820987::1735821302::1::::<><>::
+[RELOAD_SHELL_02] Shotgun_V1.02 - Rreloading_01.png::CompressedTexture2D::2281144727823537317::1735820987::1735821302::1::::<><>::
+[SHOOTING_SHELL_01] Shotgun_V1.02.png::CompressedTexture2D::2062627351698953651::1735820987::1735821302::1::::<><>::
+[SHOOTING_SHELL_02] Shotgun_V1.02.png::CompressedTexture2D::5682052752685305339::1735820987::1735821302::1::::<><>::
+::res://assets/items/weapons/V1.00/Sprite-sheets/Shotgun_V1.00/Weapon/::1735821303
+[EMPTYING] Shotgun_V1.02.png::CompressedTexture2D::2754188612026294677::1735820987::1735821302::1::::<><>::
+[RELOAD] Shotgun_V1.02 - Rreloading_01.png::CompressedTexture2D::1347907096253476004::1735820987::1735821302::1::::<><>::
+[SHOOTING_CHAMBER_CLOSED] Shotgun_V1.02.png::CompressedTexture2D::3243189771789959327::1735820987::1735821303::1::::<><>::
+[SHOOTING_CHAMBER_OPEN] Shotgun_V1.02.png::CompressedTexture2D::7881256875046912660::1735820987::1735821303::1::::<><>::
+::res://assets/items/weapons/V1.00/Sprite-sheets/SNIPER_RIFLE_V1.00 [KAR98]/::1735820987
+::res://assets/items/weapons/V1.00/Sprite-sheets/SNIPER_RIFLE_V1.00 [KAR98]/FX/::1735821303
+[MAGAZINE_ONLY_FIVE_ROUND_RELOADING]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::863754044002820773::1735820987::1735821303::1::::<><>::
+[RELOADING_CASING_ONLY]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::3229170150752347054::1735820987::1735821303::1::::<><>::
+[SNIPER_MUZZLE_FLASH]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::1347382026875576115::1735820987::1735821303::1::::<><>::
+::res://assets/items/weapons/V1.00/Sprite-sheets/SNIPER_RIFLE_V1.00 [KAR98]/WEAPON/::1735821300
+[RELOADING_SCOPE]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::5259959661364337137::1735820987::1735821299::1::::<><>::
+[SCOPE_SINGLE_BULLET_RELOADING]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::990229107248654539::1735820987::1735821299::1::::<><>::
+[SCOPE_SNIPER_MUZZLE_FLASH]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::6922319255612715468::1735820987::1735821299::1::::<><>::
+[SCOPE__FIVE_ROUND_RELOADING]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::4426941608545756501::1735820987::1735821299::1::::<><>::
+[SINGLE_BULLET_RELOADING]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::1608347929391013792::1735820987::1735821299::1::::<><>::
+[SINGLE_RELOADING]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::4401330879548023148::1735820987::1735821299::1::::<><>::
+[SNIPER_EMPTYING]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::5484081609714932385::1735820987::1735821299::1::::<><>::
+[SNIPER_ONLY_FIVE_ROUND_RELOADING]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::5078340987123423280::1735820987::1735821299::1::::<><>::
+[SNIPER_SHOOTING]_Sniper_rifle_[KAR98]_V1.00.png::CompressedTexture2D::4624845355369705027::1735820987::1735821299::1::::<><>::
+::res://assets/opps/::1736254379
+::res://assets/opps/Dino/::1735821300
+DinoSprites - doux.png::CompressedTexture2D::4022755071775386054::1735820987::1735821300::1::::<><>::
+DinoSprites - mort.png::CompressedTexture2D::1137032944902438148::1735820987::1735821300::1::::<><>::
+DinoSprites - tard.png::CompressedTexture2D::1019049997786506676::1735820987::1735821300::1::::<><>::
+DinoSprites - vita.png::CompressedTexture2D::544239931288726228::1735820987::1735821300::1::::<><>::
+Info.txt::TextFile::-1::1735820987::0::1::::<><>::
+::res://assets/opps/Rabbit/::1735820987
+::res://assets/opps/Rabbit/Updated Rabbit/::1735821301
+Rabbit_Brown_Idle.png::CompressedTexture2D::3293002071438442620::1735820987::1735821300::1::::<><>::
+Rabbit_Brown_Move.png::CompressedTexture2D::9021955630802135949::1735820987::1735821301::1::::<><>::
+::res://assets/opps/Rabbit/Updated Rabbit Horned/::1735821300
+Rabbit_Horned_Attack.png::CompressedTexture2D::4067280993433327932::1735820987::1735821300::1::::<><>::
+Rabbit_Horned_Idle.png::CompressedTexture2D::1999818773485675615::1735820987::1735821300::1::::<><>::
+Rabbit_Horned_Move.png::CompressedTexture2D::5500976965029089989::1735820987::1735821300::1::::<><>::
+::res://assets/opps/Slime/::1735820987
+::res://assets/opps/Slime/SlimeAssets/::1735820987
+::res://assets/opps/Slime/SlimeAssets/Assets/::1735821301
+BouncingSpritesheet.png::CompressedTexture2D::7457921355102567469::1735820987::1735821300::1::::<><>::
+DeathSpritesheet.png::CompressedTexture2D::6373879067379295299::1735820987::1735821300::1::::<><>::
+HitSpritesheet.png::CompressedTexture2D::1900435323831591561::1735820987::1735821301::1::::<><>::
+IdleSpritesheet.png::CompressedTexture2D::5745310424473291076::1735820987::1735821301::1::::<><>::
+::res://assets/opps/SlimeAssets/::1736254379
+::res://assets/opps/SlimeAssets/SlimeAssets/::1736254379
+::res://assets/opps/SlimeAssets/SlimeAssets/Assets/::1736254380
+BouncingSpritesheet.png::CompressedTexture2D::5912962349978007456::1735568199::1736254547::1::::<><>::
+DeathSpritesheet.png::CompressedTexture2D::6581601960823004082::1735568199::1736254547::1::::<><>::
+HitSpritesheet.png::CompressedTexture2D::7162801661749771069::1735568199::1736254547::1::::<><>::
+IdleSpritesheet.png::CompressedTexture2D::4117196128031032689::1735568199::1736254547::1::::<><>::
+::res://assets/player/::1735820987
+::res://assets/player/The Adventurer - Female/::1735821291
+frame dimensions.png::CompressedTexture2D::2686743469738147228::1735820987::1735821291::1::::<><>::
+Shadow.png::CompressedTexture2D::5268985303741290797::1735820987::1735821291::1::::<><>::
+::res://assets/player/The Adventurer - Female/Dash - NEW/::1735821291
+Dash.png::CompressedTexture2D::41104369885357746::1735820987::1735821291::1::::<><>::
+Dash_Down.png::CompressedTexture2D::3517925915300662474::1735820987::1735821291::1::::<><>::
+Dash_Left_Down.png::CompressedTexture2D::3644893814248218674::1735820987::1735821291::1::::<><>::
+Dash_Left_Up.png::CompressedTexture2D::7564442692740259601::1735820987::1735821291::1::::<><>::
+Dash_Right_Down.png::CompressedTexture2D::9168725021926081430::1735820987::1735821291::1::::<><>::
+Dash_Right_Up.png::CompressedTexture2D::6454045533398680895::1735820987::1735821291::1::::<><>::
+Dash_Up.png::CompressedTexture2D::1615332060250862278::1735820987::1735821291::1::::<><>::
+::res://assets/player/The Adventurer - Female/Dash - NEW/Dust/::1735821301
+Dash_Dust.png::CompressedTexture2D::8674284162002619301::1735820987::1735821301::1::::<><>::
+Dash_Dust_Down.png::CompressedTexture2D::9061590691100432698::1735820987::1735821291::1::::<><>::
+Dash_Dust_left_Down.png::CompressedTexture2D::8115122051935906544::1735820987::1735821291::1::::<><>::
+Dash_Dust_left_Up.png::CompressedTexture2D::1497648994973725702::1735820987::1735821291::1::::<><>::
+Dash_Dust_right_Down.png::CompressedTexture2D::905212108657307749::1735820987::1735821291::1::::<><>::
+Dash_Dust_right_Up.png::CompressedTexture2D::2788031474409480700::1735820987::1735821291::1::::<><>::
+Dash_Dust_Up.png::CompressedTexture2D::3979115284241786883::1735820987::1735821291::1::::<><>::
+::res://assets/player/The Adventurer - Female/Death/::1735821291
+death.png::CompressedTexture2D::7936145050075490309::1735820987::1735821291::1::::<><>::
+death_Down.png::CompressedTexture2D::1677713403478940166::1735820987::1735821291::1::::<><>::
+death_Left_Down.png::CompressedTexture2D::6993829622529660822::1735820987::1735821291::1::::<><>::
+death_Left_Up.png::CompressedTexture2D::5757694460086014594::1735820987::1735821291::1::::<><>::
+death_Right_Down.png::CompressedTexture2D::2561203704821508282::1735820987::1735821291::1::::<><>::
+death_Right_Up.png::CompressedTexture2D::3507459540337953305::1735820987::1735821291::1::::<><>::
+death_Up.png::CompressedTexture2D::4544284980810562229::1735820987::1735821291::1::::<><>::
+::res://assets/player/The Adventurer - Female/Death_Shadow/::1735821291
+death_normal.png::CompressedTexture2D::9164548101045350217::1735820987::1735821291::1::::<><>::
+death_normal_down.png::CompressedTexture2D::8467799007001150234::1735820987::1735821291::1::::<><>::
+death_normal_left_down.png::CompressedTexture2D::708473969798342320::1735820987::1735821291::1::::<><>::
+death_normal_left_up.png::CompressedTexture2D::3791198687992740245::1735820987::1735821289::1::::<><>::
+death_normal_right_down.png::CompressedTexture2D::8395381241412395184::1735820987::1735821289::1::::<><>::
+death_normal_right_up.png::CompressedTexture2D::6098158169875882551::1735820987::1735821288::1::::<><>::
+death_normal_up.png::CompressedTexture2D::5444227739165522368::1735820987::1735821289::1::::<><>::
+::res://assets/player/The Adventurer - Female/Idle/::1735821290
+Idle.png::CompressedTexture2D::2563959769578506515::1735820987::1735821289::1::::<><>::
+Idle_Down.png::CompressedTexture2D::3064280815527295108::1735820987::1735821289::1::::<><>::
+Idle_Left_Down.png::CompressedTexture2D::4383151238959268626::1735820987::1735821289::1::::<><>::
+Idle_Left_Up.png::CompressedTexture2D::4391873281360579484::1735820987::1735821289::1::::<><>::
+Idle_Right_Down.png::CompressedTexture2D::7374596728807747735::1735820987::1735821290::1::::<><>::
+Idle_Right_Up.png::CompressedTexture2D::5460945918523826999::1735820987::1735821290::1::::<><>::
+Idle_Up.png::CompressedTexture2D::5685313793440088735::1735820987::1735821290::1::::<><>::
+::res://assets/player/The Adventurer - Female/Walk/::1735821291
+walk.png::CompressedTexture2D::275065722607281384::1735820987::1735821290::1::::<><>::
+walk_Down.png::CompressedTexture2D::4879259021577629013::1735820987::1735821290::1::::<><>::
+walk_Left_Down.png::CompressedTexture2D::7653403320586970953::1735820987::1735821290::1::::<><>::
+walk_Left_Up.png::CompressedTexture2D::7809728971991261970::1735820987::1735821290::1::::<><>::
+walk_Right_Down.png::CompressedTexture2D::7236246367734922705::1735820987::1735821291::1::::<><>::
+walk_Right_Up.png::CompressedTexture2D::5521314375548512648::1735820987::1735821291::1::::<><>::
+walk_Up.png::CompressedTexture2D::7781542779108144560::1735820987::1735821291::1::::<><>::
+::res://assets/player/The Adventurer - Male/::1735821293
+Dash_Shadow.png::CompressedTexture2D::4966033318543390258::1735820988::1735821293::1::::<><>::
+frame dimensions.png::CompressedTexture2D::2702907182965281043::1735820988::1735821293::1::::<><>::
+Shadow.png::CompressedTexture2D::6770499033137406866::1735820988::1735821293::1::::<><>::
+::res://assets/player/The Adventurer - Male/Dash/::1735821294
+Dash.png::CompressedTexture2D::6404500843272915254::1735820987::1735821293::1::::<><>::
+Dash_Down.png::CompressedTexture2D::880075923283406229::1735820987::1735821293::1::::<><>::
+Dash_left_Down.png::CompressedTexture2D::5675026940040377080::1735820987::1735821293::1::::<><>::
+Dash_left_Up.png::CompressedTexture2D::6575278411617392693::1735820987::1735821293::1::::<><>::
+Dash_right_Down.png::CompressedTexture2D::2693659542108001890::1735820987::1735821293::1::::<><>::
+Dash_right_Up.png::CompressedTexture2D::3818903620971391293::1735820987::1735821293::1::::<><>::
+Dash_up.png::CompressedTexture2D::5321853906707007248::1735820987::1735821293::1::::<><>::
+::res://assets/player/The Adventurer - Male/Dash/Dust/::1735821293
+Dash_Dust.png::CompressedTexture2D::4578071463562900857::1735820988::1735821291::1::::<><>::
+Dash_Dust_Down.png::CompressedTexture2D::2596412153217179579::1735820988::1735821291::1::::<><>::
+Dash_Dust_left_Down.png::CompressedTexture2D::1820145868836746465::1735820988::1735821293::1::::<><>::
+Dash_Dust_left_Up.png::CompressedTexture2D::1953366187658864984::1735820988::1735821293::1::::<><>::
+Dash_Dust_right_Down.png::CompressedTexture2D::7980342903200595342::1735820988::1735821293::1::::<><>::
+Dash_Dust_right_Up.png::CompressedTexture2D::5215677434623996087::1735820988::1735821293::1::::<><>::
+Dash_Dust_Up.png::CompressedTexture2D::7703931886529539042::1735820988::1735821293::1::::<><>::
+::res://assets/player/The Adventurer - Male/Death/::1735821294
+death_normal.png::CompressedTexture2D::520095844369392843::1735820988::1735821294::1::::<><>::
+death_normal_down.png::CompressedTexture2D::8111683503465957899::1735820988::1735821294::1::::<><>::
+death_normal_left_down.png::CompressedTexture2D::1732703187431335944::1735820988::1735821294::1::::<><>::
+death_normal_left_up.png::CompressedTexture2D::4195227138712002420::1735820988::1735821294::1::::<><>::
+death_normal_right_down.png::CompressedTexture2D::7818458890759051484::1735820988::1735821294::1::::<><>::
+death_normal_right_up.png::CompressedTexture2D::3450003000439199070::1735820988::1735821294::1::::<><>::
+death_normal_up.png::CompressedTexture2D::1592638333785862136::1735820988::1735821294::1::::<><>::
+::res://assets/player/The Adventurer - Male/Death Shadow/::1735821295
+death_normal.png::CompressedTexture2D::1617798781905509290::1735820988::1735821295::1::::<><>::
+death_normal_down.png::CompressedTexture2D::8539018164298632801::1735820988::1735821295::1::::<><>::
+death_normal_left_down.png::CompressedTexture2D::148635999127311297::1735820988::1735821295::1::::<><>::
+death_normal_left_up.png::CompressedTexture2D::2513232040124821418::1735820988::1735821295::1::::<><>::
+death_normal_right_down.png::CompressedTexture2D::469607100150522566::1735820988::1735821291::1::::<><>::
+death_normal_right_up.png::CompressedTexture2D::2728188747568517995::1735820988::1735821291::1::::<><>::
+death_normal_up.png::CompressedTexture2D::3110502824892277948::1735820988::1735821291::1::::<><>::
+::res://assets/player/The Adventurer - Male/Idle/::1735821292
+idle.png::CompressedTexture2D::4332223346582910137::1735820988::1735821292::1::::<><>::
+idle_down.png::CompressedTexture2D::7747459663407283363::1735820988::1735821292::1::::<><>::
+idle_left_down.png::CompressedTexture2D::9206529694671457225::1735820988::1735821292::1::::<><>::
+idle_left_up.png::CompressedTexture2D::1501740923784097183::1735820988::1735821292::1::::<><>::
+idle_right_down.png::CompressedTexture2D::8266260353100908505::1735820988::1735821292::1::::<><>::
+idle_right_up.png::CompressedTexture2D::7409401348272822568::1735820988::1735821292::1::::<><>::
+idle_up.png::CompressedTexture2D::2485427200386073675::1735820988::1735821292::1::::<><>::
+::res://assets/player/The Adventurer - Male/Walk/::1735821293
+walk.png::CompressedTexture2D::3724378389805836487::1735820988::1735821292::1::::<><>::
+walk_down.png::CompressedTexture2D::2055773977487386875::1735820988::1735821292::1::::<><>::
+walk_left_down.png::CompressedTexture2D::2495652640233954206::1735820988::1735821292::1::::<><>::
+walk_left_up.png::CompressedTexture2D::8242865798230861699::1735820988::1735821292::1::::<><>::
+walk_right_down.png::CompressedTexture2D::7390933912662576511::1735820988::1735821292::1::::<><>::
+walk_right_up.png::CompressedTexture2D::2241066125999433924::1735820988::1735821292::1::::<><>::
+walk_up.png::CompressedTexture2D::4769313146346605348::1735820988::1735821292::1::::<><>::
+::res://assets/projectiles/::1735821293
+All_Fire_Bullet_Pixel_16x16.png::CompressedTexture2D::6103315965964963218::1735820988::1735821293::1::::<><>::
+::res://scenes/::1736212252
+main.tscn::PackedScene::4607914199633381119::1736212252::0::1::::<><>::uid://b18e0y546fsul::::res://scenes/env/Prototype_level1.tscn<>uid://bpp2p2nivcypd::::res://scenes/items/weapons/Gun - Revolver.tscn<>uid://c0uyesh6lqq0g::::res://scenes/player/player.tscn<>uid://ckfohqhp1io7i::::res://scenes/opps/enemy.tscn
+::res://scenes/env/::1736254381
+dungeon-B1.tscn::PackedScene::6081350764375392599::1735632310::0::1::::<><>::uid://duuhrjbtctjuw::::res://assets/dungeon/tileset x1.png
+environment.tscn::PackedScene::2994214968014769350::1735911065::0::1::::<><>::uid://c0uyesh6lqq0g::::res://scenes/player/player.tscn
+Prototype_level1.tscn::PackedScene::4279743905248411571::1736212253::0::1::::<><>::uid://csa7rh7wyhlwl::::res://assets/dungeon/placeholder/PLACEHOLDERS.tres<>uid://xvt35ocu2gvg::::res://assets/dungeon/design_sketches/FIRST_LEVEL MOCK UP.png
+::res://scenes/gui/::1736254381
+healthbar.tscn::PackedScene::6719236635757213774::1735568201::0::1::::<><>::res://Script/health_bar.gd
+LimbBaseHealthSystem.tscn::PackedScene::6909186465210052449::1735915530::0::1::::<><>::uid://c6a2op4ooofc2::::res://assets/GUI/HealthTab/standing-human-body-silhouette.png
+::res://scenes/gui/opps(gui)/::1736253881
+bar.gd::GDScript::-1::1735911065::0::1::::<>Node<>::
+oppsbar.tscn::PackedScene::4542851534441114763::1736212253::0::1::::<><>::res://scripts/gui/damageIndicator.gd
+::res://scenes/items/::1735820988
+::res://scenes/items/weapons/::1736212254
+Gun - Revolver.tscn::PackedScene::3471886588892316033::1736212254::0::1::::<><>::res://scripts/items/weapons/revolter.gd<>uid://bq57o0k5c54os::::res://assets/items/weapons/Revolver - Colt 45 [64x32]/[SHOOT] Revolver - Colt 45.png
+sniper.tscn::PackedScene::6415779973275779894::1736212254::0::1::::<><>::res://scripts/items/weapons/sniper.gd<>uid://bcpug1po6ry64::::res://assets/items/weapons/V1.00/PNG/[design]_Sniper_rifle_[KAR98]_V1.00.png
+::res://scenes/menus/::1736253881
+LimbBasedHealth.tscn::PackedScene::7258960135315736873::1735915530::0::1::::<><>::
+main_menu.tscn::PackedScene::6387817568469620716::1735820988::0::1::::<><>::res://Script/Menus/main_menu.gd<>res://Game Assets/UI/MainMenu/Black-Hole.ogv<>uid://d36dwfmjgkxkp::::res://Game Assets/Fonts/nasalization-rg.otf
+pause_menu.tscn::PackedScene::2218490033144196043::1735820988::0::1::::<><>::uid://d36dwfmjgkxkp::::res://Game Assets/Fonts/nasalization-rg.otf<>res://Script/Menus/pause_menu.gd
+::res://scenes/opps/::1736254381
+dummy.tscn::PackedScene::7696313490576571174::1735631627::0::1::::<><>::res://scripts/opps/test_dummy.gd<>uid://dim6r8hsavj7x::::res://assets/player/The Adventurer - Male/Idle/idle_down.png<>uid://c5lo784i8gug2::::res://scenes/menus/LimbBasedHealth.tscn
+enemy.tscn::PackedScene::5485915082896730624::1736212253::0::1::::<><>::res://scripts/opps/enemy.gd<>uid://bm6fi7bcllojk::::res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Idle.png<>uid://h0vs1j4dqk57::::res://assets/opps/Dino/DinoSprites - vita.png<>uid://d1skj5r8t4x3b::::res://assets/opps/Rabbit/Updated Rabbit/Rabbit_Brown_Move.png<>res://scripts/opps/enemy_animation.gd<>res://utils/components/hitbox.gd<>res://utils/components/life.gd<>res://scripts/opps/enemy_state_machine.gd<>res://scripts/opps/states/enemy_idle.gd<>uid://b5yudo22g4yjr::::res://scenes/gui/opps(gui)/oppsbar.tscn<>res://scripts/opps/states/enemy_wander.gd<>res://scripts/opps/states/enemy_chase.gd<>res://scripts/opps/states/enemy_attack.gd<>res://utils/components/enemy_hurt_box.gd
+::res://scenes/player/::1736254382
+2dPlayerRougeLite.tscn::PackedScene::4099792940477234172::1735631626::0::1::::<><>::res://scripts/player/player_iso.gd<>uid://bcsabpqo4j4cd::::res://assets/player/The Adventurer - Female/Idle/Idle.png<>res://scenes/items/weapons/sniper.tscn<>uid://bpp2p2nivcypd::::res://scenes/items/weapons/Gun - Revolver.tscn
+player.tscn::PackedScene::6570315322078001512::1736212786::0::1::::<><>::res://scripts/player/player_iso.gd<>uid://dim6r8hsavj7x::::res://assets/player/The Adventurer - Male/Idle/idle_down.png<>uid://d4fyg1ayxunw0::::res://assets/player/The Adventurer - Male/Idle/idle_left_down.png<>uid://vnppomug71kd::::res://assets/player/The Adventurer - Male/Idle/idle_left_up.png<>uid://dp1idn7gi3tdh::::res://assets/player/The Adventurer - Male/Idle/idle_right_down.png<>uid://ddtf0042xgteu::::res://assets/player/The Adventurer - Male/Idle/idle_right_up.png<>uid://bbn7vgbc13kqd::::res://assets/player/The Adventurer - Male/Idle/idle_up.png<>uid://4j3kdnr2knsd::::res://assets/player/The Adventurer - Male/Walk/walk_down.png<>uid://bbs6bfyxrhnfy::::res://assets/player/The Adventurer - Male/Walk/walk_left_down.png<>uid://dpo52bqmpid3p::::res://assets/player/The Adventurer - Male/Walk/walk_left_up.png<>uid://ddkhuptyg3jcx::::res://assets/player/The Adventurer - Male/Walk/walk_right_down.png<>uid://66ubcu2tkmm3::::res://assets/player/The Adventurer - Male/Walk/walk_right_up.png<>uid://b87j5jwwp0tkm::::res://assets/player/The Adventurer - Male/Walk/walk_up.png<>res://scripts/player/player_camera.gd<>res://scripts/player/LimbState.gd<>res://utils/components/head.gd<>res://utils/components/player_hitbox.gd<>res://scripts/player/right_arm.gd<>res://scripts/player/left_leg.gd<>res://scripts/player/left_arm.gd<>res://scripts/player/right_leg.gd<>res://scripts/player/body.gd
+::res://scenes/projectiles/::1736254382
+dummy.tscn::PackedScene::7696313490576571174::1735568202::0::1::::<><>::res://Script/test_dummy.gd<>uid://c2d7pcuvngncx::::res://PlaceHolderAssets/Characters/Male/Male_1_Idle0.png<>uid://c2y330vk5uydi::::res://Scenes/UI/healthbar.tscn
+test_projectile.tscn::PackedScene::177195445957385898::1736212254::0::1::::<><>::res://scripts/projectile/test_projectile.gd<>uid://cs7qys6p1ttdi::::res://assets/projectiles/All_Fire_Bullet_Pixel_16x16.png<>res://utils/components/hurtbox.gd
+::res://scripts/::1736253881
+camera_zoom.gd::GDScript::-1::1736253881::0::1::::<>Node2D<>::
+::res://scripts/gui/::1735989831
+damageIndicator.gd::GDScript::-1::1735989832::0::1::::<>ProgressBar<>::
+::res://scripts/items/::1735820988
+::res://scripts/items/weapons/::1735991201
+revolter.gd::GDScript::-1::1735991201::0::1::::<>Node2D<>::
+sniper.gd::GDScript::-1::1735820988::0::1::::<>Node2D<>::
+::res://scripts/menus/::1736253881
+main_menu.gd::GDScript::-1::1735820988::0::1::::<>Control<>::
+pause_menu.gd::GDScript::-1::1735820988::0::1::::<>Control<>::
+::res://scripts/opps/::1736254382
+enemy.gd::GDScript::-1::1736006858::0::1::::Enemy<>CharacterBody2D<>::
+enemy_animation.gd::GDScript::-1::1735989832::0::1::::<>Node<>::
+enemy_state_machine.gd::GDScript::-1::1735820988::0::1::::<>Node<>::
+test_dummy.gd::GDScript::-1::1735631598::0::1::::<>CharacterBody2D<>::
+::res://scripts/opps/states/::1736253988
+enemy_attack.gd::GDScript::-1::1736209054::0::1::::<>EnemyState<>::
+enemy_chase.gd::GDScript::-1::1736006571::0::1::::<>EnemyState<>::
+enemy_idle.gd::GDScript::-1::1736006113::0::1::::<>EnemyState<>::
+enemy_search.gd::GDScript::-1::1736253881::0::1::::<>EnemyState<>::
+enemy_state.gd::GDScript::-1::1736006089::0::1::::EnemyState<>Node<>::
+enemy_wander.gd::GDScript::-1::1736006090::0::1::::<>EnemyState<>::
+::res://scripts/player/::1736253988
+body.gd::GDScript::-1::1736212251::0::1::::<>Limb<>::
+left_arm.gd::GDScript::-1::1736212251::0::1::::<>Limb<>::
+left_leg.gd::GDScript::-1::1736212251::0::1::::<>Limb<>::
+Limbs.gd::GDScript::-1::1736136707::0::1::::Limb<>Node<>::
+LimbState.gd::GDScript::-1::1736212787::0::1::::<>Node<>::
+player_camera.gd::GDScript::-1::1735911065::0::1::::<>Camera2D<>::
+player_iso.gd::GDScript::-1::1736210990::0::1::::Player<>CharacterBody2D<>::
+right_arm.gd::GDScript::-1::1736212252::0::1::::<>Limb<>::
+right_leg.gd::GDScript::-1::1736212252::0::1::::<>Limb<>::
+::res://scripts/projectile/::1736253881
+test_projectile.gd::GDScript::-1::1736002666::0::1::::Bullet<>CharacterBody2D<>::
+::res://utils/::1736212254
+DEBUGGINGTEST.tscn::PackedScene::749513310259757828::1736212254::0::1::::<><>::uid://c0uyesh6lqq0g::::res://scenes/player/player.tscn
+::res://utils/classes/::1736138550
+attack.gd::GDScript::-1::1736138550::0::1::::Attack<>RefCounted<>::
+::res://utils/components/::1736253988
+enemy_hurt_box.gd::GDScript::-1::1736208857::0::1::::<>Area2D<>::
+head.gd::GDScript::-1::1736212251::0::1::::Head<>Limb<>::
+hitbox.gd::GDScript::-1::1735989832::0::1::::Hitbox<>Area2D<>::
+hurtbox.gd::GDScript::-1::1736002118::0::1::::Hurtbox<>Area2D<>::
+life.gd::GDScript::-1::1735989832::0::1::::Life<>Node<>::
+Limb_type.gd::GDScript::-1::1736208560::0::1::::Limb_type<>RefCounted<>::
+player_hitbox.gd::GDScript::-1::1736208859::0::1::::Player_Hitbox<>Area2D<>::
+::res://utils/spawner(debug)/::1735820988
+mob_spawner.gd::GDScript::-1::1735820988::0::1::::<>Node2D<>::
