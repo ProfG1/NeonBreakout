@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxn37um1ryaiw"]
+
+[ext_resource type="Script" path="res://scripts/items/weapons/sniper.gd" id="1_r0wyl"]
+[ext_resource type="Texture2D" uid="uid://bcpug1po6ry64" path="res://assets/items/weapons/V1.00/PNG/[design]_Sniper_rifle_[KAR98]_V1.00.png" id="2_n8whk"]
+
+[node name="Sniper" type="Node2D"]
+rotation = 0.0610865
+script = ExtResource("1_r0wyl")
+
+[node name="SniperSprite" type="Sprite2D" parent="."]
+position = Vector2(5.11277, 1.69103)
+rotation = -0.0261799
+texture = ExtResource("2_n8whk")
+
+[node name="crosshair" type="Marker2D" parent="SniperSprite"]
+position = Vector2(58.8594, -5.05724)
+rotation = 0.0261799
+
+[node name="gunCooldown" type="Timer" parent="."]
+wait_time = 0.33
+
+[connection signal="timeout" from="gunCooldown" to="." method="_on_timer_timeout"]

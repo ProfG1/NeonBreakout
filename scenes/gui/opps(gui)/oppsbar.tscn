@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3 uid="uid://b5yudo22g4yjr"]
+
+[ext_resource type="Script" path="res://scripts/gui/damageIndicator.gd" id="1_nipwa"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_28ij2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lx7d5"]
+bg_color = Color(0.788235, 0.113725, 0.219608, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sbv0d"]
+bg_color = Color(0.255659, 0.255659, 0.255659, 1)
+expand_margin_left = 1.0
+expand_margin_top = 1.0
+expand_margin_right = 1.0
+expand_margin_bottom = 1.0
+shadow_color = Color(0, 0, 0, 0.27451)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3gthb"]
+bg_color = Color(0.99897, 0.946979, 0.944758, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+expand_margin_left = 1.0
+expand_margin_top = 1.0
+expand_margin_right = 1.0
+expand_margin_bottom = 1.0
+shadow_offset = Vector2(0, 1.7)
+
+[node name="Oppsbar" type="ProgressBar"]
+z_index = 1
+offset_right = 270.0
+offset_bottom = 7.0
+theme_override_styles/background = SubResource("StyleBoxEmpty_28ij2")
+theme_override_styles/fill = SubResource("StyleBoxFlat_lx7d5")
+value = 70.0
+show_percentage = false
+script = ExtResource("1_nipwa")
+
+[node name="DamageIndicator" type="ProgressBar" parent="."]
+z_index = -1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_sbv0d")
+theme_override_styles/fill = SubResource("StyleBoxFlat_3gthb")
+value = 80.0
+show_percentage = false
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.7
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

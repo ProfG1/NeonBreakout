@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://cr3na4u18byo"]
+
+[ext_resource type="Script" path="res://scripts/projectile/test_projectile.gd" id="1_7qo6b"]
+[ext_resource type="Texture2D" uid="uid://cs7qys6p1ttdi" path="res://assets/projectiles/All_Fire_Bullet_Pixel_16x16.png" id="2_a7fpi"]
+[ext_resource type="Script" path="res://utils/components/hurtbox.gd" id="3_jnxgq"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qwv5r"]
+radius = 12.0
+height = 24.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hp8ma"]
+
+[node name="Bullet" type="CharacterBody2D" node_paths=PackedStringArray("hurtbox")]
+collision_layer = 194
+collision_mask = 198
+script = ExtResource("1_7qo6b")
+hurtbox = NodePath("BulletHurtBox")
+damage = 27.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(-5, 3)
+scale = Vector2(2.04894, 1.8125)
+texture = ExtResource("2_a7fpi")
+hframes = 36
+vframes = 24
+frame = 134
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
+shape = SubResource("CapsuleShape2D_qwv5r")
+
+[node name="BulletHurtBox" type="Area2D" parent="."]
+collision_layer = 64
+collision_mask = 8
+script = ExtResource("3_jnxgq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BulletHurtBox"]
+scale = Vector2(1.40184, 1.34955)
+shape = SubResource("CircleShape2D_hp8ma")
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="BulletHurtBox"]
+position = Vector2(-2.25, 0)
+scale = Vector2(0.325, 1)
+enable_node_path = NodePath("../..")
+
+[connection signal="screen_exited" from="BulletHurtBox/VisibleOnScreenEnabler2D" to="." method="_on_visible_on_screen_enabler_2d_screen_exited"]
